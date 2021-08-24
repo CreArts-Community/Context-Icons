@@ -33,7 +33,17 @@
 .item-1tOPte[id^=audio-device-context-output-] .iconContainer-2-XQPY,
 .item-1tOPte[id=audio-device-context-VOICE_ACTIVITY] .iconContainer-2-XQPY,
 .item-1tOPte[id=audio-device-context-PUSH_TO_TALK] .iconContainer-2-XQPY,
-.item-1tOPte[id=audio-device-context-voice-settings] .iconContainer-2-XQPY {
+.item-1tOPte[id=audio-device-context-voice-settings] .iconContainer-2-XQPY,
+.item-1tOPte[id=textarea-context-sticker-suggestions] .iconContainer-2-XQPY,
+.item-1tOPte[id=textarea-context-spellcheck] .iconContainer-2-XQPY,
+.item-1tOPte[id=message-actions-reply] .iconContainer-2-XQPY,
+.item-1tOPte[id=message-actions-mark-unread] .iconContainer-2-XQPY,
+.item-1tOPte[id=message-actions-copy-link] .iconContainer-2-XQPY,
+.item-1tOPte[id=message-actions-tts] .iconContainer-2-XQPY,
+.item-1tOPte[id=message-actions-copy-id] .iconContainer-2-XQPY
+
+
+{
   display: none;
 }
 
@@ -46,6 +56,10 @@
 }
 
 .item-1tOPte[id=thread-context-auto-archive-thread] .subtext-13Lvrj {
+  display: none;
+}
+
+.tipSubtext-10zY2N {
   display: none;
 }
 
