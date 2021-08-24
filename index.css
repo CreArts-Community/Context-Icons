@@ -40,10 +40,7 @@
 .item-1tOPte[id=message-actions-mark-unread] .iconContainer-2-XQPY,
 .item-1tOPte[id=message-actions-copy-link] .iconContainer-2-XQPY,
 .item-1tOPte[id=message-actions-tts] .iconContainer-2-XQPY,
-.item-1tOPte[id=message-actions-copy-id] .iconContainer-2-XQPY
-
-
-{
+.item-1tOPte[id=message-actions-copy-id] .iconContainer-2-XQPY {
   display: none;
 }
 
