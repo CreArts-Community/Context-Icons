@@ -1,0 +1,8 @@
+{
+    "name": "Menu Icons",
+    "version": "1.0.0",
+    "author": "CorellanStoma#1996",
+    "description": "Adding Icons for the popout menus.",
+    "license": "MIT",
+    "theme": "index.css"
+}
