@@ -8,6 +8,13 @@ To Download and Install the Theme use this command:
 cd powercord/src/Powercord/themes && git clone https://github.com/CorellanStoma/Menu-Icons
 ```
 
+### Quick CSS Import:
+Copy & Paste this line to your Quick CSS:
+
+```
+@import url('https://corellanstoma.github.io/Menu-Icons/index.css');
+```
+
 ## Preview
 
 # Server:
