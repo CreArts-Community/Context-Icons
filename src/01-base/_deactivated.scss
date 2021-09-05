@@ -28,58 +28,14 @@
 // Show Non-Video Participants
 @include deactivated(stream-context-no-video-hide);
 
+// Sticker Suggestions
+@include deactivated(textarea-context-sticker-suggestions);
 
+// Spellcheck
+@include deactivated(textarea-context-spellcheck);
 
-/*
-// No Default Icons
-.item-1tOPte[id=spotify-toggle-corellanstoma] .iconContainer-2-XQPY,
-.item-1tOPte[id=user-context-mute] .iconContainer-2-XQPY,
-.item-1tOPte[id=user-context-disable-video] .iconContainer-2-XQPY,
-.item-1tOPte[id=guild-context-hide-muted-channels] .iconContainer-2-XQPY,
-.item-1tOPte[id^=audio-device-context-input-] .iconContainer-2-XQPY,
-.item-1tOPte[id^=audio-device-context-input-] .iconContainer-2-XQPY,
-.item-1tOPte[id^=audio-device-context-output-] .iconContainer-2-XQPY,
-.item-1tOPte[id^=audio-device-context-output-] .iconContainer-2-XQPY,
-.item-1tOPte[id=audio-device-context-VOICE_ACTIVITY] .iconContainer-2-XQPY,
-.item-1tOPte[id=audio-device-context-PUSH_TO_TALK] .iconContainer-2-XQPY,
-.item-1tOPte[id=audio-device-context-voice-settings] .iconContainer-2-XQPY,
-.item-1tOPte[id=textarea-context-sticker-suggestions] .iconContainer-2-XQPY,
-.item-1tOPte[id=textarea-context-spellcheck] .iconContainer-2-XQPY,
-.item-1tOPte[id=message-actions-reply] .iconContainer-2-XQPY,
-.item-1tOPte[id=message-actions-mark-unread] .iconContainer-2-XQPY,
-.item-1tOPte[id=message-actions-copy-link] .iconContainer-2-XQPY,
-.item-1tOPte[id=message-actions-tts] .iconContainer-2-XQPY,
-.item-1tOPte[id=message-actions-copy-id] .iconContainer-2-XQPY,
+// Mute
+@include deactivated(user-context-mute);
 
-
-
-.item-1tOPte[id=guild-header-popout-guild-profile] .iconContainer-2-XQPY {
-
-
-  display: none !important;
-}
-
-// No Custom Icons
-.item-1tOPte[id=audio-device-context-input] .label-22pbtT::before,
-.item-1tOPte[id=audio-device-context-output] .label-22pbtT::before,
-.item-1tOPte[id=powercord-spotify-menu-volume] .label-22pbtT::before,
-.item-1tOPte[id=user-context-user-volume] .label-22pbtT::before,
-.item-1tOPte[id=channel-attach-upload-file] .label-22pbtT::before,
-.item-1tOPte[id=channel-attach-THREAD] .label-22pbtT::before {
-  display: none !important;
-}
-*/
-
-
-// No Icons
-
-// Invite to servers sub menu
-.submenuPaddingContainer-fiOCHc .item-1tOPte::before,
-// Status picker
-#status-picker .item-1tOPte::before,
-// Upload to channel
-#channel-attach .item-1tOPte::before,
-// Some items dont need icons
-.item-1tOPte.hideInteraction-1iHO1O::before {
-	content: none;
-}
+// Disable Video
+@include deactivated(user-context-disable-video);

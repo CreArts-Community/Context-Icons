@@ -1,0 +1,85 @@
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Filled                   ║ Mixins                                                                                  ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Danger Background (Normal)
+@mixin danger-background-normal($item-id) {
+  .item-1tOPte##{$item-id}.colorDefault-2K3EoJ {
+    background: var(--danger-background-normal);
+    border-radius: var(--danger-background-radius);
+    color: var(--danger-text-normal);
+  }
+}
+
+// Danger Background (Hover)
+@mixin danger-background-hover($item-id) {
+  .item-1tOPte##{$item-id}.colorDefault-2K3EoJ.focused-3afm-j {
+    background: var(--danger-background-hover);
+    border-radius: var(--danger-background-radius);
+    color: var(--danger-text-focused);
+  }
+}
+
+// Danger Icon (Normal)
+@mixin danger-icon-normal($item-id) {
+  .item-1tOPte##{$item-id}.colorDefault-2K3EoJ::before {
+    background: var(--danger-icon-normal);
+  }
+}
+
+// Danger Icon (Hover)
+@mixin danger-icon-hover($item-id) {
+  .item-1tOPte##{$item-id}.colorDefault-2K3EoJ.focused-3afm-j::before {
+    background: var(--danger-icon-focused);
+  }
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Base                     ║ Button                                                                                  ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+.colorDefault-2K3EoJ.focused-3afm-j {
+    border-radius: var(--context-button-radius);
+    color: var(--context-icon-focused);
+  }
+  
+  .colorDefault-2K3EoJ.focused-3afm-j.item-1tOPte::before {
+    background: var(--context-icon-focused);
+  }
+  
+  
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Base                     ║ Danger Background                                                                       ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Normal
+@include danger-background-normal(message-delete);
+@include danger-background-normal(channel-context-delete-channel);
+@include danger-background-normal(user-context-kick);
+@include danger-background-normal(user-context-ban);
+@include danger-background-normal(guild-context-leave-guild);
+
+// Hover
+@include danger-background-hover(message-delete);
+@include danger-background-hover(channel-context-delete-channel);
+@include danger-background-hover(user-context-kick);
+@include danger-background-hover(user-context-ban);
+@include danger-background-hover(guild-context-leave-guild);
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Base                     ║ Danger Icon                                                                             ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Normal
+@include danger-icon-normal(message-delete);
+@include danger-icon-normal(channel-context-delete-channel);
+@include danger-icon-normal(user-context-kick);
+@include danger-icon-normal(user-context-ban);
+@include danger-icon-normal(guild-context-leave-guild);
+
+// Hover
+@include danger-icon-hover(message-delete);
+@include danger-icon-hover(channel-context-delete-channel);
+@include danger-icon-hover(user-context-kick);
+@include danger-icon-hover(user-context-ban);
+@include danger-icon-hover(guild-context-leave-guild);
