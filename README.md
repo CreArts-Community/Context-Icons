@@ -1,4 +1,4 @@
-# Menu-Icons
+# Context Icons
 
 ### Installation
 
