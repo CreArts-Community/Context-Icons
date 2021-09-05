@@ -1,7 +1,28 @@
+.menu-3sdvDG {
+  border-radius: var(--context-menu-radius);
+}
+
+.item-1tOPte {
+  margin-bottom: var(--context-menu-spacing);
+  margin-top: var(--context-menu-spacing);
+}
+
+.layer-v9HyYc > .styleFlexible-wGDiIL {
+  min-width: var(--context-menu-width);
+}
+
+.layer-v9HyYc > .submenuPaddingContainer-fiOCHc {
+  min-width: var(--context-menu-width);
+}
+
+.scroller-3BxosC {
+  max-height: var(--context-settings-height);
+}
+
 .item-1tOPte::before {
   content: "";
-  background: var(--menu-icon-color);
-  margin-right: var(--menu-distance);
+  background: var(--context-icon-normal);
+  margin-right: var(--context-icon-spacing);
   height: 22px;
   width: 22px;
   mask: var(--icon) center/contain no-repeat;
@@ -9,29 +30,24 @@
   --icon: url("");
 }
 
-.item-1tOPte {
-  display: flex;
-  align-items: center;
+.disabled-1WRMNA {
+  opacity: var(--context-disabled-opacity);
 }
 
-/*
-// Change Icon (Group)
-.item-1tOPte#gdm-context-change-icon::before {
-  margin-right: calc(0px + 4px);
-  margin-left: calc(var(--menu-distance) - 4px);
-  --icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='48px' viewBox='0 0 24 24' width='48px' fill='%23000000'%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M3 5v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2H5c-1.11 0-2 .9-2 2zm12 4c0 1.66-1.34 3-3 3s-3-1.34-3-3 1.34-3 3-3 3 1.34 3 3zm-9 8c0-2 4-3.1 6-3.1s6 1.1 6 3.1v1H6v-1z'/%3E%3C/svg%3E")
-}
-*/
-.layer-v9HyYc > .styleFlexible-wGDiIL {
-  min-width: var(--menu-width);
+.separator-2I32lJ {
+  border-color: var(--background-secondary);
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 
-.layer-v9HyYc > .submenuPaddingContainer-fiOCHc {
-  min-width: var(--menu-width);
+.submenu-2-ysNh .item-1tOPte {
+  flex-direction: row-reverse;
 }
 
-.scroller-3BxosC {
-  max-height: var(--menu-height-settings);
+.submenu-2-ysNh .item-1tOPte .imageContainer-2fGqYU,
+.submenu-2-ysNh .item-1tOPte .iconContainer-2-XQPY {
+  margin-left: 0px;
+  margin-right: 8px;
 }
 
 .item-1tOPte#gdm-context-change-icon .labelContainer-1BLJti {
@@ -40,66 +56,38 @@
 }
 
 .item-1tOPte#gdm-context-change-icon {
-  box-sizing: border-box;
   display: flex;
   padding: 6px 8px;
   min-height: 32px;
+  margin: 0px 12px 0px 0px;
 }
 
-/*
-.wrapper-2aW0bm .icon-3Gkjwa{
-  d=""
-
-}
-*/
 .submenuPaddingContainer-fiOCHc .item-1tOPte .label-22pbtT::before {
   display: none !important;
 }
 
-/*
-// No Default Icons
-.item-1tOPte[id=spotify-toggle-corellanstoma] .iconContainer-2-XQPY,
-.item-1tOPte[id=user-context-mute] .iconContainer-2-XQPY,
-.item-1tOPte[id=user-context-disable-video] .iconContainer-2-XQPY,
-.item-1tOPte[id=guild-context-hide-muted-channels] .iconContainer-2-XQPY,
-.item-1tOPte[id^=audio-device-context-input-] .iconContainer-2-XQPY,
-.item-1tOPte[id^=audio-device-context-input-] .iconContainer-2-XQPY,
-.item-1tOPte[id^=audio-device-context-output-] .iconContainer-2-XQPY,
-.item-1tOPte[id^=audio-device-context-output-] .iconContainer-2-XQPY,
-.item-1tOPte[id=audio-device-context-VOICE_ACTIVITY] .iconContainer-2-XQPY,
-.item-1tOPte[id=audio-device-context-PUSH_TO_TALK] .iconContainer-2-XQPY,
-.item-1tOPte[id=audio-device-context-voice-settings] .iconContainer-2-XQPY,
-.item-1tOPte[id=textarea-context-sticker-suggestions] .iconContainer-2-XQPY,
-.item-1tOPte[id=textarea-context-spellcheck] .iconContainer-2-XQPY,
-.item-1tOPte[id=message-actions-reply] .iconContainer-2-XQPY,
-.item-1tOPte[id=message-actions-mark-unread] .iconContainer-2-XQPY,
-.item-1tOPte[id=message-actions-copy-link] .iconContainer-2-XQPY,
-.item-1tOPte[id=message-actions-tts] .iconContainer-2-XQPY,
-.item-1tOPte[id=message-actions-copy-id] .iconContainer-2-XQPY,
-
-
-
-.item-1tOPte[id=guild-header-popout-guild-profile] .iconContainer-2-XQPY {
-
-
-  display: none !important;
+.item-1tOPte#stream-context-mute .iconContainer-2-XQPY {
+  display: none;
 }
 
-// No Custom Icons
-.item-1tOPte[id=audio-device-context-input] .label-22pbtT::before,
-.item-1tOPte[id=audio-device-context-output] .label-22pbtT::before,
-.item-1tOPte[id=powercord-spotify-menu-volume] .label-22pbtT::before,
-.item-1tOPte[id=user-context-user-volume] .label-22pbtT::before,
-.item-1tOPte[id=channel-attach-upload-file] .label-22pbtT::before,
-.item-1tOPte[id=channel-attach-THREAD] .label-22pbtT::before {
-  display: none !important;
+.item-1tOPte#stream-context-no-video-hide .iconContainer-2-XQPY {
+  display: none;
 }
-*/
-.submenuPaddingContainer-fiOCHc .item-1tOPte::before,
-#status-picker .item-1tOPte::before,
-#channel-attach .item-1tOPte::before,
-.item-1tOPte.hideInteraction-1iHO1O::before {
-  content: none;
+
+.item-1tOPte#textarea-context-sticker-suggestions .iconContainer-2-XQPY {
+  display: none;
+}
+
+.item-1tOPte#textarea-context-spellcheck .iconContainer-2-XQPY {
+  display: none;
+}
+
+.item-1tOPte#user-context-mute .iconContainer-2-XQPY {
+  display: none;
+}
+
+.item-1tOPte#user-context-disable-video .iconContainer-2-XQPY {
+  display: none;
 }
 
 .item-1tOPte#user-context-user-profile::before {
