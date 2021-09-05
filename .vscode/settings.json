@@ -1,0 +1,20 @@
+{
+    "liveSassCompile.settings.formats":[
+       {
+           "format": "expanded",
+           "extensionName": ".css",
+           "savePath": null
+       }
+   ],
+
+   "liveSassCompile.settings.excludeList": [
+    "/.VSCodeCounter/**",
+    "/.vscode/**",
+    "/theme.scss",
+   ],
+
+   "liveSassCompile.settings.generateMap": false,
+   "liveSassCompile.settings.autoprefix": [
+       "defaults"
+   ]
+}

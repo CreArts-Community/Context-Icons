@@ -1,0 +1,74 @@
+// ╔════════════════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Theme Settings                                                                                                     ║
+// ╠══════════════════════════╦═════════════════════════════════════════════════════════════════════════════════════════╣
+// ║ Theme:                   ║ Context Icons                                                                           ║
+// ║ version:                 ║ 1.0.1                                                                                   ║
+// ║ author:                  ║ CorellanStoma#1996                                                                      ║
+// ╠══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╣
+// ║                                                                                                                    ║
+// ║ Context Icons adds icons to the discord context menu's.                                                            ║
+// ║ This theme was created by CorellanStoma#1996.                                                                      ║
+// ║                                                                                                                    ║
+// ║ If you need support join our Creative Community:                                                                   ║
+// ║ ● https://discord.gg/8W8E39Z                                                                                       ║
+// ║                                                                                                                    ║
+// ╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Icon Pack                ║ To disable certain things, you can comment out the lines. Use "// " in front.           ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+@use "src/filled"; // Filled Icons
+
+//@use "src/outlined"; // Outlined Icons
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ General                  ║ Here you can make general adjustments.                                                  ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+:root {
+  --context-menu-width: 240px;
+  --context-menu-radius: 8px;
+  --context-menu-spacing: 4px;
+  --context-button-radius: 4px;
+  --context-icon-spacing: 12px;
+  --context-settings-height: 60vh;
+  --context-disabled-opacity: 0.2;
+
+  --slider-background-radius: 4px;
+
+  --danger-background-radius: 4px;
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Dark                     ║ Here you can make some adjustments for the dark theme.                                  ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+.theme-dark {
+  --context-icon-normal: var(--interactive-normal);
+  --context-icon-focused: white;
+  --context-text-focused: white;
+  --context-blue: hsl(235,calc(var(--saturation-factor, 1)*86.1%),77.5%);
+  --context-red: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%);
+
+  --slider-icon-color: var(--interactive-normal);
+  --slider-bar-color: var(--interactive-normal);
+  --slider-graber-color: var(--interactive-normal);
+  --slider-background-normal: var(--background-tertiary);
+  --slider-background-hover: var(--background-secondary-alt);
+
+  --danger-icon-normal: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%);
+  --danger-icon-focused: white;
+  --danger-text-normal: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%);
+  --danger-text-focused: white;
+  --danger-background-normal: var(--background-tertiary);
+  --danger-background-hover: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%);
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Light                    ║ These are the variables for the Light theme.                                            ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+.theme-light {
+
+}

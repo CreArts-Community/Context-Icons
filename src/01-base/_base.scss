@@ -1,0 +1,228 @@
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Base                     ║ General                                                                                 ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Menu Border Radius
+.menu-3sdvDG{
+  border-radius: var(--context-menu-radius);
+}
+
+// Menu Spacing
+.item-1tOPte {
+  margin-bottom: var(--context-menu-spacing);
+  margin-top: var(--context-menu-spacing);
+}
+
+// Menu Witdh
+.layer-v9HyYc > .styleFlexible-wGDiIL {
+	min-width: var(--context-menu-width);
+}
+
+// Sub Menu Witdh
+.layer-v9HyYc > .submenuPaddingContainer-fiOCHc {
+	min-width: var(--context-menu-width);
+}
+
+// Settings Menu Height
+.scroller-3BxosC {
+  max-height: var(--context-settings-height);
+}
+
+// Icon
+.item-1tOPte::before {
+  content: "";
+  background: var(--context-icon-normal);
+  margin-right: var(--context-icon-spacing);
+  height: 22px;
+  width: 22px;
+  mask: var(--icon) center/contain no-repeat;
+  -webkit-mask: var(--icon) center/contain no-repeat;
+  --icon: url("");
+}
+
+// Disabled
+.disabled-1WRMNA {
+  opacity: var(--context-disabled-opacity);
+}
+
+
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Base                     ║ Change icon (Group)                                                                     ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+.item-1tOPte#gdm-context-change-icon .labelContainer-1BLJti {
+  padding: 0;
+  min-height: 0;
+}
+
+.item-1tOPte#gdm-context-change-icon {
+  display: flex;
+  padding: 6px 8px;
+  min-height: 32px;
+  margin: 0px 12px 0px 0px;
+}
+
+
+
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Base                     ║ Button                                                                                  ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+.colorDefault-2K3EoJ.focused-3afm-j {
+  border-radius: var(--context-button-radius);
+  color: var(--context-icon-focused);
+}
+
+.colorDefault-2K3EoJ.focused-3afm-j.item-1tOPte::before {
+background: var(--context-icon-focused);
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Base                     ║ Danger Button                                                                           ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Background (Normal)
+.item-1tOPte#message-delete.colorDefault-2K3EoJ {
+  background: var(--danger-background-normal);
+  border-radius: var(--danger-background-radius);
+  color: var(--danger-text-normal);
+}
+
+// Icon (Normal)
+.item-1tOPte#message-delete.colorDefault-2K3EoJ::before {
+background: var(--danger-icon-normal);
+}
+
+// Background (Hover)
+.item-1tOPte#message-delete.colorDefault-2K3EoJ.focused-3afm-j {
+  background: var(--danger-background-hover);
+  border-radius: var(--danger-background-radius);
+  color: var(--danger-text-focused);
+}
+
+// Icon (Normal)
+.item-1tOPte#message-delete.colorDefault-2K3EoJ.focused-3afm-j::before {
+  background: var(--danger-icon-focused);
+  }
+
+/*
+// Icon
+.item-1tOPte[id=message-delete] .label-22pbtT::before,
+.item-1tOPte[id=guild-context-leave-guild] .label-22pbtT::before,
+.item-1tOPte[id=channel-context-delete-channel] .label-22pbtT::before {
+  background: var(--accent-text-primary);
+}
+*/
+
+
+
+
+
+/*
+// Disable Icons
+.item-1tOPte[id=audio-device-context-input] .label-22pbtT::before,
+.item-1tOPte[id=audio-device-context-output] .label-22pbtT::before,
+.item-1tOPte[id=powercord-spotify-menu-volume] .label-22pbtT::before,
+.item-1tOPte[id=user-context-user-volume] .label-22pbtT::before {
+  display: none;
+}
+
+// No Sub Menu Icons
+.submenuPaddingContainer-fiOCHc .item-1tOPte .label-22pbtT::before {
+  display: none;
+}
+*/
+
+
+
+
+
+
+
+
+
+/*
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Menu Icons               ║ General                                                                                 ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Spacing
+.item-1tOPte .label-22pbtT {
+  display: flex;
+  align-items: center;
+}
+  
+// Icon (Default)
+.item-1tOPte .label-22pbtT::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  margin-top: 0px;
+  background: var(--settings-icon-color);
+  -webkit-mask: var(--icon) center/contain no-repeat;
+  mask: var(--icon) center/contain no-repeat;
+  flex-shrink: 0;
+  --icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 447 447'%3E%3Cpath fill='white' d='M221 117.1l-33.8-33.8 70-70c9.3-9.3 24.5-9.3 33.8 0 9.3 9.3 9.3 24.5 0 33.8l-70 70z'/%3E%3Cpath fill='white' d='M216.3 121.7l-33.8-33.8c-2.6-2.6-2.6-6.8 0-9.3l70-70c11.9-11.9 31.2-11.9 43.1 0s11.9 31.2 0 43.1l-70 70c-2.6 2.6-6.7 2.6-9.3 0zm-19.8-38.4l24.5 24.5 65.3-65.3c6.7-6.7 6.7-17.7 0-24.5-6.7-6.7-17.7-6.7-24.5 0l-65.3 65.3z'/%3E%3Cpath fill='white' d='M312.7 208.8L278.9 175l70-70c9.3-9.3 24.5-9.3 33.8 0 9.3 9.3 9.3 24.5 0 33.8l-70 70z'/%3E%3Cpath fill='white' d='M308 213.4l-33.8-33.8c-2.6-2.6-2.6-6.8 0-9.3l70-70c11.9-11.9 31.2-11.9 43.1 0s11.9 31.2 0 43.1l-70 70c-2.5 2.6-6.7 2.6-9.3 0zM288.2 175l24.5 24.5 65.3-65.3c6.7-6.7 6.7-17.7 0-24.5s-17.7-6.7-24.5 0L288.2 175z'/%3E%3Cpath fill='white' d='M143.71 88.065l24.112-24.113L331.94 228.07l-24.112 24.112z'/%3E%3Cpath fill='white' d='M303 257L138.9 92.9c-2.7-2.7-2.7-7 0-9.7L163 59.1c2.7-2.7 7-2.7 9.7 0l164.1 164.1c2.7 2.7 2.7 7 0 9.7L312.7 257c-2.7 2.7-7 2.7-9.7 0zM153.4 88.1l154.5 154.5 14.5-14.5L167.9 73.6l-14.5 14.5z'/%3E%3Cpath fill='white' d='M161.2 327.6l-92.9-92.9c-14.3-14.3-14.3-37.6 0-51.9l85.1-85.1 144.8 144.8-85.1 85.1c-14.3 14.4-37.6 14.4-51.9 0z'/%3E%3Cpath fill='white' d='M156.4 332.4l-92.9-92.9c-17-17-17-44.6 0-61.6l85.1-85.1c2.7-2.7 7-2.7 9.7 0L303 237.7c2.7 2.7 2.7 7 0 9.7l-85 85c-17 17-44.7 17-61.6 0zm-3-225l-80.2 80.2c-11.7 11.7-11.7 30.6 0 42.3l92.9 92.9c11.7 11.7 30.6 11.7 42.3 0l80.2-80.2-135.2-135.2z'/%3E%3Cpath fill='white' d='M71.328 295.671l28.991-28.991 28.991 28.991-28.991 28.991z'/%3E%3Cpath fill='white' d='M95.4 329.5l-29-29c-2.7-2.7-2.7-7 0-9.7l29-29c2.7-2.7 7-2.7 9.7 0l29 29c2.7 2.7 2.7 7 0 9.7l-29 29c-2.7 2.6-7 2.6-9.7 0zM81 295.7l19.3 19.3 19.3-19.3-19.3-19.3L81 295.7z'/%3E%3Cpath fill='white' d='M143.7 445.3L81 382.6c-21.3-21.3-21.3-55.9 0-77.2 2.7-2.7 7-2.7 9.7 0 2.7 2.7 2.7 7 0 9.7-16 16-16 42 0 57.9l62.8 62.8c2.7 2.7 2.7 7 0 9.7s-7.1 2.5-9.8-.2z'/%3E%3C/svg%3E");
+}
+
+
+
+// No Discord Icons
+.item-1tOPte .iconContainer-2-XQPY {
+  display: none;
+}
+
+
+
+// Text Correction
+.item-1tOPte[id^=textarea-context-correction] .label-22pbtT::before {
+  display: none;
+}
+  
+// No Thread Info
+.item-1tOPte[id=thread-context-auto-archive-thread] .subtext-13Lvrj {
+  display: none;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Sub Menu (Reaction)
+.submenu-2-ysNh .item-1tOPte{
+flex-direction: row-reverse;
+}
+
+
+
+// Sub Menu Icon Direction
+.submenu-2-ysNh .item-1tOPte .imageContainer-2fGqYU,
+.submenu-2-ysNh .item-1tOPte .iconContainer-2-XQPY {
+  margin-left: 0px;
+  margin-right: 8px;
+}
+
+
+
+
+
+
+// Seperator
+.separator-2I32lJ {
+  border-color: var(--background-secondary);
+  margin-top: 8px;
+  margin-bottom: 8px;
+}

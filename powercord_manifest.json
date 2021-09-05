@@ -1,8 +1,8 @@
 {
-    "name": "Menu Icons",
-    "version": "1.0.0",
+    "name": "Context Icons",
+    "version": "1.0.1",
     "author": "CorellanStoma#1996",
-    "description": "Adding Icons for the popout menus.",
+    "description": "Context Icons adds icons to the discord context menu's.",
     "license": "MIT",
-    "theme": "index.css"
+    "theme": "theme.scss"
 }
