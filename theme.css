@@ -2,7 +2,7 @@
 /* ║ Theme Settings                                                                                                     ║ */
 /* ╠══════════════════════════╦═════════════════════════════════════════════════════════════════════════════════════════╣ */
 /* ║ Theme:                   ║ Context Icons                                                                           ║ */
-/* ║ version:                 ║ 1.0.1                                                                                   ║ */
+/* ║ version:                 ║ 1.0.2                                                                                   ║ */
 /* ║ author:                  ║ CorellanStoma#1996                                                                      ║ */
 /* ╠══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╣ */
 /* ║                                                                                                                    ║ */
@@ -23,19 +23,49 @@
 /* ║ Import                   ║ Do not comment out these lines! By disabling the theme can not work correctly.          ║ */
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
 
-/*@import url('https://corellanstoma.github.io/Context-Icons/src/filled.css'); /* ✔️ Filled Icons */
+@import url('https://corellanstoma.github.io/Context-Icons/src/filled.css'); /* ✔️ Filled Icons */
 
 /*@import url('https://corellanstoma.github.io/Context-Icons/outlined.css'); /* ❌ Outlined Icons */
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ General                  ║ Here you can make general adjustments.                                                  ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+:root {
+  --context-menu-width: 240px;
+  --context-menu-radius: 8px;
+  --context-menu-spacing: 4px;
+  --context-button-radius: 4px;
+  --context-icon-spacing: 12px;
+  --context-settings-height: 60vh;
+  --context-disabled-opacity: 0.2;
+  --slider-background-radius: 4px;
+  --danger-background-radius: 4px;
+}
 
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
 /* ║ Dark                     ║ Here you can make some adjustments for the dark theme.                                  ║ */
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
 
 .theme-dark {
-  --menu-icon-color: var(--interactive-normal);
-  --menu-blue: hsl(235,calc(var(--saturation-factor, 1)*86.1%),77.5%);
-  --menu-red: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%);
-  --menu-focused: white;
+  --context-icon-normal: var(--interactive-normal);
+  --context-icon-focused: white;
+  --context-text-focused: white;
+  --context-blue: hsl(235,calc(var(--saturation-factor, 1)*86.1%),77.5%);
+  --context-red: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%);
+
+  --slider-icon-color: var(--interactive-normal);
+  --slider-bar-color: var(--interactive-normal);
+  --slider-graber-color: var(--interactive-normal);
+  --slider-background-normal: var(--background-tertiary);
+  --slider-background-hover: var(--background-secondary-alt);
+
+  --danger-icon-normal: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%);
+  --danger-icon-focused: white;
+  --danger-text-normal: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%);
+  --danger-text-focused: white;
+  --danger-background-normal: var(--background-tertiary);
+  --danger-background-hover: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%);
 }
 
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
@@ -43,8 +73,22 @@
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
 
 .theme-light {
-  --menu-icon-color: var(--interactive-normal);
-  --menu-blue: hsl(235,calc(var(--saturation-factor, 1)*86.1%),77.5%);
-  --menu-red: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%);
-  --menu-focused: white;
+  --context-icon-normal: var(--interactive-normal);
+  --context-icon-focused: white;
+  --context-text-focused: white;
+  --context-blue: hsl(235,calc(var(--saturation-factor, 1)*86.1%),77.5%);
+  --context-red: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%);
+
+  --slider-icon-color: var(--interactive-normal);
+  --slider-bar-color: var(--interactive-normal);
+  --slider-graber-color: var(--interactive-normal);
+  --slider-background-normal: var(--background-tertiary);
+  --slider-background-hover: var(--background-secondary-alt);
+
+  --danger-icon-normal: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%);
+  --danger-icon-focused: white;
+  --danger-text-normal: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%);
+  --danger-text-focused: white;
+  --danger-background-normal: var(--background-tertiary);
+  --danger-background-hover: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%);
 }
