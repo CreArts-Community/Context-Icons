@@ -35,9 +35,8 @@
 }
 
 .separator-2I32lJ {
-  border-color: var(--background-secondary);
-  margin-top: 8px;
-  margin-bottom: 8px;
+  border-color: var(--context-separator);
+  margin: var(--separator-spacing-height) var(--separator-spacing-widtht) var(--separator-spacing-height) var(--separator-spacing-widtht);
 }
 
 .submenu-2-ysNh .item-1tOPte {

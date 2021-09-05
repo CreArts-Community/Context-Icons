@@ -4,5 +4,5 @@
     "author": "CorellanStoma#1996",
     "description": "Context Icons adds icons to the discord context menu's.",
     "license": "MIT",
-    "theme": "theme.css"
+    "theme": "theme.scss"
 }

@@ -58,6 +58,7 @@
 @include danger-background-normal(user-context-kick);
 @include danger-background-normal(user-context-ban);
 @include danger-background-normal(guild-context-leave-guild);
+@include danger-background-normal(guild-header-popout-leave);
 
 // Hover
 @include danger-background-hover(message-delete);
@@ -65,6 +66,7 @@
 @include danger-background-hover(user-context-kick);
 @include danger-background-hover(user-context-ban);
 @include danger-background-hover(guild-context-leave-guild);
+@include danger-background-hover(guild-header-popout-leave);
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Base                     ║ Danger Icon                                                                             ║
@@ -76,6 +78,7 @@
 @include danger-icon-normal(user-context-kick);
 @include danger-icon-normal(user-context-ban);
 @include danger-icon-normal(guild-context-leave-guild);
+@include danger-icon-normal(guild-header-popout-leave);
 
 // Hover
 @include danger-icon-hover(message-delete);
@@ -83,3 +86,7 @@
 @include danger-icon-hover(user-context-kick);
 @include danger-icon-hover(user-context-ban);
 @include danger-icon-hover(guild-context-leave-guild);
+@include danger-icon-hover(guild-header-popout-leave);
+
+
+
