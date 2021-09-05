@@ -68,5 +68,22 @@
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 .theme-light {
+  --context-icon-normal: var(--interactive-normal);
+  --context-icon-focused: white;
+  --context-text-focused: white;
+  --context-blue: hsl(235,calc(var(--saturation-factor, 1)*86.1%),77.5%);
+  --context-red: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%);
 
+  --slider-icon-color: var(--interactive-normal);
+  --slider-bar-color: var(--interactive-normal);
+  --slider-graber-color: var(--interactive-normal);
+  --slider-background-normal: var(--background-tertiary);
+  --slider-background-hover: var(--background-secondary-alt);
+
+  --danger-icon-normal: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%);
+  --danger-icon-focused: white;
+  --danger-text-normal: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%);
+  --danger-text-focused: white;
+  --danger-background-normal: var(--background-tertiary);
+  --danger-background-hover: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%);
 }
