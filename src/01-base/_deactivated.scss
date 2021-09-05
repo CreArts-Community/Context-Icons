@@ -18,10 +18,6 @@
   display: none !important;
 }
 
-// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Deactivated              ║ No Default Icons                                                                        ║
-// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
-
 // Mute
 @include deactivated(stream-context-mute);
 
@@ -39,3 +35,31 @@
 
 // Disable Video
 @include deactivated(user-context-disable-video);
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Deactivated              ║ Server                                                                                  ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Server Profile
+@include deactivated(guild-header-popout-guild-profile);
+
+// Server Boost
+@include deactivated(guild-header-popout-premium-subscribe);
+
+// Invite People
+@include deactivated(guild-header-popout-invite-people);
+
+// Notification Settings
+@include deactivated(guild-header-popout-notifications);
+
+// Privacy Settings
+@include deactivated(guild-header-popout-privacy);
+
+// Change Nickname
+@include deactivated(guild-header-popout-change-nickname);
+
+// Hide Muted Channels
+@include deactivated(guild-header-popout-hide-muted-channels);
+
+// Leave Server
+@include deactivated(guild-header-popout-leave);

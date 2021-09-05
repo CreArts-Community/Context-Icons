@@ -33,8 +33,8 @@
   content: "";
   background: var(--context-icon-normal);
   margin-right: var(--context-icon-spacing);
-  height: 22px;
-  width: 22px;
+  height: var(--context-icon-size);
+  width: var(--context-icon-size);
   mask: var(--icon) center/contain no-repeat;
   -webkit-mask: var(--icon) center/contain no-repeat;
   --icon: url("");
@@ -52,7 +52,7 @@
 }
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Base                     ║ Sub Menu Icon Direction                                                                     ║
+// ║ Base                     ║ Sub Menu Icon Direction                                                                 ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Reverse (Add Reaction)

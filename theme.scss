@@ -27,6 +27,7 @@
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 :root {
+  --context-icon-size: 42px;
   --context-menu-width: 240px;
   --context-menu-radius: 8px;
   --context-menu-spacing: 4px;
@@ -49,6 +50,7 @@
 .theme-dark {
   --context-icon-normal: var(--interactive-normal);
   --context-icon-focused: white;
+  --context-text-normal: var(--interactive-normal);
   --context-text-focused: white;
 //--context-blue: hsl(235,calc(var(--saturation-factor, 1)*86.1%),77.5%);
   --context-separator: var(--background-secondary-alt);
@@ -74,6 +76,7 @@
 .theme-light {
   --context-icon-normal: var(--interactive-normal);
   --context-icon-focused: white;
+  --context-text-normal: var(--interactive-normal);
   --context-text-focused: white;
 //--context-blue: hsl(235,calc(var(--saturation-factor, 1)*86.1%),77.5%);
   --context-separator: var(--background-secondary-alt);

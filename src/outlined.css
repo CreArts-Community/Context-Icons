@@ -23,8 +23,8 @@
   content: "";
   background: var(--context-icon-normal);
   margin-right: var(--context-icon-spacing);
-  height: 22px;
-  width: 22px;
+  height: var(--context-icon-size);
+  width: var(--context-icon-size);
   mask: var(--icon) center/contain no-repeat;
   -webkit-mask: var(--icon) center/contain no-repeat;
   --icon: url("");
@@ -86,6 +86,38 @@
 }
 
 .item-1tOPte#user-context-disable-video .iconContainer-2-XQPY {
+  display: none;
+}
+
+.item-1tOPte#guild-header-popout-guild-profile .iconContainer-2-XQPY {
+  display: none;
+}
+
+.item-1tOPte#guild-header-popout-premium-subscribe .iconContainer-2-XQPY {
+  display: none;
+}
+
+.item-1tOPte#guild-header-popout-invite-people .iconContainer-2-XQPY {
+  display: none;
+}
+
+.item-1tOPte#guild-header-popout-notifications .iconContainer-2-XQPY {
+  display: none;
+}
+
+.item-1tOPte#guild-header-popout-privacy .iconContainer-2-XQPY {
+  display: none;
+}
+
+.item-1tOPte#guild-header-popout-change-nickname .iconContainer-2-XQPY {
+  display: none;
+}
+
+.item-1tOPte#guild-header-popout-hide-muted-channels .iconContainer-2-XQPY {
+  display: none;
+}
+
+.item-1tOPte#guild-header-popout-leave .iconContainer-2-XQPY {
   display: none;
 }
 
