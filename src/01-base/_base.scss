@@ -55,7 +55,8 @@
 #status-picker .item-1tOPte::before,
 #channel-attach .item-1tOPte::before,
 .submenuPaddingContainer-fiOCHc .item-1tOPte::before,
-.item-1tOPte.hideInteraction-1iHO1O::before {
+.item-1tOPte.hideInteraction-1iHO1O::before,
+.item-1tOPte[id^=now-playing-menu-]:not(#now-playing-menu-message)::before {
   content: none;
 }
 

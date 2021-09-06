@@ -1,12 +1,31 @@
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Base                     ║ Quick Star                                                                              ║
+// ║ Base                     ║ Quick Star (Powercord)                                                                  ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 .button-1ZiXG9 .emoji{
   content: url("https://i.imgur.com/TquGa6j.png");
   height: 26px;
   width: 26px;
-  margin-bottom: 2px !important;
+  margin-bottom: 1px !important;
+  background: var(--context-icon-normal);
+  mask: var(--icon) center/contain no-repeat;
+  -webkit-mask: var(--icon) center/contain no-repeat;
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Base                     ║ View Raw (Powercord)                                                                    ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+.view-raw-button .icon-3Gkjwa {
+  fill: transparent !important;
+}
+
+.view-raw-button::after {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+
   background: var(--context-icon-normal);
   mask: var(--icon) center/contain no-repeat;
   -webkit-mask: var(--icon) center/contain no-repeat;

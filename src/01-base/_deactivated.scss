@@ -43,7 +43,6 @@
 // Disable Video
 @include deactivated-normal(user-context-disable-video);
 
-
 // Collapse Category
 @include deactivated-normal(channel-context-collapse-category);
 
@@ -138,3 +137,17 @@
 
 // Spotify
 @include deactivated-normal(spotify-toggle);
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Deactivated              ║ Mention                                                                                 ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Include @everyone mentions
+@include deactivated-normal(mentions-filter-Everyone);
+
+// Include @role mentions
+@include deactivated-normal(mentions-filter-Roles);
+
+
+
+
