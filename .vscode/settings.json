@@ -1,7 +1,7 @@
 {
     "liveSassCompile.settings.formats":[
        {
-           "format": "compressed",
+           "format": "expanded",
            "extensionName": ".css",
            "savePath": null
        }
@@ -20,6 +20,5 @@
 }
 
 // expanded
-// compact
 // compressed
 // nested
