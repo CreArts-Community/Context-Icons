@@ -39,21 +39,21 @@
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 .colorDefault-2K3EoJ.focused-3afm-j {
-    border-radius: var(--context-button-radius);
-    color: var(--context-icon-focused);
-  }
-  
-  .colorDefault-2K3EoJ.focused-3afm-j.item-1tOPte::before {
-    background: var(--context-icon-focused);
-  }
-  
-  
+  border-radius: var(--context-button-radius);
+  color: var(--context-icon-focused);
+}
+
+.colorDefault-2K3EoJ.focused-3afm-j.item-1tOPte::before {
+  background: var(--context-icon-focused);
+}
+
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Base                     ║ Danger Background                                                                       ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Normal
 @include danger-background-normal(message-delete);
+@include danger-background-normal(message-actions-delete);
 @include danger-background-normal(channel-context-delete-channel);
 @include danger-background-normal(user-context-kick);
 @include danger-background-normal(user-context-ban);
@@ -62,6 +62,7 @@
 
 // Hover
 @include danger-background-hover(message-delete);
+@include danger-background-hover(message-actions-delete);
 @include danger-background-hover(channel-context-delete-channel);
 @include danger-background-hover(user-context-kick);
 @include danger-background-hover(user-context-ban);
@@ -74,6 +75,7 @@
 
 // Normal
 @include danger-icon-normal(message-delete);
+@include danger-icon-normal(message-actions-delete);
 @include danger-icon-normal(channel-context-delete-channel);
 @include danger-icon-normal(user-context-kick);
 @include danger-icon-normal(user-context-ban);
@@ -82,11 +84,9 @@
 
 // Hover
 @include danger-icon-hover(message-delete);
+@include danger-icon-hover(message-actions-delete);
 @include danger-icon-hover(channel-context-delete-channel);
 @include danger-icon-hover(user-context-kick);
 @include danger-icon-hover(user-context-ban);
 @include danger-icon-hover(guild-context-leave-guild);
 @include danger-icon-hover(guild-header-popout-leave);
-
-
-
