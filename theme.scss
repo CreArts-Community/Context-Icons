@@ -2,7 +2,7 @@
 // ║ Theme Settings                                                                                                     ║
 // ╠══════════════════════════╦═════════════════════════════════════════════════════════════════════════════════════════╣
 // ║ Theme:                   ║ Context Icons                                                                           ║
-// ║ version:                 ║ 1.0.2                                                                                   ║
+// ║ version:                 ║ 0.0.3                                                                                   ║
 // ║ author:                  ║ CorellanStoma#1996                                                                      ║
 // ╠══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╣
 // ║                                                                                                                    ║
@@ -64,7 +64,7 @@
   --danger-icon-focused: white;
   --danger-text-normal: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%);
   --danger-text-focused: white;
-  --danger-background-normal: var(--background-tertiary);
+  --danger-background-normal: transparent;
   --danger-background-hover: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%);
 }
 
@@ -89,6 +89,6 @@
   --danger-icon-focused: white;
   --danger-text-normal: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%);
   --danger-text-focused: white;
-  --danger-background-normal: var(--background-tertiary);
+  --danger-background-normal: transparent;
   --danger-background-hover: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%);
 }

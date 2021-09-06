@@ -1,8 +1,8 @@
 {
     "name": "Context Icons",
-    "version": "1.0.2",
+    "version": "0.0.3",
     "author": "CorellanStoma#1996",
     "description": "Context Icons adds icons to the discord context menu's.",
     "license": "MIT",
-    "theme": "theme.scss"
+    "theme": "theme.css"
 }

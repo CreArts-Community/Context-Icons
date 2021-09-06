@@ -36,6 +36,12 @@
 // Disable Video
 @include deactivated(user-context-disable-video);
 
+
+// Collapse Category
+@include deactivated(channel-context-collapse-category);
+
+
+
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Deactivated              ║ Server                                                                                  ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
@@ -48,6 +54,18 @@
 
 // Invite People
 @include deactivated(guild-header-popout-invite-people);
+
+// Server Settings
+@include deactivated(guild-header-popout-settings);
+
+// Server Insights
+@include deactivated(guild-header-popout-insights);
+
+// Create Channel
+@include deactivated(guild-header-popout-create-channel);
+
+// Create Category
+@include deactivated(guild-header-popout-create-category);
 
 // Notification Settings
 @include deactivated(guild-header-popout-notifications);
@@ -63,3 +81,41 @@
 
 // Leave Server
 @include deactivated(guild-header-popout-leave);
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Deactivated              ║ User Settings                                                                           ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Deafen
+@include deactivated(user-context-deafen);
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Deactivated              ║ Message (Actions)                                                                       ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Edit Message
+@include deactivated(message-actions-edit);
+
+// Pin Message
+@include deactivated(message-actions-pin);
+
+// Reply
+@include deactivated(message-actions-reply);
+
+// Create Thread
+@include deactivated(message-actions-thread);
+
+// Mark Unread
+@include deactivated(message-actions-mark-unread);
+
+// Copy Message Link
+@include deactivated(message-actions-copy-link);
+
+// Speak Message
+@include deactivated(message-actions-tts);
+
+// Delete Message
+@include deactivated(message-actions-delete);
+
+// Copy ID
+@include deactivated(message-actions-copy-id);
