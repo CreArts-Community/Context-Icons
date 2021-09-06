@@ -63,6 +63,8 @@
 @include danger-background-normal(user-profile-actions-user-remove);
 @include danger-background-normal(user-profile-actions-user-block);
 @include danger-background-normal(friend-row-remove-friend);
+@include danger-background-normal(user-context-voice-mute);
+@include danger-background-normal(user-context-voice-deafen);
 
 // Hover
 @include danger-background-hover(message-delete);
@@ -76,6 +78,8 @@
 @include danger-background-hover(user-profile-actions-user-remove);
 @include danger-background-hover(user-profile-actions-user-block);
 @include danger-background-hover(friend-row-remove-friend);
+@include danger-background-hover(user-context-voice-mute);
+@include danger-background-hover(user-context-voice-deafen);
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Base                     ║ Danger Icon                                                                             ║
@@ -93,6 +97,8 @@
 @include danger-icon-normal(user-profile-actions-user-remove);
 @include danger-icon-normal(user-profile-actions-user-block);
 @include danger-icon-normal(friend-row-remove-friend);
+@include danger-icon-normal(user-context-voice-mute);
+@include danger-icon-normal(user-context-voice-deafen);
 
 // Hover
 @include danger-icon-hover(message-delete);
@@ -106,3 +112,5 @@
 @include danger-icon-hover(user-profile-actions-user-remove);
 @include danger-icon-hover(user-profile-actions-user-block);
 @include danger-icon-hover(friend-row-remove-friend);
+@include danger-icon-hover(user-context-voice-mute);
+@include danger-icon-hover(user-context-voice-deafen);

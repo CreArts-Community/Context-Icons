@@ -2,11 +2,25 @@
 // ║ Base                     ║ Quick Star (Powercord)                                                                  ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
-.button-1ZiXG9 .emoji{
+.wrapper-2aW0bm .button-1ZiXG9 .emoji[src="/assets/e4d52f4d69d7bba67e5fd70ffe26b70d.svg"]{
   content: url("https://i.imgur.com/TquGa6j.png");
-  height: 26px;
-  width: 26px;
+  height: 110%;
+  width: 110%;
   margin-bottom: 1px !important;
+  background: var(--context-icon-normal);
+  mask: var(--icon) center/contain no-repeat;
+  -webkit-mask: var(--icon) center/contain no-repeat;
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Base                     ║ Text React (Powercord)                                                                  ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+.wrapper-2aW0bm .button-1ZiXG9 .emoji[src="/assets/bbe8ae762f831966587a35010ed46f67.svg"]{
+  content: url("https://i.imgur.com/TquGa6j.png");
+  height: 92%;
+  width: 92%;
+  margin-bottom: 1px;
   background: var(--context-icon-normal);
   mask: var(--icon) center/contain no-repeat;
   -webkit-mask: var(--icon) center/contain no-repeat;
@@ -23,8 +37,8 @@
 .view-raw-button::after {
   position: absolute;
   content: "";
-  height: 26px;
-  width: 26px;
+  height: 90%;
+  width: 90%;
 
   background: var(--context-icon-normal);
   mask: var(--icon) center/contain no-repeat;

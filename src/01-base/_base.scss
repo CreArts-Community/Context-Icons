@@ -15,7 +15,8 @@
 
 // Menu Witdh
 .layer-v9HyYc > .styleFlexible-wGDiIL {
-	min-width: var(--context-menu-width);
+	width: var(--context-menu-width);
+  width: fit-content;
 }
 
 // Sub Menu Witdh
@@ -56,7 +57,7 @@
 #channel-attach .item-1tOPte::before,
 .submenuPaddingContainer-fiOCHc .item-1tOPte::before,
 .item-1tOPte.hideInteraction-1iHO1O::before,
-.item-1tOPte[id^=now-playing-menu-]:not(#now-playing-menu-message)::before {
+.item-1tOPte[id^=now-playing-menu-]:not(#now-playing-menu-message, #now-playing-menu-play-undefined, [id^=now-playing-menu-spotify-play], [id^=now-playing-menu-spotify-sync])::before {
   content: none;
 }
 

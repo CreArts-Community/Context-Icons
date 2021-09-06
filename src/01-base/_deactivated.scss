@@ -10,7 +10,7 @@
 }
 
 // Deactivated (Extra)
-@mixin deactivated-normal($item-id) {
+@mixin deactivated-extra($item-id) {
   .item-1tOPte[id^=#{$item-id}] .iconContainer-2-XQPY {
     display: none;
   }
@@ -100,6 +100,12 @@
 // Deafen
 @include deactivated-normal(user-context-deafen);
 
+// Server Mute
+@include deactivated-normal(user-context-voice-mute);
+
+// Server Deafen
+@include deactivated-normal(user-context-voice-deafen);
+
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Deactivated              ║ Message (Actions)                                                                       ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
@@ -147,6 +153,26 @@
 
 // Include @role mentions
 @include deactivated-normal(mentions-filter-Roles);
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Filled                   ║ Video Device                                                                            ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Video Device
+@include deactivated-extra(video-device-context-video-device);
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Filled                   ║ RTC Channel                                                                             ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Include @role mentions
+@include deactivated-normal(rtc-channel-VOICE_ACTIVITY);
+
+// Include @role mentions
+@include deactivated-normal(rtc-channel-PUSH_TO_TALK);
+
+// Include @role mentions
+@include deactivated-normal(rtc-channel-show-voice-states);
 
 
 

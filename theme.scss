@@ -2,7 +2,7 @@
 // ║ Theme Settings                                                                                                     ║
 // ╠══════════════════════════╦═════════════════════════════════════════════════════════════════════════════════════════╣
 // ║ Theme:                   ║ Context Icons                                                                           ║
-// ║ version:                 ║ 0.0.4                                                                                   ║
+// ║ version:                 ║ 0.0.5                                                                                   ║
 // ║ author:                  ║ CorellanStoma#1996                                                                      ║
 // ╠══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╣
 // ║                                                                                                                    ║
@@ -33,7 +33,7 @@
 
 :root {
   --context-icon-size: 21px;
-  --context-menu-width: 220px;
+  --context-menu-width: inherit;
   --context-menu-radius: 8px;
   --context-menu-spacing: 0px;
   --context-button-radius: 4px;
