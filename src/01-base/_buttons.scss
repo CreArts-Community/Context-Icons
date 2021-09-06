@@ -59,6 +59,10 @@
 @include danger-background-normal(user-context-ban);
 @include danger-background-normal(guild-context-leave-guild);
 @include danger-background-normal(guild-header-popout-leave);
+@include danger-background-normal(thread-context-delete-channel);
+@include danger-background-normal(user-profile-actions-user-remove);
+@include danger-background-normal(user-profile-actions-user-block);
+@include danger-background-normal(friend-row-remove-friend);
 
 // Hover
 @include danger-background-hover(message-delete);
@@ -68,6 +72,10 @@
 @include danger-background-hover(user-context-ban);
 @include danger-background-hover(guild-context-leave-guild);
 @include danger-background-hover(guild-header-popout-leave);
+@include danger-background-hover(thread-context-delete-channel);
+@include danger-background-hover(user-profile-actions-user-remove);
+@include danger-background-hover(user-profile-actions-user-block);
+@include danger-background-hover(friend-row-remove-friend);
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Base                     ║ Danger Icon                                                                             ║
@@ -81,6 +89,10 @@
 @include danger-icon-normal(user-context-ban);
 @include danger-icon-normal(guild-context-leave-guild);
 @include danger-icon-normal(guild-header-popout-leave);
+@include danger-icon-normal(thread-context-delete-channel);
+@include danger-icon-normal(user-profile-actions-user-remove);
+@include danger-icon-normal(user-profile-actions-user-block);
+@include danger-icon-normal(friend-row-remove-friend);
 
 // Hover
 @include danger-icon-hover(message-delete);
@@ -90,3 +102,7 @@
 @include danger-icon-hover(user-context-ban);
 @include danger-icon-hover(guild-context-leave-guild);
 @include danger-icon-hover(guild-header-popout-leave);
+@include danger-icon-hover(thread-context-delete-channel);
+@include danger-icon-hover(user-profile-actions-user-remove);
+@include danger-icon-hover(user-profile-actions-user-block);
+@include danger-icon-hover(friend-row-remove-friend);
