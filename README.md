@@ -4,6 +4,11 @@ Context Icons is a theme add-on for Discord that adds an icon to every context m
 
 # Preview
 
+![Menu-Icons - Round](https://user-images.githubusercontent.com/58918358/132363531-eabf5453-647e-4f8f-89b9-d0aa3812536f.png)
+
+
+
+
 ## Features
 
 * Easy customization
