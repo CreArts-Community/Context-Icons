@@ -21,9 +21,9 @@ Context Icons is a theme add-on for Discord that adds an icon to every context m
 
 ## Plugin Support
 
-* [Quick Star](https://github.com/powercord-community/quickstar)
-* [Text React](https://github.com/Juby210/text-react)
-* [View Raw](https://github.com/Juby210/view-raw)
+* Quick Star
+* Text React
+* View Raw
 
 # Getting Started
 
