@@ -60,5 +60,7 @@ This project is licensed under the MIT License - see the license.md file for mor
 
 Join our Community on [**Discord**](https://discord.com/) and create a ticket.
 
+If you have problems,  found some bugs or have icon wishes for plugins, you can also create an issue or use the support server.
+
 |[Join Community](https://discord.gg/8W8E39Z)|
 |---|
