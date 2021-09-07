@@ -35,12 +35,14 @@ This theme add-on can also used in the browser with a browser extension that all
 Here you can find in the different drop down menu, instructions for different mod clients, these explain you how to install this theme add-on.
 
 |[Go to Installation](https://github.com/CorellanStoma/Context-Icons)|
+|---|
 
 ## Customization
 
 The theme can be customized with various variables...
 
 |[Go to Customization](https://github.com/CorellanStoma/Context-Icons)|
+|---|
 
 # Credits
 
@@ -49,10 +51,14 @@ The theme can be customized with various variables...
 
 # License
 
-This project is licensed under the MIT License - see the [**license.md**](https://raw.githubusercontent.com/CorellanStoma/CreArts/master/license.md) file for more details.
+This project is licensed under the MIT License - see the license.md file for more details.
+
+|[Show License](https://github.com/CorellanStoma/Context-Icons/blob/main/license)|
+|---|
 
 # Support
 
 Join our Community on [**Discord**](https://discord.com/) and create a ticket.
 
 |[Join Community](https://discord.gg/8W8E39Z)|
+|---|
