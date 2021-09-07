@@ -1,7 +1,7 @@
 [![Community](https://raw.githubusercontent.com/CorellanStoma/CorellanStoma/master/shields/community.png)](https://discord.gg/8W8E39Z)
 [![License](https://raw.githubusercontent.com/CorellanStoma/CorellanStoma/master/shields/license.png)](https://github.com/CorellanStoma/Context-Icons/blob/main/license)
 
-<kbd>[<img title="Bulgarian" alt="Bulgarian" src="https://corellanstoma.github.io/Assets/languages/bulgarian.png" width="40">](.github/docs/01-readme/bulgarian.md)</kbd>
+<kbd>[<img title="Bulgarian" alt="Bulgarian" src="https://corellanstoma.github.io/Assets/languages/bulgarian.png" width="40">](./.github/docs/01-readme/bulgarian.md)</kbd>
 <kbd>[<img title="Chinese" alt="Chinese" src="https://corellanstoma.github.io/Assets/languages/chinese.png" width="40">](.github/docs/01-readme/chinese.md)</kbd>
 <kbd>[<img title="Czech" alt="Czech" src="https://corellanstoma.github.io/Assets/languages/czech.png" width="40">](.github/docs/01-readme/czech.md)</kbd>
 <kbd>[<img title="Danish" alt="Danish" src="https://corellanstoma.github.io/Assets/languages/danish.png" width="40">](.github/docs/01-readme/danish.md)</kbd>
