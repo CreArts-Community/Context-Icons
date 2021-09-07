@@ -47,7 +47,7 @@ The theme can be customized with various variables...
 # Credits
 
 * [**Settings-Icons**](https://github.com/snappercord/Settings-Icons) | Gave me inspiration for implementation of Context-Icons.
-* Powercord Community | inspiration, feedback and tips helped me a lot
+* [**Powercord Community**](https://discord.gg/powercord) | inspiration, feedback and tips helped me a lot
 
 # License
 
