@@ -2,10 +2,10 @@
 [![License](https://raw.githubusercontent.com/CorellanStoma/CorellanStoma/master/shields/license.png)](https://github.com/CorellanStoma/Context-Icons/blob/main/license)
 
 <kbd>[<img title="Bulgarian" alt="Bulgarian" src="https://corellanstoma.github.io/Assets/languages/bulgarian.png" width="40">](.github/docs/01-readme/bulgarian.md)</kbd>
-<kbd>[<img title="Chinese" alt="Chinese" src="https://corellanstoma.github.io/Assets/languages/chinese.png" width="40">](.github/docs/01-readme/bulgarian.md)</kbd>
-<kbd>[<img title="Czech" alt="Czech" src="https://corellanstoma.github.io/Assets/languages/czech.png" width="40">](.github/docs/01-readme/bulgarian.md)</kbd>
-<kbd>[<img title="Danish" alt="Danish" src="https://corellanstoma.github.io/Assets/languages/danish.png" width="40">](.github/docs/01-readme/bulgarian.md)</kbd>
-<kbd>[<img title="Dutch" alt="Dutch" src="https://corellanstoma.github.io/Assets/languages/dutch.png" width="40">](.github/docs/01-readme/bulgarian.md)</kbd>
+<kbd>[<img title="Chinese" alt="Chinese" src="https://corellanstoma.github.io/Assets/languages/chinese.png" width="40">](.github/docs/01-readme/chinese.md)</kbd>
+<kbd>[<img title="Czech" alt="Czech" src="https://corellanstoma.github.io/Assets/languages/czech.png" width="40">](.github/docs/01-readme/czech.md)</kbd>
+<kbd>[<img title="Danish" alt="Danish" src="https://corellanstoma.github.io/Assets/languages/danish.png" width="40">](.github/docs/01-readme/danish.md)</kbd>
+<kbd>[<img title="Dutch" alt="Dutch" src="https://corellanstoma.github.io/Assets/languages/dutch.png" width="40">](.github/docs/01-readme/dutch.md)</kbd>
 <kbd>[<img title="English" alt="English" src="https://corellanstoma.github.io/Assets/languages/english.png" width="40">](readme.md)</kbd>
 <kbd>[<img title="Estonian" alt="Estonian" src="https://corellanstoma.github.io/Assets/languages/estonian.png" width="40">](.github/docs/01-readme/estonian.md)</kbd>
 <kbd>[<img title="Finnish" alt="Finnish" src="https://corellanstoma.github.io/Assets/languages/finnish.png" width="40">](.github/docs/01-readme/finnish.md)</kbd>
