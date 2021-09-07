@@ -30,12 +30,18 @@ This theme add-on can also used in the browser with a browser extension that all
 
 Here you can find in the different drop down menu, instructions for different mod clients, these explain you how to install this theme add-on.
 
-
 ### Powercord:
 To Download and Install the Powercord version of the Theme use this command:
 
 ```
 cd powercord/src/Powercord/themes && git clone https://github.com/CorellanStoma/Context-Icons
+```
+
+Quick CSS Import:
+Copy & Paste this line to your Quick CSS:
+
+```
+@import url('https://corellanstoma.github.io/Context-Icons/index.css');
 ```
 
 ### Better Discord:
@@ -44,22 +50,9 @@ cd powercord/src/Powercord/themes && git clone https://github.com/CorellanStoma/
 
 ### Web:
 
-
-
-
-
 ## Customization
 
 
-
-
-
-Quick CSS Import:
-Copy & Paste this line to your Quick CSS:
-
-```
-@import url('https://corellanstoma.github.io/Context-Icons/index.css');
-```
 
 # Credits
 
