@@ -1,6 +1,10 @@
 [![Community](https://raw.githubusercontent.com/CorellanStoma/CorellanStoma/master/shields/community.png)](https://discord.gg/8W8E39Z)
 [![License](https://raw.githubusercontent.com/CorellanStoma/CorellanStoma/master/shields/license.png)](https://github.com/CorellanStoma/Context-Icons/blob/main/license.md)
 
+# 
+
+# 
+
 # Context Icons (Add-on)
 
 Context Icons is a theme add-on for Discord that adds an icon to every context menu. This add-on adds easy customizability and at the same time retains the discord charm. Context Icons is an actively developed theme add-on, which is compatible with [Powercord](https://github.com/powercord-org/powercord), [Better Discord](https://github.com/BetterDiscord/BetterDiscord) or [GooseMod](https://github.com/GooseMod/GooseMod).
@@ -30,29 +34,13 @@ This theme add-on can also used in the browser with a browser extension that all
 
 Here you can find in the different drop down menu, instructions for different mod clients, these explain you how to install this theme add-on.
 
-### Powercord:
-To Download and Install the Powercord version of the Theme use this command:
-
-```
-cd powercord/src/Powercord/themes && git clone https://github.com/CorellanStoma/Context-Icons
-```
-
-Quick CSS Import:
-Copy & Paste this line to your Quick CSS:
-
-```
-@import url('https://corellanstoma.github.io/Context-Icons/index.css');
-```
-
-### Better Discord:
-
-### GooseMod:
-
-### Web:
+|[Go to Installation](https://github.com/CorellanStoma/Context-Icons)|
 
 ## Customization
 
+The theme can be customized with various variables...
 
+|[Go to Customization](https://github.com/CorellanStoma/Context-Icons)|
 
 # Credits
 
@@ -66,6 +54,5 @@ This project is licensed under the MIT License - see the [**license.md**](https:
 # Support
 
 Join our Community on [**Discord**](https://discord.com/) and create a ticket.
-
 
 |[Join Community](https://discord.gg/8W8E39Z)|
