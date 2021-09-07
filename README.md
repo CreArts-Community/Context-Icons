@@ -47,5 +47,14 @@ Copy & Paste this line to your Quick CSS:
 ```
 
 # Credits
+
+* [**Settings-Icons**](https://github.com/snappercord/Settings-Icons) | Gave me inspiration for implementation of Context-Icons.
+* Powercord Community | inspiration, feedback and tips helped me a lot
+
 # License
+
+This project is licensed under the MIT License - see the [**license.md**](https://raw.githubusercontent.com/CorellanStoma/CreArts/master/license.md) file for more details.
+
 # Support
+
+Join our Community on [**Discord**](https://discord.gg/8W8E39Z) and create a ticket.
