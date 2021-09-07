@@ -57,14 +57,14 @@ Dieses Theme Add-on kann auch im Browser mit einer Browser-Erweiterung verwendet
 
 Hier finden Sie in den verschiedenen Anleitungen für verschiedene Mod-Clients, die Ihnen erklären, wie Sie dieses Theme Add-on installieren.
 
-|[Go to Installation](https://github.com/CorellanStoma/Context-Icons/blob/main/.github/docs/02-installation/german.md)|
+|[Installation](https://github.com/CorellanStoma/Context-Icons/blob/main/.github/docs/02-installation/german.md)|
 |---|
 
 ## Anpassung
 
 The theme add-on can be customized with various variables. It's recommended to embed the variables via the Quick CSS of the respective mod client.
 
-|[Go to Customization](https://github.com/CorellanStoma/Context-Icons/blob/main/.github/docs/03-customizazion/german.md)|
+|[Anpassung](https://github.com/CorellanStoma/Context-Icons/blob/main/.github/docs/03-customizazion/german.md)|
 |---|
 
 # Credits
