@@ -48,8 +48,8 @@ Context Icons is a theme add-on for Discord that adds an icon to every context m
 
 # Getting Started
 
-To use this theme add-on there are several possibilities, the first and recommended variant would be a mod client, for example [Powercord](https://github.com/powercord-org/powercord), [Better Discord](https://github.com/BetterDiscord/BetterDiscord) or [GooseMod](https://github.com/GooseMod/GooseMod).
-This theme add-on can also used in the browser with a browser extension that allows to include custom CSS. An extension would be for example [Stylus](https://github.com/openstyles/stylus), this runs on most chromium based browsers.
+To use this theme add-on you need a mod client or a browser that allows loading custom CSS. There are several possibilities, the first and recommended variant would be a mod client, for example [Powercord](https://github.com/powercord-org/powercord), [Better Discord](https://github.com/BetterDiscord/BetterDiscord) or [GooseMod](https://github.com/GooseMod/GooseMod).
+This theme add-on can also used in the browser with a browser extension that allows to include custom CSS. An extension would be [Stylus](https://github.com/openstyles/stylus), this runs on most chromium based browsers.
 
 ## Installation
 
@@ -60,12 +60,14 @@ Here you can find in the different drop down menu, instructions for different mo
 
 ## Customization
 
-The theme can be customized with various variables...
+The theme add-on can be customized with various variables. It's recommended to embed the variables via the Quick CSS of the respective mod client.
 
 |[Go to Customization](https://github.com/CorellanStoma/Context-Icons)|
 |---|
 
 # Credits
+
+During the creation of this theme add-on, there were some inpiration and help.
 
 * [**Settings-Icons**](https://github.com/snappercord/Settings-Icons) | Gave me inspiration for implementation of Context-Icons.
 * [**Powercord Community**](https://discord.gg/powercord) | inspiration, feedback and tips helped me a lot
@@ -79,9 +81,9 @@ This project is licensed under the MIT License - see the license.md file for mor
 
 # Support
 
-Join our Community on [**Discord**](https://discord.com/) and create a ticket.
-
 If you have problems,  found some bugs or have icon wishes for plugins, you can also create an issue or use the support server.
+
+Join our Community on [**Discord**](https://discord.com/) and create a ticket.
 
 |[Join Community](https://discord.gg/8W8E39Z)|
 |---|
