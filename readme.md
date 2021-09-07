@@ -51,7 +51,7 @@ You can read this repo in [other languages](.github/docs/translations.md).
 # Getting Started
 
 To use this theme add-on you need a mod client or a browser that allows loading custom CSS. There are several possibilities, the first and recommended variant would be a mod client, for example [Powercord](https://github.com/powercord-org/powercord), [Better Discord](https://github.com/BetterDiscord/BetterDiscord) or [GooseMod](https://github.com/GooseMod/GooseMod).
-This theme add-on can also used in the browser with a browser extension that allows to include custom CSS. An extension would be [Stylus](https://github.com/openstyles/stylus), this runs on most [chromium](https://github.com/chromium/chromium) based browsers.
+This theme add-on can also used in the browser with a browser extension that allows to include custom CSS. An extension would be [Stylus](https://github.com/openstyles/stylus), this runs on most [Chromium](https://github.com/chromium/chromium) based browsers.
 
 ## Installation
 
