@@ -1,7 +1,6 @@
 [![Community](https://raw.githubusercontent.com/CorellanStoma/CorellanStoma/master/shields/community.png)](https://discord.gg/8W8E39Z)
 [![License](https://raw.githubusercontent.com/CorellanStoma/CorellanStoma/master/shields/license.png)](https://github.com/CorellanStoma/Context-Icons/blob/main/license.md)
 
-# 
 <kbd>[<img title="Bulgarian" alt="Bulgarian" src="https://corellanstoma.github.io/Assets/languages/bulgarian.png" width="40">](.github/docs/01-readme/bulgarian.md)</kbd>
 <kbd>[<img title="Chinese" alt="Chinese" src="https://corellanstoma.github.io/Assets/languages/chinese.png" width="40">](.github/docs/01-readme/bulgarian.md)</kbd>
 <kbd>[<img title="Czech" alt="Czech" src="https://corellanstoma.github.io/Assets/languages/czech.png" width="40">](.github/docs/01-readme/bulgarian.md)</kbd>
@@ -26,11 +25,6 @@
 <kbd>[<img title="Slovenian" alt="Slovenian" src="https://corellanstoma.github.io/Assets/languages/slovenian.png" width="40">](.github/docs/01-readme/slovenian.md)</kbd>
 <kbd>[<img title="Spanish" alt="Spanish" src="https://corellanstoma.github.io/Assets/languages/spanish.png" width="40">](.github/docs/.github/docs/01-readme/spanish.md)</kbd>
 <kbd>[<img title="Swedish" alt="Swedish" src="https://corellanstoma.github.io/Assets/languages/swedish.png" width="40">](.github/docs/01-readme/swedish.md)</kbd>
-# 
-
-
-
-
 
 # Context Icons (Add-on)
 
