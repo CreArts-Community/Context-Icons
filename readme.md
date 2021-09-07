@@ -55,7 +55,7 @@ This theme add-on can also used in the browser with a browser extension that all
 
 ## Installation
 
-Here you can find in the different drop down menu, instructions for different mod clients, these explain you how to install this theme add-on.
+Here you can find in the different instructions for different mod clients, these explain you how to install this theme add-on.
 
 |[Go to Installation](.github/docs/02-installation/english.md)|
 |---|
