@@ -57,14 +57,14 @@ This theme add-on can also used in the browser with a browser extension that all
 
 Here you can find in the different instructions for different mod clients, these explain you how to install this theme add-on.
 
-|[Go to Installation](.github/docs/02-installation/english.md)|
+|[Installation](.github/docs/02-installation/english.md)|
 |---|
 
 ## Customization
 
 The theme add-on can be customized with various variables. It's recommended to embed the variables via the Quick CSS of the respective mod client.
 
-|[Go to Customization](.github/docs/03-customizazion/english.md)|
+|[Customization](.github/docs/03-customizazion/english.md)|
 |---|
 
 # Credits
