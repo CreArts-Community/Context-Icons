@@ -30,7 +30,7 @@
 
 Context Icons ist ein Theme-Add-on für [Discord](https://discord.com), das zu jedem Kontextmenü ein Symbol hinzufügt. Dieses Add-on bietet eine einfache Anpassungsmöglichkeit und bewahrt gleichzeitig den Discord-Charme. Context-Icons ist eine aktiv entwickelte Themenerweiterung, die mit [Powercord](https://github.com/powercord-org/powercord), [Better Discord](https://github.com/BetterDiscord/BetterDiscord) oder [GooseMod](https://github.com/GooseMod/GooseMod) kompatibel ist.
 
-Sie können dieses Repo auch in [anderen Sprachen](.github/docs/translations.md) lesen.
+Sie können diese Repo auch in [anderen Sprachen](.github/docs/translations.md) lesen.
 
 # Vorschau
 
