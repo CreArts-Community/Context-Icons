@@ -30,7 +30,7 @@
 
 Контекстните икони е добавка към тема за [Discord](https://discord.com), която добавя икона към всяко контекстно меню. Тази добавка осигурява лесна възможност за персонализиране, като същевременно запазва чара на Discord. Контекстните икони са активно разработена добавка към темата, съвместима с [Powercord](https://github.com/powercord-org/powercord), [Better Discord](https://github.com/BetterDiscord/BetterDiscord) или [GooseMod](https://github.com/GooseMod/GooseMod).
 
-Можете също така да използвате това хранилище в [други езици](.github/docs/translations.md) Прочетете.
+Можете също така да използвате това хранилище в [други езици](https://github.com/CorellanStoma/Context-Icons/blob/main/.github/docs/translations.md) Прочетете.
 
 # Предварителен преглед
 
