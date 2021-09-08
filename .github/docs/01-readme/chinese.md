@@ -28,7 +28,7 @@
 
 # Context Icons (Add-on)
 
-上下文图标是 [Discord](https://discord.com) 的一个主题插件，它为每个上下文菜单添加一个图标。这个插件提供了简单的自定义功能，同时保留了Discord的魅力。Context-Icons 是一个积极开发的主题插件，与 [Powercord](https://github.com/powercord-org/powercord) 、[Discord](https://github.com/BetterDiscord/BetterDiscord) 或 [GooseMod](https://github.com/GooseMod/GooseMod) 兼容。
+上下文图标是 [Discord](https://discord.com) 的一个主题插件，它为每个上下文菜单添加一个图标。这个插件提供了简单的自定义功能，同时保留了 Discord 的魅力。Context-Icons 是一个积极开发的主题插件，与 [Powercord](https://github.com/powercord-org/powercord) 、[Discord](https://github.com/BetterDiscord/BetterDiscord) 或 [GooseMod](https://github.com/GooseMod/GooseMod) 兼容。
 
 你也可以用这个资源库在 [其他语言](https://github.com/CorellanStoma/Context-Icons/blob/main/.github/docs/translations.md) 阅读。
 
