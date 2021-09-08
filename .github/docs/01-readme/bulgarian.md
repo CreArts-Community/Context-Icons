@@ -36,56 +36,56 @@
 
 ![Context-Icons](https://user-images.githubusercontent.com/58918358/132392397-b4bd4368-dafb-48dc-aacb-6a73d12f54c3.png)
 
-## Besonderheiten
+## Специални функции
 
-* Easy customization
-* Light & Dark Theme support
-* Compatible with other themes.
+* Лесно персонализиране
+* Поддръжка на Light & Dark Theme
+* Съвместимост с други теми.
 
-## Plugin Unterstützung
+## Поддръжка на плъгини
 
-* Quick Star
-* Text React
-* View Raw
+* Бърза звезда
+* Реакция на текста
+* Преглед на суровината
 
-# Erste Schritte
+# Първи стъпки
 
-Um dieses Theme Add-on zu verwenden, benötigen Sie einen Mod-Client oder einen Browser, der das Laden von benutzerdefiniertem CSS erlaubt. Es gibt mehrere Möglichkeiten, die erste und empfohlene Variante wäre ein Mod-Client, zum Beispiel [Powercord](https://github.com/powercord-org/powercord), [Better Discord](https://github.com/BetterDiscord/BetterDiscord) oder [GooseMod](https://github.com/GooseMod/GooseMod).
-Dieses Theme Add-on kann auch im Browser mit einer Browser-Erweiterung verwendet werden, die es erlaubt, benutzerdefinierte CSS einzubinden. Eine Erweiterung wäre zum Beispiel [Stylus](https://github.com/openstyles/stylus), dies läuft auf den meisten [Chromium](https://github.com/chromium/chromium) basierten Browsern.
+За да използвате тази добавка към темата, се нуждаете от мод клиент или браузър, който позволява зареждане на потребителски CSS. Съществуват няколко възможности, като първият и препоръчителен вариант е мод клиент, например [Powercord](https://github.com/powercord-org/powercord), [Better Discord](https://github.com/BetterDiscord/BetterDiscord) или [GooseMod](https://github.com/GooseMod/GooseMod).
+Тази добавка към темата може да се използва и в браузъра с помощта на разширение за браузър, което позволява включването на потребителски CSS. Едно разширение би било например [Stylus](https://github.com/openstyles/stylus), това работи на повечето [Chromium](https://github.com/chromium/chromium) базирани на браузъри.
 
-## Installation
+## Инсталация
 
-Hier finden Sie in den verschiedenen Anleitungen für verschiedene Mod-Clients, die Ihnen erklären, wie Sie dieses Theme Add-on installieren.
+Тук ще намерите инструкции за различни клиенти на мода, които обясняват как да инсталирате тази добавка към темата.
 
-|[Installation](https://github.com/CorellanStoma/Context-Icons/blob/main/.github/docs/02-installation/german.md)|
+|[Инсталация](https://github.com/CorellanStoma/Context-Icons/blob/main/.github/docs/02-installation/german.md)|
 |---|
 
-## Anpassung
+## Приспособяване
 
-The theme add-on can be customized with various variables. It's recommended to embed the variables via the Quick CSS of the respective mod client.
+Добавката към темата може да бъде персонализирана с различни променливи. Препоръчва се променливите да се вграждат чрез Quick CSS на съответния клиент на мода.
 
-|[Anpassung](https://github.com/CorellanStoma/Context-Icons/blob/main/.github/docs/03-customizazion/german.md)|
+|[Адаптация](https://github.com/CorellanStoma/Context-Icons/blob/main/.github/docs/03-customizazion/german.md)|
 |---|
 
-# Credits
+# Кредити
 
-Bei der Erstellung dieses Theme-Add-ons gab es einige Anregungen und Hilfe.
+Имаше някои предложения и помощ при създаването на тази добавка към темата.
 
-* [**Settings-Icons**](https://github.com/snappercord/Settings-Icons) | Gave me inspiration for implementation of Context-Icons.
-* [**Powercord Community**](https://discord.gg/powercord) | inspiration, feedback and tips helped me a lot
+* [**Settings-Icons**](https://github.com/snappercord/Settings-Icons) | Даде ми вдъхновение за внедряване на контекстни икони.
+* [**Powercord Community**](https://discord.gg/powercord) | Вдъхновението, обратната връзка и съветите ми помогнаха много
 
-# Lizenz
+# Лиценз
 
-Dieses Projekt ist unter der MIT-Lizenz lizenziert - weitere Details finden Sie in der Datei license.md.
+Този проект е лицензиран под лиценза MIT - за повече информация вижте файла license.md.
 
-|[Show License](https://github.com/CorellanStoma/Context-Icons/blob/main/license)|
+|[Показване на лиценз](https://github.com/CorellanStoma/Context-Icons/blob/main/license)|
 |---|
 
-# Support
+# Подкрепа
 
-Wenn Sie Probleme haben, Bugs gefunden haben oder Icon-Wünsche für Plugins haben, können Sie auch ein Issue erstellen oder den Support-Server nutzen.
+Ако имате проблеми, открили сте грешки или имате заявки за икони за плъгини, можете също така да създадете проблем или да използвате сървъра за поддръжка.
 
-Join our Community on [**Discord**](https://discord.com/) and create a ticket.
+Присъединете се към нашата общност в [**Discord**](https://discord.com/) и създайте билет.
 
 |[Join Community](https://discord.gg/8W8E39Z)|
 |---|
