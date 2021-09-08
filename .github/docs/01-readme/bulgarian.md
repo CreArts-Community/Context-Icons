@@ -6,7 +6,7 @@
 <kbd>[<img title="Czech" alt="Czech" src="https://corellanstoma.github.io/Assets/languages/czech.png" width="40">](czech.md)</kbd>
 <kbd>[<img title="Danish" alt="Danish" src="https://corellanstoma.github.io/Assets/languages/danish.png" width="40">](danish.md)</kbd>
 <kbd>[<img title="Dutch" alt="Dutch" src="https://corellanstoma.github.io/Assets/languages/dutch.png" width="40">](dutch.md)</kbd>
-<kbd>[<img title="English" alt="English" src="https://corellanstoma.github.io/Assets/languages/english.png" width="40">](readme.md)</kbd>
+<kbd>[<img title="English" alt="English" src="https://corellanstoma.github.io/Assets/languages/english.png" width="40">](https://github.com/CorellanStoma/Context-Icons/blob/main/readme.md)</kbd>
 <kbd>[<img title="Estonian" alt="Estonian" src="https://corellanstoma.github.io/Assets/languages/estonian.png" width="40">](estonian.md)</kbd>
 <kbd>[<img title="Finnish" alt="Finnish" src="https://corellanstoma.github.io/Assets/languages/finnish.png" width="40">](finnish.md)</kbd>
 <kbd>[<img title="French" alt="French" src="https://corellanstoma.github.io/Assets/languages/french.png" width="40">](french.md)</kbd>
