@@ -28,9 +28,9 @@
 
 # Context Icons (Add-on)
 
-Context Icons ist ein Theme Add-on für [Discord](https://discord.com), das zu jedem Kontextmenü ein Symbol hinzufügt. Dieses Add-on bietet eine einfache Anpassungsmöglichkeit und bewahrt gleichzeitig den Discord-Charme. Context-Icons ist eine aktiv entwickelte Themenerweiterung, die mit [Powercord](https://github.com/powercord-org/powercord), [Better Discord](https://github.com/BetterDiscord/BetterDiscord) oder [GooseMod](https://github.com/GooseMod/GooseMod) kompatibel ist.
+上下文图标是 [Discord](https://discord.com) 的一个主题插件，它为每个上下文菜单添加一个图标。这个插件提供了简单的自定义功能，同时保留了Discord的魅力。Context-Icons 是一个积极开发的主题插件，与 [Powercord](https://github.com/powercord-org/powercord) 、[Discord](https://github.com/BetterDiscord/BetterDiscord) 或 [GooseMod](https://github.com/GooseMod/GooseMod) 兼容。
 
-Sie können diese Repo auch in [anderen Sprachen](https://github.com/CorellanStoma/Context-Icons/blob/main/.github/docs/translations.md) lesen.
+你也可以用这个资源库在 [其他语言](https://github.com/CorellanStoma/Context-Icons/blob/main/.github/docs/translations.md) lesen.
 
 # 预览
 
