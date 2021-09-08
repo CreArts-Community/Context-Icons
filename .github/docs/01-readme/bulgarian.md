@@ -57,14 +57,14 @@
 
 Тук ще намерите инструкции за различни клиенти на мода, които обясняват как да инсталирате тази добавка към темата.
 
-|[Инсталация](https://github.com/CorellanStoma/Context-Icons/blob/main/.github/docs/02-installation/german.md)|
+|[Инсталация](https://github.com/CorellanStoma/Context-Icons/blob/main/.github/docs/02-installation/bulgarian.md)|
 |---|
 
 ## Приспособяване
 
 Добавката към темата може да бъде персонализирана с различни променливи. Препоръчва се променливите да се вграждат чрез Quick CSS на съответния клиент на мода.
 
-|[Адаптация](https://github.com/CorellanStoma/Context-Icons/blob/main/.github/docs/03-customizazion/german.md)|
+|[Адаптация](https://github.com/CorellanStoma/Context-Icons/blob/main/.github/docs/03-customizazion/bulgarian.md)|
 |---|
 
 # Кредити
