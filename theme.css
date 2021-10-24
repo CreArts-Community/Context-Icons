@@ -2,7 +2,7 @@
 /* ║ Theme Settings                                                                                                     ║ */
 /* ╠══════════════════════════╦═════════════════════════════════════════════════════════════════════════════════════════╣ */
 /* ║ Theme:                   ║ Context Icons                                                                           ║ */
-/* ║ version:                 ║ 0.0.5                                                                                   ║ */
+/* ║ version:                 ║ 0.0.6                                                                                   ║ */
 /* ║ author:                  ║ CorellanStoma#1996                                                                      ║ */
 /* ╠══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╣ */
 /* ║                                                                                                                    ║ */
@@ -23,9 +23,7 @@
 /* ║ Import                   ║ Do not comment out these lines! By disabling the theme can not work correctly.          ║ */
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
 
-@import url("https://corellanstoma.github.io/Context-Icons/src/filled.css"); /* ✔️ Filled Icons */
-
-/*@import url("https://corellanstoma.github.io/Context-Icons/outlined.css"); /* ❌ Outlined Icons */
+@import url("https://crearts-community.github.io/Context-Icons/src/source.css"); /* ⚠️ */
 
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
 /* ║ General                  ║ Here you can make general adjustments.                                                  ║ */
@@ -42,7 +40,7 @@
   --context-disabled-opacity: 0.3;
 
   --separator-spacing-height: 4px;
-  --separator-spacing-widtht: 2px;
+  --separator-spacing-width: 2px;
 
   --danger-background-radius: 4px;
   --slider-background-radius: 4px;
@@ -71,6 +69,9 @@
   --danger-text-focused: white;
   --danger-background-normal: transparent;
   --danger-background-hover: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%);
+
+  --calendar-text-normal: var(--interactive-normal);
+  --calendar-text-focused: white;
 }
 
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
@@ -96,4 +97,7 @@
   --danger-text-focused: white;
   --danger-background-normal: transparent;
   --danger-background-hover: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%);
+
+  --calendar-text-normal: var(--interactive-normal);
+  --calendar-text-focused: white;
 }

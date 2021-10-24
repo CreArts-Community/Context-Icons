@@ -1,0 +1,110 @@
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Base                     ║ Quick Star (Powercord)                                                                  ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+.wrapper-2aW0bm .button-1ZiXG9 .emoji[src="/assets/e4d52f4d69d7bba67e5fd70ffe26b70d.svg"]{
+  content: url("https://i.imgur.com/TquGa6j.png");
+  margin-bottom: 1px;
+  height: 118%;
+  width: 116%;
+
+
+  background: var(--context-icon-normal);
+  mask: var(--icon) center/contain no-repeat;
+  -webkit-mask: var(--icon) center/contain no-repeat;
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Base                     ║ Text React (Powercord)                                                                  ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+.wrapper-2aW0bm .button-1ZiXG9 .emoji[src="/assets/bbe8ae762f831966587a35010ed46f67.svg"]{
+  content: url("https://i.imgur.com/TquGa6j.png");
+  margin-bottom: 1px;
+  height: 90%;
+  width: 100%;
+
+  background: var(--context-icon-normal);
+  mask: var(--icon) center/contain no-repeat;
+  -webkit-mask: var(--icon) center/contain no-repeat;
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Base                     ║ View Raw (Powercord)                                                                    ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+.view-raw-button .icon-3Gkjwa {
+  fill: transparent !important;
+}
+
+.view-raw-button::after {
+  position: absolute;
+  content: "";
+  height: 90%;
+  width: 100%;
+
+  background: var(--context-icon-normal);
+  mask: var(--icon) center/contain no-repeat;
+  -webkit-mask: var(--icon) center/contain no-repeat;
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Base                     ║ Theme / Plugin Downloader (Powercord)                                                   ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// No Border
+.PluginDownloaderApply,
+.ThemeDownloaderApply {
+  border: none;
+}
+
+// Background (Normal)
+.PluginDownloaderApply div,
+.ThemeDownloaderApply div {
+  color: transparent !important;
+  height: 32px;
+  width: 32px;
+  padding: 0px;
+  margin: 0px;
+  z-index: 12;
+}
+
+// Background (Hover)
+.PluginDownloaderApply:not(.applied) div:hover,
+.ThemeDownloaderApply:not(.applied) div:hover {
+  color: transparent !important;
+  background: var(--background-modifier-hover);
+  height: 32px;
+  width: 32px;
+  padding: 0px;
+  margin: 0px;
+  border: none;
+  z-index: 12;
+}
+
+// Icon (Normal)
+.PluginDownloaderApply::after,
+.ThemeDownloaderApply::after {
+  position: absolute;
+  content: "";
+  height: 22px;
+  width: 32px;
+  bottom: 5px;
+  background: var(--context-icon-normal);
+  mask: var(--icon) center/contain no-repeat;
+  -webkit-mask: var(--icon) center/contain no-repeat;
+  pointer-events: none
+}
+
+// Icon (Hover)
+.PluginDownloaderApply:not(.applied):hover::after,
+.ThemeDownloaderApply:not(.applied):hover::after  {
+  background: var(--interactive-hover);
+}
+
+// Icon (Applied)
+.PluginDownloaderApply.applied::after,
+.ThemeDownloaderApply.applied::after {
+  background: var(--interactive-hover);
+  opacity: var(--context-disabled-opacity);
+}

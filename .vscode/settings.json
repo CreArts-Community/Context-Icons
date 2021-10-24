@@ -1,7 +1,7 @@
 {
     "liveSassCompile.settings.formats":[
        {
-           "format": "expanded",
+           "format": "compressed",
            "extensionName": ".css",
            "savePath": null
        }
@@ -10,7 +10,7 @@
    "liveSassCompile.settings.excludeList": [
     "/.VSCodeCounter/**",
     "/.vscode/**",
-    "/theme.scss",
+    "/dev.scss",
    ],
 
    "liveSassCompile.settings.generateMap": false,

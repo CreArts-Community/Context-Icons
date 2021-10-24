@@ -45,8 +45,25 @@ You can read this repo in [other languages](.github/docs/translations.md).
 ## Plugin Support
 
 * Quick Star
+* Spotify Modal
+* Server Profile
 * Text React
 * View Raw
+* Theme Downloader
+* Plugin Downloader
+* Holy Notes
+* Message Translate
+* Reverse Image Search
+* User Notifis
+* Add Pronouns
+* Custom Mute
+* Report Messages
+* Pronouns
+* Github in Discord
+* Custom Timestamps
+* Rich Quotes
+* Better Friends
+* Cutecord
 
 # Getting Started
 

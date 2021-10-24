@@ -1,0 +1,66 @@
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Slider                   ║ General                                                                                 ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Background (Normal)
+.sliderContainer-2Nrll8 {
+  display: flex;
+  align-items: center;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  background: var(--slider-background-normal);
+  border-radius: var(--slider-background-radius);
+  margin-top: 2px;
+  margin-bottom: 12px;
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+// Background (Hover)
+.sliderContainer-2Nrll8:hover {
+  background: var(--slider-background-hover);
+}
+
+// Slider
+.slider-1PF9SW {
+  padding-top: 8px;
+}
+
+// Graber
+.mini-dmm9yo .grabber-3mFHz2 {
+  width: 12px;
+  height: 12px;
+  margin-left: -7px;
+  margin-top: 6.4px;
+  border-radius: 50%;
+  background:  var(--slider-graber-color);
+  border-color:  var(--slider-graber-color);
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Slider                   ║ Icons                                                                                   ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+
+// Text
+.item-1tOPte#audio-device-context-input .label-22pbtT,
+.item-1tOPte#audio-device-context-output .label-22pbtT,
+.item-1tOPte#powercord-spotify-menu-volume .label-22pbtT {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+// Icon
+.sliderContainer-2Nrll8::before {
+  content: "";
+  width: auto;
+  height: 20px;
+  margin-right: 8px;
+  margin-top: 0px;
+  background: var(--context-icon-normal);
+  -webkit-mask: var(--icon) center/contain no-repeat;
+  mask: var(--icon) center/contain no-repeat;
+  flex-shrink: 0;
+}
