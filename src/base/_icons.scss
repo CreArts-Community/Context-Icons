@@ -1,5 +1,5 @@
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Filled                   ║ Mixins                                                                                  ║
+// ║ Icons                    ║ Mixins                                                                                  ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Context Icon (Normal)
@@ -39,7 +39,7 @@
 }
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Filled                   ║ Actions                                                                                 ║
+// ║ Icons                    ║ Actions                                                                                 ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Quickstar (Powercord Plugin)
@@ -78,7 +78,7 @@
 }
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Filled                   ║ Slider                                                                                  ║
+// ║ Icons                    ║ Slider                                                                                  ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Saturation (Slider)
@@ -154,7 +154,7 @@
 );
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Filled                   ║ User                                                                                    ║
+// ║ Icons                    ║ User                                                                                    ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Mark as Read
@@ -191,6 +191,13 @@
 @include icon-normal(
   user-context-note,
   url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg width='100%25' height='100%25' viewBox='0 0 24 24' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Crect id='Filled' x='0' y='0' width='24' height='24' style='fill:none;'/%3E%3Cg id='Filled1' serif:id='Filled'%3E%3Cg id='Context'%3E%3Cpath id='add_note' d='M14.59,2.59c-0.38,-0.38 -0.89,-0.59 -1.42,-0.59l-7.17,0c-1.1,0 -2,0.9 -2,2l0,16c0,1.1 0.89,2 1.99,2l12.01,0c1.1,0 2,-0.9 2,-2l0,-11.17c0,-0.53 -0.21,-1.04 -0.59,-1.41l-4.82,-4.83Zm0.41,15.41l-6,0c-0.55,0 -1,-0.45 -1,-1c0,-0.55 0.45,-1 1,-1l6,0c0.55,0 1,0.45 1,1c0,0.55 -0.45,1 -1,1Zm0,-4l-6,0c-0.55,0 -1,-0.45 -1,-1c0,-0.55 0.45,-1 1,-1l6,0c0.55,0 1,0.45 1,1c0,0.55 -0.45,1 -1,1Zm-2,-6l0,-4.5l5.5,5.5l-4.5,0c-0.55,0 -1,-0.45 -1,-1Z' style='fill-rule:nonzero;'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
+);
+
+
+// Add Note
+@include icon-normal(
+  user-context-add-friend-nickname,
+  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' enable-background='new 0 0 24 24' height='24px' viewBox='0 0 24 24' width='24px' fill='%23000000'%3E%3Cg%3E%3Crect fill='none' height='24' width='24'/%3E%3C/g%3E%3Cg%3E%3Cg%3E%3Cpath d='M15,16l-4,4h8c1.1,0,2-0.9,2-2v0c0-1.1-0.9-2-2-2H15z'/%3E%3Cpath d='M12.06,7.19l-8.77,8.77C3.11,16.14,3,16.4,3,16.66V19c0,0.55,0.45,1,1,1h2.34c0.27,0,0.52-0.11,0.71-0.29l8.77-8.77 L12.06,7.19z'/%3E%3Cpath d='M18.71,8.04c0.39-0.39,0.39-1.02,0-1.41l-2.34-2.34c-0.39-0.39-1.02-0.39-1.41,0l-1.83,1.83l3.75,3.75L18.71,8.04z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
 );
 
 // Watch Stream
@@ -373,7 +380,7 @@
 );
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Filled                   ║ User (Actions)                                                                          ║
+// ║ Icons                    ║ User (Actions)                                                                          ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Start Video Call
@@ -395,7 +402,7 @@
 );
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Filled                   ║ Group                                                                                   ║
+// ║ Icons                    ║ Group                                                                                   ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Mark as Read
@@ -441,7 +448,7 @@
 );
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Filled                   ║ Message                                                                                 ║
+// ║ Icons                    ║ Message                                                                                 ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Copy
@@ -517,6 +524,12 @@
   url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg width='100%25' height='100%25' viewBox='0 0 24 24' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Crect id='Filled' x='0' y='0' width='24' height='24' style='fill:none;'/%3E%3Cg id='Filled1' serif:id='Filled'%3E%3Cg id='Context'%3E%3Cpath d='M2,4c0,-1.105 0.896,-2 2,-2l16,0c1.105,0 2,0.895 2,2l0,12c0,1.104 -0.895,2 -2,2l-9,0l-4,4l0,-4l-3,0c-1.104,0 -2,-0.896 -2,-2l0,-12Zm9.529,0.403c0.177,-0.177 0.444,-0.229 0.677,-0.134c0.232,0.094 0.383,0.321 0.383,0.57l-0,9.877c-0,0.25 -0.151,0.475 -0.383,0.571c-0.233,0.095 -0.5,0.042 -0.677,-0.134l-2.667,-2.907l-1.863,0c-0.342,0 -0.621,-0.277 -0.621,-0.617l-0,-3.704c-0,-0.339 0.279,-0.617 0.621,-0.617l1.863,-0l2.667,-2.905Zm2.302,2.288l-0,-1.235c2.398,0 4.348,1.939 4.348,4.321c-0,2.384 -1.95,4.321 -4.348,4.321l-0,-1.234c1.712,-0 3.106,-1.385 3.106,-3.087c-0,-1.701 -1.394,-3.086 -3.106,-3.086Zm1.863,3.086c0,-1.02 -0.836,-1.852 -1.863,-1.852l-0,1.235c0.342,-0 0.621,0.277 0.621,0.617c0,0.34 -0.279,0.617 -0.621,0.617l-0,1.235c1.027,0 1.863,-0.83 1.863,-1.852Z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
 );
 
+// Remove All Reactions
+@include icon-normal(
+  message-remove-reactions,
+  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 0 24 24' width='24px' fill='%23000000'%3E%3Cpath d='M0 0h24v24H0V0z' fill='none'/%3E%3Cpath d='M16 16h2c.55 0 1 .45 1 1s-.45 1-1 1h-2c-.55 0-1-.45-1-1s.45-1 1-1zm0-8h5c.55 0 1 .45 1 1s-.45 1-1 1h-5c-.55 0-1-.45-1-1s.45-1 1-1zm0 4h4c.55 0 1 .45 1 1s-.45 1-1 1h-4c-.55 0-1-.45-1-1s.45-1 1-1zM3 18c0 1.1.9 2 2 2h6c1.1 0 2-.9 2-2V8H3v10zM13 5h-2l-.71-.71c-.18-.18-.44-.29-.7-.29H6.41c-.26 0-.52.11-.7.29L5 5H3c-.55 0-1 .45-1 1s.45 1 1 1h10c.55 0 1-.45 1-1s-.45-1-1-1z'/%3E%3C/svg%3E")
+);
+
 // Delete Message
 @include icon-normal(
   message-delete,
@@ -554,7 +567,7 @@
 );
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Filled                   ║ Message (Actions)                                                                       ║
+// ║ Icons                    ║ Message (Actions)                                                                       ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Edit Message
@@ -573,6 +586,12 @@
 @include icon-normal(
   message-actions-reply,
   url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg width='100%25' height='100%25' viewBox='0 0 24 24' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Crect id='Filled' x='0' y='0' width='24' height='24' style='fill:none;'/%3E%3Cg id='Filled1' serif:id='Filled'%3E%3Cg id='Context'%3E%3Cpath id='reply' d='M9.946,7.878c-0.097,-0.015 -0.168,-0.099 -0.168,-0.197c-0,-0.654 -0,-3.017 -0,-4.064c-0,-0.082 -0.05,-0.156 -0.127,-0.186c-0.076,-0.03 -0.163,-0.011 -0.219,0.049c-1.377,1.468 -6.433,6.861 -7.304,7.791c-0.072,0.077 -0.072,0.196 0,0.273c0.871,0.929 5.927,6.322 7.304,7.791c0.056,0.06 0.143,0.079 0.219,0.049c0.077,-0.03 0.127,-0.104 0.127,-0.186c-0,-1.054 -0,-3.446 -0,-4.153c-0,-0.053 0.021,-0.105 0.059,-0.142c0.038,-0.038 0.089,-0.059 0.142,-0.058c5.095,0.043 8.774,1.707 11.473,5.274c0.055,0.077 0.156,0.104 0.242,0.066c0.086,-0.038 0.134,-0.132 0.114,-0.224c-1.27,-5.561 -4.607,-10.904 -11.862,-12.083Z' style='fill-rule:nonzero;'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
+);
+
+// View Thread
+@include icon-normal(
+  message-actions-goto-thread,
+  url("data:image/svg+xml,%3Csvg xmlns:xlink='http://www.w3.org/1999/xlink' xmlns='http://www.w3.org/2000/svg' x='0' y='0' class='icon-22AiRD' aria-hidden='false' width='24' height='24' viewBox='0 0 24 24' fill='none'%3E%3Cpath fill='%23B9BBBE' d='M5.43309 21C5.35842 21 5.30189 20.9325 5.31494 20.859L5.99991 17H2.14274C2.06819 17 2.01168 16.9327 2.02453 16.8593L2.33253 15.0993C2.34258 15.0419 2.39244 15 2.45074 15H6.34991L7.40991 9H3.55274C3.47819 9 3.42168 8.93274 3.43453 8.85931L3.74253 7.09931C3.75258 7.04189 3.80244 7 3.86074 7H7.75991L8.45234 3.09903C8.46251 3.04174 8.51231 3 8.57049 3H10.3267C10.4014 3 10.4579 3.06746 10.4449 3.14097L9.75991 7H15.7599L16.4523 3.09903C16.4625 3.04174 16.5123 3 16.5705 3H18.3267C18.4014 3 18.4579 3.06746 18.4449 3.14097L17.7599 7H21.6171C21.6916 7 21.7481 7.06725 21.7353 7.14069L21.4273 8.90069C21.4172 8.95811 21.3674 9 21.3091 9H17.4099L17.0495 11.04H15.05L15.4104 9H9.41035L8.35035 15H10.5599V17H7.99991L7.30749 20.901C7.29732 20.9583 7.24752 21 7.18934 21H5.43309Z'/%3E%3Cpath fill='%23B9BBBE' d='M13.4399 12.96C12.9097 12.96 12.4799 13.3898 12.4799 13.92V20.2213C12.4799 20.7515 12.9097 21.1813 13.4399 21.1813H14.3999C14.5325 21.1813 14.6399 21.2887 14.6399 21.4213V23.4597C14.6399 23.6677 14.8865 23.7773 15.0408 23.6378L17.4858 21.4289C17.6622 21.2695 17.8916 21.1813 18.1294 21.1813H22.5599C23.0901 21.1813 23.5199 20.7515 23.5199 20.2213V13.92C23.5199 13.3898 23.0901 12.96 22.5599 12.96H13.4399Z'/%3E%3C/svg%3E")
 );
 
 // Create Thread
@@ -612,7 +631,7 @@
 );
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Filled                   ║ User Profile (Actions)                                                                  ║
+// ║ Icons                    ║ User Profile (Actions)                                                                  ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Remove Friend
@@ -633,7 +652,7 @@
 );
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Filled                   ║ Stream                                                                                  ║
+// ║ Icons                    ║ Stream                                                                                  ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Stop Watching
@@ -677,7 +696,7 @@
 );
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Filled                   ║ Image (Actions)                                                                         ║
+// ║ Icons                    ║ Image (Actions)                                                                         ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Copy Image
@@ -705,7 +724,7 @@
 );
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Filled                   ║ Text Area                                                                               ║
+// ║ Icons                    ║ Text Area                                                                               ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Sticker Suggestions (True)
@@ -749,7 +768,7 @@
 );
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Filled                   ║ Channel                                                                                 ║
+// ║ Icons                    ║ Channel                                                                                 ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Mark as Read
@@ -810,17 +829,6 @@
   false
 );
 
-
-
-
-
-
-
-
-
-
-
-
 // Edit Channel
 @include icon-normal(
   channel-context-edit-channel,
@@ -870,7 +878,7 @@
 );
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Filled                   ║ Server                                                                                  ║
+// ║ Icons                    ║ Server                                                                                  ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Server Boost
@@ -909,6 +917,19 @@
   url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg width='100%25' height='100%25' viewBox='0 0 24 24' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Crect id='Filled' x='0' y='0' width='24' height='24' style='fill:none;'/%3E%3Cg id='Filled1' serif:id='Filled'%3E%3Cg id='Context'%3E%3Cpath id='create_category' d='M20,6.5l-8,-0l-1.447,-1.894c-0.339,-0.678 -1.032,-1.106 -1.789,-1.106l-5.764,-0c-0.553,-0 -1,0.447 -1,1l-0,14c-0,1.104 0.895,2 2,2l16,0c1.104,0 2,-0.896 2,-2l0,-10c0,-1.104 -0.896,-2 -2,-2Zm-4,8l-3,-0l0,3l-2,0l0,-3l-3,-0l0,-2l3,-0l0,-3l2,-0l0,3l3,-0l0,2Z' style='fill-rule:nonzero;'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
 );
 
+// Create Event
+@include icon-normal(
+  guild-header-popout-create-event,
+  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:serif='http://www.serif.com/' width='100%25' height='100%25' viewBox='0 0 24 24' version='1.1' xml:space='preserve' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Crect id='Filled' x='0' y='0' width='24' height='24' style='fill:none;'/%3E%3Cg id='Filled1' serif:id='Filled'%3E%3Cpath d='M21,4L21,1L19,1L19,4L16,4L16,6L19,6L19,9L21,9L21,6L24,6L24,4L21,4Z' style='fill-rule:nonzero;'/%3E%3Cpath d='M8,4L14,4L14,9L5,9L5,20L19,20L19,11L21,11L21,20C21,21.1 20.1,22 19,22L5,22C4.47,22 3.961,21.789 3.586,21.414C3.211,21.039 3,20.53 3,20L3.01,6C3.01,4.9 3.89,4 5,4L6,4L6,2L8,2L8,4Z' style='fill-rule:nonzero;'/%3E%3Crect x='7' y='11' width='5' height='5' style='fill-rule:nonzero;'/%3E%3C/g%3E%3C/svg%3E")
+);
+
+// Mark As Read
+@include icon-normal(
+  guild-header-popout-mark-guild-read,
+  url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg width='100%25' height='100%25' viewBox='0 0 24 24' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Crect id='Filled' x='0' y='0' width='24' height='24' style='fill:none;'/%3E%3Cg id='Filled1' serif:id='Filled'%3E%3Cg id='Context'%3E%3Cpath id='mark_as_read' d='M8.187,16.653l-4.17,-4.17c-0.465,-0.465 -1.204,-0.465 -1.668,-0c-0.465,0.464 -0.465,1.203 -0,1.668l4.992,4.992c0.465,0.465 1.215,0.465 1.68,0l12.63,-12.618c0.465,-0.465 0.465,-1.204 0,-1.668c-0.464,-0.465 -1.203,-0.465 -1.668,-0l-11.796,11.796Z' style='fill-rule:nonzero;'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
+);
+
+
 // Notification Settings
 @include icon-normal(
   guild-header-popout-notifications,
@@ -918,13 +939,13 @@
 // Privacy Settings
 @include icon-normal(
   guild-header-popout-privacy,
-  url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg width='100%25' height='100%25' viewBox='0 0 24 24' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Crect id='Filled' x='0' y='0' width='24' height='24' style='fill:none;'/%3E%3Cg id='Filled1' serif:id='Filled'%3E%3Cg id='Context'%3E%3Cpath id='privacy_settings' d='M12,22c0.192,0 0.386,-0.03 0.571,-0.09c4.3,-1.38 7.43,-5.99 7.43,-10.82l0.01,-6.217c-0,-0.553 -0.448,-1.002 -1.002,-1.002c-3.444,0 -5.507,-0.792 -6.141,-1.425c-0.217,-0.218 -0.56,-0.448 -0.868,-0.446c-0.308,-0.002 -0.651,0.228 -0.868,0.446c-0.634,0.633 -2.697,1.425 -6.141,1.425c-0.554,0 -1.002,0.449 -1.002,1.002l0.01,6.217c0,4.83 3.13,9.44 7.43,10.82c0.185,0.06 0.378,0.09 0.571,0.09Zm-0,-18.739l-0,8.739l6.959,0c-0.317,3.922 -2.94,7.53 -6.461,8.66c-0.161,0.052 -0.33,0.078 -0.498,0.078l-0,-8.738l-6.959,0c-0.021,-0.264 -0.032,-0.529 -0.032,-0.796l-0.009,-5.433c-0,-0.483 0.391,-0.875 0.875,-0.875c3.01,0 4.813,-0.692 5.366,-1.246c0.19,-0.19 0.49,-0.39 0.759,-0.389Z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
+  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 0 24 24' width='24px' fill='%23000000'%3E%3Cpath d='M11.19 1.36l-7 3.11C3.47 4.79 3 5.51 3 6.3V11c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V6.3c0-.79-.47-1.51-1.19-1.83l-7-3.11c-.51-.23-1.11-.23-1.62 0zM12 11.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z'/%3E%3C/svg%3E")
 );
 
 // Change Nickname
 @include icon-normal(
   guild-header-popout-change-nickname,
-  url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg width='100%25' height='100%25' viewBox='0 0 24 24' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Crect id='Filled' x='0' y='0' width='24' height='24' style='fill:none;'/%3E%3Cg id='Filled1' serif:id='Filled'%3E%3Cg id='Context'%3E%3Cpath id='edit' d='M2,18.067l0,3.378c0,0.311 0.244,0.555 0.555,0.555l3.378,-0c0.144,-0 0.289,-0.056 0.389,-0.167c-0,0 10.024,-10.015 11.848,-11.837c0.075,-0.075 0.117,-0.177 0.117,-0.283c0,-0.106 -0.042,-0.208 -0.117,-0.283c-0.76,-0.76 -2.84,-2.84 -3.6,-3.6c-0.156,-0.157 -0.409,-0.157 -0.566,-0c-1.822,1.822 -11.837,11.837 -11.837,11.837c-0.111,0.111 -0.167,0.245 -0.167,0.4Zm19.675,-11.576c0.433,-0.433 0.433,-1.133 0,-1.566l-2.6,-2.6c-0.433,-0.433 -1.133,-0.433 -1.566,-0c-0,-0 -1.192,1.191 -1.75,1.75c-0.075,0.075 -0.117,0.177 -0.117,0.283c-0,0.106 0.042,0.208 0.117,0.283c0.76,0.76 2.84,2.84 3.6,3.6c0.075,0.075 0.177,0.117 0.283,0.117c0.106,0 0.208,-0.042 0.283,-0.117c0.559,-0.558 1.75,-1.75 1.75,-1.75Z' style='fill-rule:nonzero;'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
+  url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg width='100%25' height='100%25' viewBox='0 0 24 24' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Crect id='Filled' x='0' y='0' width='24' height='24' style='fill:none;'/%3E%3Cg id='Filled1' serif:id='Filled'%3E%3Cg id='Context'%3E%3Cpath d='M19.292,9.831l0.649,-0.647c1.412,-1.412 1.412,-3.711 -0,-5.125c-1.413,-1.412 -3.713,-1.412 -5.125,0l-0.647,0.648l5.123,5.124Zm-6.397,-3.853l-7.713,7.715l5.125,5.123l7.712,-7.715l-5.124,-5.123Zm-8.779,14.996l4.641,-1.16l-4.573,-4.573l-1.16,4.642c-0.077,0.306 0.013,0.631 0.236,0.854c0.224,0.223 0.549,0.312 0.856,0.237Z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
 );
 
 // Leave Server
@@ -947,11 +968,27 @@
   false
 );
 
+// View Server As Role
+@include icon-normal(
+  guild-settings-role-context-view-as-role,
+  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 0 24 24' width='24px' fill='%23000000'%3E%3Cpath d='M0 0h24v24H0V0z' fill='none'/%3E%3Cpath d='M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z'/%3E%3C/svg%3E")
+);
+
+// Copy ID
+@include icon-normal(
+  guild-settings-role-context-devmode-copy-id,
+  url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg width='100%25' height='100%25' viewBox='0 0 24 24' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Crect id='Filled' x='0' y='0' width='24' height='24' style='fill:none;'/%3E%3Cg id='Filled1' serif:id='Filled'%3E%3Cg id='Context'%3E%3Cpath id='id' d='M5.384,4.365c0.221,-0 0.4,0.179 0.4,0.4c0,2.15 0,12.32 0,14.47c0,0.221 -0.179,0.4 -0.4,0.4c-0.727,0 -2.257,0 -2.984,0c-0.221,0 -0.4,-0.179 -0.4,-0.4c-0,-2.15 -0,-12.32 -0,-14.47c0,-0.221 0.179,-0.4 0.4,-0.4c0.727,-0 2.257,-0 2.984,-0Zm8.538,-0c5.312,-0 8.078,3.076 8.078,7.613c0,4.537 -2.833,7.657 -7.989,7.657l-4.956,0c-0.221,0 -0.4,-0.179 -0.4,-0.4c-0,-2.15 -0,-12.32 -0,-14.47c-0,-0.221 0.179,-0.4 0.4,-0.4c1.229,-0 4.867,-0 4.867,-0Zm-0.111,12.327c2.7,-0 4.382,-1.417 4.382,-4.692c0,-3.209 -1.792,-4.692 -4.382,-4.692l-0.972,0c-0.221,0 -0.4,0.179 -0.4,0.4c0,1.536 0,7.048 0,8.584c0,0.221 0.179,0.4 0.4,0.4c0.405,-0 0.972,-0 0.972,-0Z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
+);
+
+// Delete
+@include icon-normal(
+  guild-settings-role-context-delete-role,
+  url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg width='100%25' height='100%25' viewBox='0 0 24 24' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Crect id='Filled' x='0' y='0' width='24' height='24' style='fill:none;'/%3E%3Cg id='Filled1' serif:id='Filled'%3E%3Cg id='Context'%3E%3Cpath id='delete' d='M5,6.999l0,12c0,1.102 0.897,2 2,2l10,-0c1.103,-0 2,-0.898 2,-2l0,-12l-14,0Zm6,10.001l-2,0l0,-6l2,0l0,6Zm4,0l-2,0l0,-6l2,0l0,6Zm0,-13.001l0,-1.999l-6,-0l0,1.999l-6,-0l0,2l18,-0l0,-2l-6,-0Z' style='fill-rule:nonzero;'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
+);
+
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Filled                   ║ Guild                                                                                   ║
+// ║ Icons                    ║ Guild                                                                                   ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
-
-
 
 // Mark as Read
 @include icon-normal(
@@ -1006,13 +1043,13 @@
 // Privacy Settings
 @include icon-normal(
   guild-context-privacy,
-  url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg width='100%25' height='100%25' viewBox='0 0 24 24' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Crect id='Filled' x='0' y='0' width='24' height='24' style='fill:none;'/%3E%3Cg id='Filled1' serif:id='Filled'%3E%3Cg id='Context'%3E%3Cpath id='privacy_settings' d='M12,22c0.192,0 0.386,-0.03 0.571,-0.09c4.3,-1.38 7.43,-5.99 7.43,-10.82l0.01,-6.217c-0,-0.553 -0.448,-1.002 -1.002,-1.002c-3.444,0 -5.507,-0.792 -6.141,-1.425c-0.217,-0.218 -0.56,-0.448 -0.868,-0.446c-0.308,-0.002 -0.651,0.228 -0.868,0.446c-0.634,0.633 -2.697,1.425 -6.141,1.425c-0.554,0 -1.002,0.449 -1.002,1.002l0.01,6.217c0,4.83 3.13,9.44 7.43,10.82c0.185,0.06 0.378,0.09 0.571,0.09Zm-0,-18.739l-0,8.739l6.959,0c-0.317,3.922 -2.94,7.53 -6.461,8.66c-0.161,0.052 -0.33,0.078 -0.498,0.078l-0,-8.738l-6.959,0c-0.021,-0.264 -0.032,-0.529 -0.032,-0.796l-0.009,-5.433c-0,-0.483 0.391,-0.875 0.875,-0.875c3.01,0 4.813,-0.692 5.366,-1.246c0.19,-0.19 0.49,-0.39 0.759,-0.389Z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
+  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 0 24 24' width='24px' fill='%23000000'%3E%3Cpath d='M11.19 1.36l-7 3.11C3.47 4.79 3 5.51 3 6.3V11c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V6.3c0-.79-.47-1.51-1.19-1.83l-7-3.11c-.51-.23-1.11-.23-1.62 0zM12 11.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z'/%3E%3C/svg%3E")
 );
 
 // Change Nickname
 @include icon-normal(
   guild-context-change-nickname,
-  url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg width='100%25' height='100%25' viewBox='0 0 24 24' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Crect id='Filled' x='0' y='0' width='24' height='24' style='fill:none;'/%3E%3Cg id='Filled1' serif:id='Filled'%3E%3Cg id='Context'%3E%3Cpath id='edit' d='M2,18.067l0,3.378c0,0.311 0.244,0.555 0.555,0.555l3.378,-0c0.144,-0 0.289,-0.056 0.389,-0.167c-0,0 10.024,-10.015 11.848,-11.837c0.075,-0.075 0.117,-0.177 0.117,-0.283c0,-0.106 -0.042,-0.208 -0.117,-0.283c-0.76,-0.76 -2.84,-2.84 -3.6,-3.6c-0.156,-0.157 -0.409,-0.157 -0.566,-0c-1.822,1.822 -11.837,11.837 -11.837,11.837c-0.111,0.111 -0.167,0.245 -0.167,0.4Zm19.675,-11.576c0.433,-0.433 0.433,-1.133 0,-1.566l-2.6,-2.6c-0.433,-0.433 -1.133,-0.433 -1.566,-0c-0,-0 -1.192,1.191 -1.75,1.75c-0.075,0.075 -0.117,0.177 -0.117,0.283c-0,0.106 0.042,0.208 0.117,0.283c0.76,0.76 2.84,2.84 3.6,3.6c0.075,0.075 0.177,0.117 0.283,0.117c0.106,0 0.208,-0.042 0.283,-0.117c0.559,-0.558 1.75,-1.75 1.75,-1.75Z' style='fill-rule:nonzero;'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
+  url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg width='100%25' height='100%25' viewBox='0 0 24 24' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Crect id='Filled' x='0' y='0' width='24' height='24' style='fill:none;'/%3E%3Cg id='Filled1' serif:id='Filled'%3E%3Cg id='Context'%3E%3Cpath d='M19.292,9.831l0.649,-0.647c1.412,-1.412 1.412,-3.711 -0,-5.125c-1.413,-1.412 -3.713,-1.412 -5.125,0l-0.647,0.648l5.123,5.124Zm-6.397,-3.853l-7.713,7.715l5.125,5.123l7.712,-7.715l-5.124,-5.123Zm-8.779,14.996l4.641,-1.16l-4.573,-4.573l-1.16,4.642c-0.077,0.306 0.013,0.631 0.236,0.854c0.224,0.223 0.549,0.312 0.856,0.237Z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
 );
 
 // Create Channel
@@ -1025,6 +1062,12 @@
 @include icon-normal(
   guild-context-create-category,
   url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg width='100%25' height='100%25' viewBox='0 0 24 24' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Crect id='Filled' x='0' y='0' width='24' height='24' style='fill:none;'/%3E%3Cg id='Filled1' serif:id='Filled'%3E%3Cg id='Context'%3E%3Cpath id='create_category' d='M20,6.5l-8,-0l-1.447,-1.894c-0.339,-0.678 -1.032,-1.106 -1.789,-1.106l-5.764,-0c-0.553,-0 -1,0.447 -1,1l-0,14c-0,1.104 0.895,2 2,2l16,0c1.104,0 2,-0.896 2,-2l0,-10c0,-1.104 -0.896,-2 -2,-2Zm-4,8l-3,-0l0,3l-2,0l0,-3l-3,-0l0,-2l3,-0l0,-3l2,-0l0,3l3,-0l0,2Z' style='fill-rule:nonzero;'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
+);
+
+// Create Event
+@include icon-normal(
+  guild-context-create-event,
+  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:serif='http://www.serif.com/' width='100%25' height='100%25' viewBox='0 0 24 24' version='1.1' xml:space='preserve' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Crect id='Filled' x='0' y='0' width='24' height='24' style='fill:none;'/%3E%3Cg id='Filled1' serif:id='Filled'%3E%3Cpath d='M21,4L21,1L19,1L19,4L16,4L16,6L19,6L19,9L21,9L21,6L24,6L24,4L21,4Z' style='fill-rule:nonzero;'/%3E%3Cpath d='M8,4L14,4L14,9L5,9L5,20L19,20L19,11L21,11L21,20C21,21.1 20.1,22 19,22L5,22C4.47,22 3.961,21.789 3.586,21.414C3.211,21.039 3,20.53 3,20L3.01,6C3.01,4.9 3.89,4 5,4L6,4L6,2L8,2L8,4Z' style='fill-rule:nonzero;'/%3E%3Crect x='7' y='11' width='5' height='5' style='fill-rule:nonzero;'/%3E%3C/g%3E%3C/svg%3E")
 );
 
 // Leave Server
@@ -1070,8 +1113,14 @@
 );
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Filled                   ║ Thread                                                                                  ║
+// ║ Icons                    ║ Thread                                                                                  ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Open in Split View
+@include icon-normal(
+  thread-context-open,
+  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 0 24 24' width='24px' fill='%23000000'%3E%3Cpath d='M0 0h24v24H0V0z' fill='none'/%3E%3Cpath d='M4 15h6c.55 0 1-.45 1-1s-.45-1-1-1H4c-.55 0-1 .45-1 1s.45 1 1 1zm0 4h6c.55 0 1-.45 1-1s-.45-1-1-1H4c-.55 0-1 .45-1 1s.45 1 1 1zm0-8h6c.55 0 1-.45 1-1s-.45-1-1-1H4c-.55 0-1 .45-1 1s.45 1 1 1zM3 6c0 .55.45 1 1 1h6c.55 0 1-.45 1-1s-.45-1-1-1H4c-.55 0-1 .45-1 1zm11-1h6c.55 0 1 .45 1 1v12c0 .55-.45 1-1 1h-6c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1z'/%3E%3C/svg%3E")
+);
 
 // Leave Thread
 @include icon-normal(
@@ -1122,6 +1171,24 @@
   url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg width='100%25' height='100%25' viewBox='0 0 24 24' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Crect id='Filled' x='0' y='0' width='24' height='24' style='fill:none;'/%3E%3Cg id='Filled1' serif:id='Filled'%3E%3Cg id='Context'%3E%3Cpath id='auto-archive' d='M12,6.172l0,1.738c0,0.438 0.525,0.651 0.826,0.34l2.71,-2.71c0.194,-0.194 0.194,-0.495 -0,-0.689l-2.71,-2.711c-0.301,-0.301 -0.826,-0.087 -0.826,0.35l0,1.739c-4.293,-0 -7.771,3.477 -7.771,7.771c0,1.01 0.194,1.981 0.554,2.865c0.262,0.651 1.097,0.826 1.593,0.331c0.262,-0.263 0.369,-0.661 0.223,-1.011c-0.281,-0.67 -0.427,-1.418 -0.427,-2.185c-0,-3.215 2.613,-5.828 5.828,-5.828Zm5.624,2.632c-0.262,0.262 -0.369,0.67 -0.223,1.01c0.272,0.68 0.427,1.418 0.427,2.186c0,3.215 -2.613,5.828 -5.828,5.828l0,-1.739c0,-0.437 -0.525,-0.651 -0.826,-0.34l-2.71,2.71c-0.194,0.195 -0.194,0.496 0,0.69l2.71,2.71c0.301,0.301 0.826,0.088 0.826,-0.34l-0,-1.748c4.293,-0 7.771,-3.478 7.771,-7.771c-0,-1.01 -0.194,-1.982 -0.554,-2.866c-0.262,-0.651 -1.097,-0.825 -1.593,-0.33Z' style='fill-rule:nonzero;'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
 );
 
+// Search
+@include icon-normal(
+  thread-context-search,
+  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 0 24 24' width='24px' fill='%23000000'%3E%3Cpath d='M0 0h24v24H0V0z' fill='none'/%3E%3Cpath d='M15.5 14h-.79l-.28-.27c1.2-1.4 1.82-3.31 1.48-5.34-.47-2.78-2.79-5-5.59-5.34-4.23-.52-7.79 3.04-7.27 7.27.34 2.8 2.56 5.12 5.34 5.59 2.03.34 3.94-.28 5.34-1.48l.27.28v.79l4.25 4.25c.41.41 1.08.41 1.49 0 .41-.41.41-1.08 0-1.49L15.5 14zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z'/%3E%3C/svg%3E")
+);
+
+// Pins
+@include icon-normal(
+  thread-context-pins,
+  url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg width='100%25' height='100%25' viewBox='0 0 24 24' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Crect id='Filled' x='0' y='0' width='24' height='24' style='fill:none;'/%3E%3Cg id='Filled1' serif:id='Filled'%3E%3Cg id='Context'%3E%3Cpath id='pin_message' d='M21.718,12.653c0.075,-0.075 0.117,-0.177 0.117,-0.283c0,-0.106 -0.042,-0.207 -0.117,-0.283c-1.48,-1.48 -8.325,-8.324 -9.805,-9.804c-0.156,-0.156 -0.409,-0.157 -0.565,-0.001c-0.263,0.263 -0.653,0.653 -0.916,0.915c-0.076,0.075 -0.118,0.177 -0.118,0.283c0,0.106 0.042,0.208 0.117,0.283c0.264,0.264 0.654,0.654 0.917,0.917c0.075,0.075 2.117,0.177 0.117,0.283c0,0.106 -0.042,0.207 -0.117,0.283c-1.083,1.082 -4.903,4.901 -4.903,4.901l-0,0.002c-0.001,0.001 -0.002,0 -0.003,-0.001c-0.044,-0.045 -0.779,-0.781 -1.196,-1.198c-0.075,-0.075 -0.177,-0.117 -0.283,-0.117c-0.106,-0 -0.208,0.042 -0.283,0.117c-0.263,0.263 -0.653,0.653 -0.916,0.917c-0.156,0.156 -0.156,0.409 0,0.565c0.801,0.801 3.078,3.078 3.879,3.878c0.075,0.076 0.118,0.177 0.118,0.283c-0,0.106 -0.043,0.208 -0.118,0.283c-1,1 -4.36,4.36 -5.36,5.36c-0.075,0.075 -0.117,0.177 -0.117,0.283c-0,0.106 0.042,0.208 0.117,0.283c0.263,0.263 0.653,0.652 0.915,0.915c0.157,0.156 0.41,0.156 0.566,0c1,-0.999 4.361,-4.36 5.361,-5.36c0.156,-0.156 0.409,-0.156 0.565,0c0.801,0.801 3.079,3.078 3.88,3.879c0.156,0.156 0.409,0.156 0.566,-0c0.263,-0.263 0.652,-0.653 0.915,-0.916c0.075,-0.075 0.117,-0.177 0.117,-0.283c0,-0.106 -0.042,-0.207 -0.117,-0.282c-0.263,-0.263 -0.652,-0.653 -0.915,-0.916c-0.157,-0.156 -0.157,-0.41 -0,-0.566c1.074,-1.075 4.847,-4.848 4.901,-4.902c0,-0 0.001,-0.001 0.001,-0.001c0,0 0,0 0,0c0,0 0.769,0.769 1.199,1.199c0.075,0.075 0.177,0.117 0.283,0.117c0.106,-0 0.208,-0.042 0.283,-0.117c0.263,-0.263 0.652,-0.653 0.915,-0.916Z' style='fill-rule:nonzero;'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
+);
+
+// Unarchive Thread
+@include icon-normal(
+  thread-context-unarchive-thread,
+  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 0 24 24' width='24px' fill='%23000000'%3E%3Cpath d='M0 0h24v24H0V0z' fill='none'/%3E%3Cpath d='M20.55 5.22l-1.39-1.68C18.88 3.21 18.47 3 18 3H6c-.47 0-.88.21-1.15.55L3.46 5.22C3.17 5.57 3 6.01 3 6.5V19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6.5c0-.49-.17-.93-.45-1.28zm-8.2 4.63L17.5 15H14v2h-4v-2H6.5l5.15-5.15c.19-.19.51-.19.7 0zM5.12 5l.82-1h12l.93 1H5.12z'/%3E%3C/svg%3E")
+);
+
 // Delete Thread
 @include icon-normal(
   thread-context-delete-channel,
@@ -1135,7 +1202,7 @@
 );
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Filled                   ║ Spotify                                                                                 ║
+// ║ Icons                    ║ Spotify                                                                                 ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Activity (True)
@@ -1153,7 +1220,7 @@
 );
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Filled                   ║ Mention                                                                                 ║
+// ║ Icons                    ║ Mention                                                                                 ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Include @everyone mentions (True)
@@ -1185,7 +1252,7 @@
 );
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Filled                   ║ Now Playing                                                                             ║
+// ║ Icons                    ║ Now Playing                                                                             ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Message
@@ -1214,7 +1281,7 @@
 
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Filled                   ║ Live Stage                                                                             ║
+// ║ Icons                    ║ Live Stage                                                                             ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Copy ID
@@ -1224,7 +1291,7 @@
 );
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Filled                   ║ Video Device                                                                            ║
+// ║ Icons                    ║ Video Device                                                                            ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Preview Camera (True)
@@ -1248,7 +1315,7 @@
 );
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Filled                   ║ RTC Channel                                                                             ║
+// ║ Icons                    ║ RTC Channel                                                                             ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Voice Activity (True)
@@ -1294,7 +1361,7 @@
 );
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Filled                   ║ Subscription                                                                            ║
+// ║ Icons                    ║ Subscription                                                                            ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Transfer Boost
@@ -1304,7 +1371,7 @@
 );
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Filled                   ║ Input / Output Device                                                                   ║
+// ║ Icons                    ║ Input / Output Device                                                                   ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Audio Device (True)
@@ -1370,13 +1437,13 @@
 );
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Filled                   ║ Output Device                                                                           ║
+// ║ Icons                    ║ Output Device                                                                           ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Filled                   ║ Settings                                                                                ║
+// ║ Icons                    ║ Settings                                                                                ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // My Account
@@ -1394,13 +1461,13 @@
 // Privacy & Safety
 @include icon-normal(
   user-settings-cog-Privacy___Safety,
-  url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg width='100%25' height='100%25' viewBox='0 0 24 24' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Crect id='Filled' x='0' y='0' width='24' height='24' style='fill:none;'/%3E%3Cg id='Filled1' serif:id='Filled'%3E%3Cg id='Context'%3E%3Cpath id='privacy_settings' d='M12,22c0.192,0 0.386,-0.03 0.571,-0.09c4.3,-1.38 7.43,-5.99 7.43,-10.82l0.01,-6.217c-0,-0.553 -0.448,-1.002 -1.002,-1.002c-3.444,0 -5.507,-0.792 -6.141,-1.425c-0.217,-0.218 -0.56,-0.448 -0.868,-0.446c-0.308,-0.002 -0.651,0.228 -0.868,0.446c-0.634,0.633 -2.697,1.425 -6.141,1.425c-0.554,0 -1.002,0.449 -1.002,1.002l0.01,6.217c0,4.83 3.13,9.44 7.43,10.82c0.185,0.06 0.378,0.09 0.571,0.09Zm-0,-18.739l-0,8.739l6.959,0c-0.317,3.922 -2.94,7.53 -6.461,8.66c-0.161,0.052 -0.33,0.078 -0.498,0.078l-0,-8.738l-6.959,0c-0.021,-0.264 -0.032,-0.529 -0.032,-0.796l-0.009,-5.433c-0,-0.483 0.391,-0.875 0.875,-0.875c3.01,0 4.813,-0.692 5.366,-1.246c0.19,-0.19 0.49,-0.39 0.759,-0.389Z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
+  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 0 24 24' width='24px' fill='%23000000'%3E%3Cpath d='M11.19 1.36l-7 3.11C3.47 4.79 3 5.51 3 6.3V11c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V6.3c0-.79-.47-1.51-1.19-1.83l-7-3.11c-.51-.23-1.11-.23-1.62 0zM12 11.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z'/%3E%3C/svg%3E")
 );
 
 // Authorized Apps
 @include icon-normal(
   user-settings-cog-Authorized_Apps,
-  url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg width='100%25' height='100%25' viewBox='0 0 24 24' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Crect id='Filled' x='0' y='0' width='24' height='24' style='fill:none;'/%3E%3Cg id='Filled1' serif:id='Filled'%3E%3Cg id='Context'%3E%3Cpath id='apps' d='M4.222,22l4.445,-0c1.222,-0 2.222,-1 2.222,-2.222l-0,-4.445c-0,-1.222 -1,-2.222 -2.222,-2.222l-4.445,0c-1.222,0 -2.222,1 -2.222,2.222l-0,4.445c-0,1.222 1,2.222 2.222,2.222Zm11.111,-0l4.445,-0c1.222,-0 2.222,-1 2.222,-2.222l0,-4.445c0,-1.222 -1,-2.222 -2.222,-2.222l-4.445,0c-1.222,0 -2.222,1 -2.222,2.222l0,4.445c0,1.222 1,2.222 2.222,2.222Zm-11.111,-11.111l4.445,-0c1.222,-0 2.222,-1 2.222,-2.222l-0,-4.445c-0,-1.222 -1,-2.222 -2.222,-2.222l-4.445,0c-1.222,0 -2.222,1 -2.222,2.222l-0,4.445c-0,1.222 1,2.222 2.222,2.222Zm8.889,-6.667l0,4.445c0,1.222 1,2.222 2.222,2.222l4.445,-0c1.222,-0 2.222,-1 2.222,-2.222l0,-4.445c0,-1.222 -1,-2.222 -2.222,-2.222l-4.445,0c-1.222,0 -2.222,1 -2.222,2.222Z' style='fill-rule:nonzero;'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
+  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='black' d='M 10.413066,22.472382 C 9.3280446,22.350012 8.342478,21.899705 7.542378,21.16076 6.7970726,20.472421 6.2547842,19.516599 6.0540394,18.537452 5.7732506,17.167889 6.0268744,15.828398 6.7833501,14.685661 c 0.7149377,-1.07999 1.8679918,-1.863174 3.121425,-2.120154 2.4110899,-0.494322 4.7427559,0.719742 5.6933269,2.964432 0.04502,0.106321 0.08942,0.215058 0.09866,0.241638 0.01589,0.04574 0.238897,0.04833 4.160019,0.04833 H 24 v 1.629328 1.629327 h -0.676586 -0.676585 v 1.656943 1.656944 H 20.838 19.029171 v -1.656944 -1.656943 h -1.643728 -1.643727 l -0.02564,0.06214 c -0.238546,0.578169 -0.345544,0.790282 -0.56867,1.127338 -0.714938,1.079989 -1.867992,1.863174 -3.121425,2.120154 -0.537368,0.110174 -1.115172,0.140333 -1.612919,0.0842 z m 0.948717,-3.269191 c 0.61852,-0.131048 1.155697,-0.609521 1.348598,-1.201222 0.08078,-0.247789 0.100388,-0.750951 0.03885,-0.9969 -0.163111,-0.651855 -0.663796,-1.160384 -1.303594,-1.324017 -0.370846,-0.09485 -0.825072,-0.06508 -1.156837,0.07582 -0.7030941,0.298591 -1.1630854,1.03947 -1.1101007,1.78797 0.078352,1.106857 1.1050297,1.886757 2.1830887,1.658349 z M 1.7969602,19.037058 C 0.88019419,18.851621 0.17351449,18.119482 0.03266767,17.209209 c -0.04355689,-0.281502 -0.04355689,-13.6538568 0,-13.9353598 0.14492476,-0.936628 0.90199253,-1.693697 1.83862163,-1.838622 0.1427843,-0.02209 2.7285479,-0.03073 9.2005097,-0.03073 7.649604,0 9.032352,0.0059 9.204552,0.0391 0.932802,0.179962 1.644908,0.909129 1.787434,1.830255 0.02182,0.141043 0.03073,1.855759 0.03073,5.916668 v 5.7180678 h -1.237837 -1.237839 l 0.06347,-0.189249 c 0.153051,-0.45634 0.149608,-0.341236 0.141413,-4.7283588 l -0.0076,-4.043693 -0.07341,-0.265652 c -0.271713,-0.98322 -0.99671,-1.708892 -1.978165,-1.98001 l -0.268091,-0.07406 h -6.50346 -6.5035027 l -0.2680917,0.07406 c -0.9986773,0.275875 -1.7337058,1.025317 -1.9891948,2.028201 l -0.062434,0.245077 v 4.1285498 4.128551 l 0.062434,0.245076 c 0.2583236,1.014013 1.0108789,1.774384 2.0104457,2.03133 l 0.1121636,0.02883 -0.012008,0.547116 c -0.015788,0.719317 0.045818,1.303249 0.2023792,1.91826 l 0.019333,0.07594 -1.294029,-0.0026 c -0.9508154,-0.0019 -1.3416381,-0.01222 -1.4735311,-0.0389 z m 2.4582786,-8.30535 c 4.069e-4,-2.8868108 0.00664,-3.4329908 0.041066,-3.5969478 0.1305,-0.621569 0.6486328,-1.139702 1.2702019,-1.270202 0.2907979,-0.06105 10.6174123,-0.06105 10.9082103,0 0.621569,0.1305 1.139701,0.648633 1.270202,1.270202 0.03442,0.163957 0.04066,0.710137 0.04107,3.5969478 l 4.76e-4,3.403637 H 17.37731 16.968161 l -0.06501,-0.117366 c -0.344917,-0.622762 -0.876549,-1.278148 -1.451093,-1.788882 -0.955456,-0.849344 -2.231147,-1.417358 -3.602979,-1.604262 -0.338072,-0.04606 -1.291255,-0.04606 -1.629327,0 -0.6950474,0.0947 -1.3746017,0.28816 -1.9824426,0.564387 -0.3433391,0.156027 -0.7809754,0.401803 -0.989983,0.555975 -0.062809,0.04633 -0.1426792,0.102877 -0.1774895,0.12566 -0.03481,0.02278 -0.1822547,0.140211 -0.3276536,0.260951 -0.4796316,0.39829 -0.9301607,0.893863 -1.2440003,1.368376 -0.095434,0.144292 -0.195129,0.293798 -0.2215455,0.332236 -0.026416,0.03844 -0.074779,0.12232 -0.1074733,0.186406 l -0.059444,0.116519 H 4.6822421 4.2547596 Z'/%3E%3C/svg%3E")
 );
 
 // Connections
@@ -1409,10 +1476,16 @@
   url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg width='100%25' height='100%25' viewBox='0 0 24 24' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Crect id='Filled' x='0' y='0' width='24' height='24' style='fill:none;'/%3E%3Cg id='Filled1' serif:id='Filled'%3E%3Cg id='Context'%3E%3Cpath d='M5.333,7.833c0,-0.458 0.375,-0.833 0.834,-0.833l13.333,0c0.458,0 0.833,-0.375 0.833,-0.833c0,-0.459 -0.375,-0.834 -0.833,-0.834l-14.167,0c-0.916,0 -1.666,0.75 -1.666,1.667l-0,9.167l-0.417,-0c-0.692,-0 -1.25,0.558 -1.25,1.25c-0,0.691 0.558,1.25 1.25,1.25l10.417,-0l-0,-2.5l-8.334,-0l0,-8.334Zm15.834,0.834l-5,-0c-0.459,-0 -0.834,0.375 -0.834,0.833l0,8.333c0,0.459 0.375,0.834 0.834,0.834l5,-0c0.458,-0 0.833,-0.375 0.833,-0.834l0,-8.333c0,-0.458 -0.375,-0.833 -0.833,-0.833Zm-0.834,7.5l-3.333,-0l0,-5.834l3.333,0l0,5.834Z' style='fill-rule:nonzero;'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
 );
 
-// Subscriptions
+// Discord Nitro
 @include icon-normal(
   user-settings-cog-Discord_Nitro,
-  url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg width='100%25' height='100%25' viewBox='0 0 24 24' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Crect id='Filled' x='0' y='0' width='24' height='24' style='fill:none;'/%3E%3Cg id='Filled1' serif:id='Filled'%3E%3Cg id='Context'%3E%3Cpath d='M17.769,18.37c3.684,-1.647 5.235,-5.828 3.555,-9.312c-1.163,-2.471 -3.619,-3.928 -6.204,-4.055l-7.303,0c-0.647,0 -1.099,0.507 -1.099,1.077c-0,0.634 0.517,1.077 1.099,1.077l1.874,0c0.388,0 0.711,0.317 0.711,0.697c-0,0.38 -0.323,0.697 -0.711,0.697l-4.589,-0c-0.388,-0 -0.711,0.317 -0.711,0.697c0,0.38 0.323,0.697 0.711,0.697l3.296,-0c0.388,-0 0.711,0.316 0.711,0.697c0,0.38 -0.323,0.696 -0.711,0.696l-2.068,0c-0.388,0 -0.711,0.317 -0.711,0.697c0,0.38 0.323,0.697 0.711,0.697l1.422,0c0.065,0.76 0.259,1.521 0.582,2.217c1.615,3.485 5.881,5.005 9.435,3.421Zm-6.614,-4.718c-0.938,-2.004 -0.042,-4.373 2.001,-5.293c2.044,-0.92 4.461,-0.042 5.4,1.962c0.938,2.003 0.042,4.372 -2.002,5.292c-2.043,0.92 -4.461,0.042 -5.399,-1.961Zm5.257,-3.961l1.293,2.154c0.064,0.127 0.064,0.19 -0,0.317l-1.293,2.154c-0.064,0.127 -0.194,0.127 -0.258,0.127l-2.521,-0c-0.129,-0 -0.194,-0.064 -0.258,-0.127l-1.293,-2.154c-0.064,-0.127 -0.064,-0.19 0,-0.317l1.293,-2.154c0.064,-0.126 0.194,-0.126 0.258,-0.126l2.521,-0c0.129,-0.064 0.194,-0 0.258,0.126Zm-13.313,0.254c0.388,-0 0.711,-0.317 0.711,-0.697c-0,-0.38 -0.323,-0.697 -0.711,-0.697l-0.388,-0c-0.388,-0 -0.711,0.317 -0.711,0.697c0,0.38 0.323,0.697 0.711,0.697l0.388,-0Z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
+  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:serif='http://www.serif.com/' width='100%25' height='100%25' viewBox='0 0 24 24' version='1.1' xml:space='preserve' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Crect id='Filled' x='0' y='0' width='24' height='24' style='fill:none;'/%3E%3Cg id='Filled1' serif:id='Filled'%3E%3Cg transform='matrix(1.30968,0,0,1.30968,-1.09134,2.41314)'%3E%3Cpath d='M1.84,5.437C2.195,5.437 2.491,5.147 2.491,4.798C2.491,4.45 2.195,4.16 1.84,4.16L1.485,4.16C1.129,4.16 0.833,4.45 0.833,4.798C0.833,5.147 1.129,5.437 1.485,5.437L1.84,5.437ZM15.282,13.157C18.657,11.648 20.078,7.817 18.539,4.624C17.473,2.36 15.223,1.025 12.854,0.909L6.163,0.909C5.571,0.909 5.156,1.374 5.156,1.896C5.156,2.476 5.63,2.883 6.163,2.883L7.88,2.883C8.235,2.883 8.531,3.173 8.531,3.521C8.531,3.869 8.235,4.16 7.88,4.16L3.676,4.16C3.32,4.16 3.024,4.45 3.024,4.798C3.024,5.147 3.32,5.437 3.676,5.437L6.696,5.437C7.051,5.437 7.347,5.727 7.347,6.075C7.347,6.424 7.051,6.714 6.696,6.714L4.801,6.714C4.445,6.714 4.149,7.004 4.149,7.352C4.149,7.701 4.445,7.991 4.801,7.991L6.104,7.991C6.163,8.687 6.34,9.384 6.637,10.022C8.117,13.215 12.025,14.608 15.282,13.157ZM9.222,8.833C8.362,6.998 9.183,4.827 11.055,3.984C12.928,3.141 15.143,3.946 16.002,5.781C16.862,7.617 16.041,9.788 14.169,10.631C12.296,11.473 10.081,10.669 9.222,8.833Z'/%3E%3C/g%3E%3Cg transform='matrix(1.30968,0,0,1.30968,-1.09134,2.41314)'%3E%3Cpath d='M14.039,5.205L15.223,7.178C15.282,7.294 15.282,7.352 15.223,7.468L14.039,9.442C13.979,9.558 13.861,9.558 13.802,9.558L11.492,9.558C11.374,9.558 11.315,9.5 11.255,9.442L10.071,7.468C10.012,7.352 10.012,7.294 10.071,7.178L11.255,5.205C11.315,5.089 11.433,5.089 11.492,5.089L13.802,5.089C13.932,5.089 13.979,5.089 14.039,5.205Z' style='fill-rule:nonzero;'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
+);
+
+// Subscriptions
+@include icon-normal(
+  user-settings-cog-Subscriptions,
+  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 0 24 24' width='24px' fill='%23000000'%3E%3Cpath d='M0 0h24v24H0V0z' fill='none'/%3E%3Cpath d='M20 4H4c-1.11 0-1.99.89-1.99 2L2 18c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V6c0-1.11-.89-2-2-2zm-1 14H5c-.55 0-1-.45-1-1v-5h16v5c0 .55-.45 1-1 1zm1-10H4V7c0-.55.45-1 1-1h14c.55 0 1 .45 1 1v1z'/%3E%3C/svg%3E")
 );
 
 // Server Boost
@@ -1430,7 +1503,7 @@
 // Billing
 @include icon-normal(
   user-settings-cog-Billing,
-  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 0 24 24' width='24px' fill='%23000000'%3E%3Cpath d='M0 0h24v24H0V0z' fill='none'/%3E%3Cpath d='M20 4H4c-1.11 0-1.99.89-1.99 2L2 18c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V6c0-1.11-.89-2-2-2zm-1 14H5c-.55 0-1-.45-1-1v-5h16v5c0 .55-.45 1-1 1zm1-10H4V6h16v2z'/%3E%3C/svg%3E")
+  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' enable-background='new 0 0 24 24' height='24px' viewBox='0 0 24 24' width='24px' fill='%23000000'%3E%3Cg%3E%3Cpath d='M0,0v24h24V0H0z M1,13V7c0-1.66,1.34-3,3-3h12c1.66,0,3,1.34,3,3v7c0,1.1-0.9,2-2,2H4C2.34,16,1,14.66,1,13z M23,18c0,1.1-0.9,2-2,2H5c-0.55,0-1-0.45-1-1c0-0.55,0.45-1,1-1h16V8c0-0.55,0.45-1,1-1s1,0.45,1,1V18z' fill='none'/%3E%3Cpath d='M23,8v10c0,1.1-0.9,2-2,2H5c-0.55,0-1-0.45-1-1c0-0.55,0.45-1,1-1h16V8c0-0.55,0.45-1,1-1S23,7.45,23,8z M4,16 c-1.66,0-3-1.34-3-3V7c0-1.66,1.34-3,3-3h12c1.66,0,3,1.34,3,3v7c0,1.1-0.9,2-2,2H4z M7,10c0,1.66,1.34,3,3,3s3-1.34,3-3 s-1.34-3-3-3S7,8.34,7,10z'/%3E%3C/g%3E%3C/svg%3E")
 );
 
 // Appearance
@@ -1442,7 +1515,7 @@
 // Accessibility
 @include icon-normal(
   user-settings-cog-Accessibility,
-  url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg width='100%25' height='100%25' viewBox='0 0 24 24' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Crect id='Filled' x='0' y='0' width='24' height='24' style='fill:none;'/%3E%3Cg id='Filled1' serif:id='Filled'%3E%3Cg id='Context'%3E%3Cpath d='M21.874,4.903l-13.626,0l-0,-1.901c-0,-0.888 -1.086,-1.333 -1.703,-0.715l-3.728,3.752c-0.395,0.395 -0.395,1.012 0,1.407l3.728,3.752c0.641,0.642 1.703,0.197 1.703,-0.716l-0,-1.876l13.626,-0l-0,-3.703Zm-0.691,11.627l-3.728,-3.752c-0.641,-0.642 -1.703,-0.198 -1.703,0.715l0,1.901l-13.626,0l0,3.703l13.626,-0l0,1.901c0,0.888 1.086,1.333 1.703,0.715l3.728,-3.752c0.395,-0.395 0.395,-1.036 -0,-1.431Z' style='fill-rule:nonzero;'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
+  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 0 24 24' width='24px' fill='%23000000'%3E%3Cpath d='M0 0h24v24H0V0z' fill='none'/%3E%3Cpath d='M20.75 6.99c-.14-.55-.69-.87-1.24-.75-2.38.53-5.03.76-7.51.76s-5.13-.23-7.51-.76c-.55-.12-1.1.2-1.24.75-.14.56.2 1.13.75 1.26 1.61.36 3.35.61 5 .75v12c0 .55.45 1 1 1s1-.45 1-1v-5h2v5c0 .55.45 1 1 1s1-.45 1-1V9c1.65-.14 3.39-.39 4.99-.75.56-.13.9-.7.76-1.26zM12 6c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z'/%3E%3C/svg%3E")
 );
 
 // Voice & Video
@@ -1454,13 +1527,13 @@
 // Text & Images
 @include icon-normal(
   user-settings-cog-Text___Images,
-  url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg width='100%25' height='100%25' viewBox='0 0 24 24' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Crect id='Filled' x='0' y='0' width='24' height='24' style='fill:none;'/%3E%3Cg id='Filled1' serif:id='Filled'%3E%3Cg id='Context'%3E%3Cpath d='M21.874,4.903l-13.626,0l-0,-1.901c-0,-0.888 -1.086,-1.333 -1.703,-0.715l-3.728,3.752c-0.395,0.395 -0.395,1.012 0,1.407l3.728,3.752c0.641,0.642 1.703,0.197 1.703,-0.716l-0,-1.876l13.626,-0l-0,-3.703Zm-0.691,11.627l-3.728,-3.752c-0.641,-0.642 -1.703,-0.198 -1.703,0.715l0,1.901l-13.626,0l0,3.703l13.626,-0l0,1.901c0,0.888 1.086,1.333 1.703,0.715l3.728,-3.752c0.395,-0.395 0.395,-1.036 -0,-1.431Z' style='fill-rule:nonzero;'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
+  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 0 24 24' width='24px' fill='%23000000'%3E%3Cpath d='M0 0h24v24H0V0z' fill='none'/%3E%3Cpath d='M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM5.63 13.19l2.49-3.2c.2-.25.58-.26.78-.01l2.1 2.53 3.1-3.99c.2-.26.6-.26.8.01l3.51 4.68c.25.33.01.8-.4.8H6.02c-.41-.01-.65-.49-.39-.82z'/%3E%3C/svg%3E")
 );
 
 // Notifications
 @include icon-normal(
   user-settings-cog-Notifications,
-  url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg width='100%25' height='100%25' viewBox='0 0 24 24' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Crect id='Filled' x='0' y='0' width='24' height='24' style='fill:none;'/%3E%3Cg id='Filled1' serif:id='Filled'%3E%3Cg id='Context'%3E%3Cpath d='M12,22c1.023,-0 1.851,-0.828 1.851,-1.851l-3.702,-0c-0,1.023 0.828,1.851 1.851,1.851Zm7.712,-4.381l-1.2,-1.2l-0,-5.582c-0,-3.116 -2.196,-5.721 -5.116,-6.353l-0,-1.089c-0,-0.772 -0.624,-1.395 -1.396,-1.395c-0.772,0 -1.395,0.623 -1.395,1.395l-0,1.089c-2.921,0.632 -5.116,3.237 -5.116,6.353l-0,5.582l-1.2,1.2c-0.587,0.586 -0.177,1.59 0.651,1.59l14.111,0c0.838,0 1.247,-1.004 0.661,-1.59Zm-6.782,-2.131l-1.86,0l-0,-1.86l1.86,-0l0,1.86Zm0,-4.651c0,0.512 -0.418,0.93 -0.93,0.93c-0.511,0 -0.93,-0.418 -0.93,-0.93l-0,-1.86c-0,-0.512 0.419,-0.93 0.93,-0.93c0.512,-0 0.93,0.418 0.93,0.93l0,1.86Z' style='fill-rule:nonzero;'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
+  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 0 24 24' width='24px' fill='%23000000'%3E%3Cpath d='M0 0h24v24H0V0z' fill='none'/%3E%3Cpath d='M12 22c1.1 0 2-.9 2-2h-4c0 1.1.89 2 2 2zm6-6v-5c0-3.07-1.64-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.63 5.36 6 7.92 6 11v5l-1.29 1.29c-.63.63-.19 1.71.7 1.71h13.17c.89 0 1.34-1.08.71-1.71L18 16z'/%3E%3C/svg%3E")
 );
 
 // Keybinds
@@ -1490,33 +1563,25 @@
 // Streamer Mode
 @include icon-normal(
   user-settings-cog-Streamer_Mode,
-  url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg width='100%25' height='100%25' viewBox='0 0 24 24' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Crect id='Filled' x='0' y='0' width='24' height='24' style='fill:none;'/%3E%3Cg id='Filled1' serif:id='Filled'%3E%3Cg id='Context'%3E%3Cpath id='video_call' d='M17.556,10.333l-0,-3.889c-0,-0.611 -0.5,-1.111 -1.112,-1.111l-13.333,0c-0.611,0 -1.111,0.5 -1.111,1.111l-0,11.112c-0,0.611 0.5,1.111 1.111,1.111l13.333,-0c0.612,-0 1.112,-0.5 1.112,-1.111l-0,-3.889l2.544,2.544c0.7,0.7 1.9,0.2 1.9,-0.789l0,-6.855c0,-0.989 -1.2,-1.489 -1.9,-0.789l-2.544,2.555Z' style='fill-rule:nonzero;'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
+  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 0 24 24' width='24px' fill='%23000000'%3E%3Cpath d='M17 10.5V7c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1v-3.5l2.29 2.29c.63.63 1.71.18 1.71-.71V8.91c0-.89-1.08-1.34-1.71-.71L17 10.5z'/%3E%3C/svg%3E")
 );
-
-
-
-
-
-
-
-
 
 // Advanced
 @include icon-normal(
   user-settings-cog-Advanced,
-  url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg width='100%25' height='100%25' viewBox='0 0 24 24' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Crect id='Filled' x='0' y='0' width='24' height='24' style='fill:none;'/%3E%3Cg id='Filled1' serif:id='Filled'%3E%3Cg id='Context'%3E%3Cpath d='M21.874,4.903l-13.626,0l-0,-1.901c-0,-0.888 -1.086,-1.333 -1.703,-0.715l-3.728,3.752c-0.395,0.395 -0.395,1.012 0,1.407l3.728,3.752c0.641,0.642 1.703,0.197 1.703,-0.716l-0,-1.876l13.626,-0l-0,-3.703Zm-0.691,11.627l-3.728,-3.752c-0.641,-0.642 -1.703,-0.198 -1.703,0.715l0,1.901l-13.626,0l0,3.703l13.626,-0l0,1.901c0,0.888 1.086,1.333 1.703,0.715l3.728,-3.752c0.395,-0.395 0.395,-1.036 -0,-1.431Z' style='fill-rule:nonzero;'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
+  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' enable-background='new 0 0 24 24' height='24px' viewBox='0 0 24 24' width='24px' fill='%23000000'%3E%3Crect fill='none' height='24' width='24'/%3E%3Cpath d='M19.5,12c0-0.23-0.01-0.45-0.03-0.68l1.86-1.41c0.4-0.3,0.51-0.86,0.26-1.3l-1.87-3.23c-0.25-0.44-0.79-0.62-1.25-0.42 l-2.15,0.91c-0.37-0.26-0.76-0.49-1.17-0.68l-0.29-2.31C14.8,2.38,14.37,2,13.87,2h-3.73C9.63,2,9.2,2.38,9.14,2.88L8.85,5.19 c-0.41,0.19-0.8,0.42-1.17,0.68L5.53,4.96c-0.46-0.2-1-0.02-1.25,0.42L2.41,8.62c-0.25,0.44-0.14,0.99,0.26,1.3l1.86,1.41 C4.51,11.55,4.5,11.77,4.5,12s0.01,0.45,0.03,0.68l-1.86,1.41c-0.4,0.3-0.51,0.86-0.26,1.3l1.87,3.23c0.25,0.44,0.79,0.62,1.25,0.42 l2.15-0.91c0.37,0.26,0.76,0.49,1.17,0.68l0.29,2.31C9.2,21.62,9.63,22,10.13,22h3.73c0.5,0,0.93-0.38,0.99-0.88l0.29-2.31 c0.41-0.19,0.8-0.42,1.17-0.68l2.15,0.91c0.46,0.2,1,0.02,1.25-0.42l1.87-3.23c0.25-0.44,0.14-0.99-0.26-1.3l-1.86-1.41 C19.49,12.45,19.5,12.23,19.5,12z M12.04,15.5c-1.93,0-3.5-1.57-3.5-3.5s1.57-3.5,3.5-3.5s3.5,1.57,3.5,3.5S13.97,15.5,12.04,15.5z'/%3E%3C/svg%3E")
 );
 
 // Activity Status
 @include icon-normal(
   user-settings-cog-Game_Activity,
-  url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg width='100%25' height='100%25' viewBox='0 0 24 24' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Crect id='Filled' x='0' y='0' width='24' height='24' style='fill:none;'/%3E%3Cg id='Filled1' serif:id='Filled'%3E%3Cg id='Context'%3E%3Cpath d='M21.874,4.903l-13.626,0l-0,-1.901c-0,-0.888 -1.086,-1.333 -1.703,-0.715l-3.728,3.752c-0.395,0.395 -0.395,1.012 0,1.407l3.728,3.752c0.641,0.642 1.703,0.197 1.703,-0.716l-0,-1.876l13.626,-0l-0,-3.703Zm-0.691,11.627l-3.728,-3.752c-0.641,-0.642 -1.703,-0.198 -1.703,0.715l0,1.901l-13.626,0l0,3.703l13.626,-0l0,1.901c0,0.888 1.086,1.333 1.703,0.715l3.728,-3.752c0.395,-0.395 0.395,-1.036 -0,-1.431Z' style='fill-rule:nonzero;'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
+  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 0 24 24' width='24px' fill='%23000000'%3E%3Cpath d='M15 7.29V3c0-.55-.45-1-1-1h-4c-.55 0-1 .45-1 1v4.29c0 .13.05.26.15.35l2.5 2.5c.2.2.51.2.71 0l2.5-2.5c.09-.09.14-.21.14-.35zM7.29 9H3c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1h4.29c.13 0 .26-.05.35-.15l2.5-2.5c.2-.2.2-.51 0-.71l-2.5-2.5C7.55 9.05 7.43 9 7.29 9zM9 16.71V21c0 .55.45 1 1 1h4c.55 0 1-.45 1-1v-4.29c0-.13-.05-.26-.15-.35l-2.5-2.5c-.2-.2-.51-.2-.71 0l-2.5 2.5c-.09.09-.14.21-.14.35zm7.35-7.56l-2.5 2.5c-.2.2-.2.51 0 .71l2.5 2.5c.09.09.22.15.35.15H21c.55 0 1-.45 1-1v-4c0-.55-.45-1-1-1h-4.29c-.14-.01-.26.04-.36.14z'/%3E%3C/svg%3E")
 );
 
 // Game Overlay
 @include icon-normal(
   user-settings-cog-Overlay,
-  url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg width='100%25' height='100%25' viewBox='0 0 24 24' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Crect id='Filled' x='0' y='0' width='24' height='24' style='fill:none;'/%3E%3Cg id='Filled1' serif:id='Filled'%3E%3Cg id='Context'%3E%3Cpath d='M21.874,4.903l-13.626,0l-0,-1.901c-0,-0.888 -1.086,-1.333 -1.703,-0.715l-3.728,3.752c-0.395,0.395 -0.395,1.012 0,1.407l3.728,3.752c0.641,0.642 1.703,0.197 1.703,-0.716l-0,-1.876l13.626,-0l-0,-3.703Zm-0.691,11.627l-3.728,-3.752c-0.641,-0.642 -1.703,-0.198 -1.703,0.715l0,1.901l-13.626,0l0,3.703l13.626,-0l0,1.901c0,0.888 1.086,1.333 1.703,0.715l3.728,-3.752c0.395,-0.395 0.395,-1.036 -0,-1.431Z' style='fill-rule:nonzero;'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
+  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 0 24 24' width='24px' fill='%23000000'%3E%3Cpath d='M0 0h24v24H0V0z' fill='none'/%3E%3Cpath d='M12.6 18.06c-.36.28-.87.28-1.23 0l-6.15-4.78c-.36-.28-.86-.28-1.22 0-.51.4-.51 1.17 0 1.57l6.76 5.26c.72.56 1.73.56 2.46 0l6.76-5.26c.51-.4.51-1.17 0-1.57l-.01-.01c-.36-.28-.86-.28-1.22 0l-6.15 4.79zm.63-3.02l6.76-5.26c.51-.4.51-1.18 0-1.58l-6.76-5.26c-.72-.56-1.73-.56-2.46 0L4.01 8.21c-.51.4-.51 1.18 0 1.58l6.76 5.26c.72.56 1.74.56 2.46-.01z'/%3E%3C/svg%3E")
 );
 
 // Powercord
@@ -1528,23 +1593,57 @@
 // Change Log
 @include icon-normal(
   user-settings-cog-changelog,
-  url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg width='100%25' height='100%25' viewBox='0 0 24 24' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Crect id='Filled' x='0' y='0' width='24' height='24' style='fill:none;'/%3E%3Cg id='Filled1' serif:id='Filled'%3E%3Cg id='Context'%3E%3Cpath d='M21.874,4.903l-13.626,0l-0,-1.901c-0,-0.888 -1.086,-1.333 -1.703,-0.715l-3.728,3.752c-0.395,0.395 -0.395,1.012 0,1.407l3.728,3.752c0.641,0.642 1.703,0.197 1.703,-0.716l-0,-1.876l13.626,-0l-0,-3.703Zm-0.691,11.627l-3.728,-3.752c-0.641,-0.642 -1.703,-0.198 -1.703,0.715l0,1.901l-13.626,0l0,3.703l13.626,-0l0,1.901c0,0.888 1.086,1.333 1.703,0.715l3.728,-3.752c0.395,-0.395 0.395,-1.036 -0,-1.431Z' style='fill-rule:nonzero;'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
+  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' enable-background='new 0 0 24 24' height='24px' viewBox='0 0 24 24' width='24px' fill='%23000000'%3E%3Cg%3E%3Crect fill='none' height='24' width='24'/%3E%3C/g%3E%3Cg%3E%3Cg%3E%3Cpath d='M11,8.75v3.68c0,0.35,0.19,0.68,0.49,0.86l3.12,1.85c0.36,0.21,0.82,0.09,1.03-0.26c0.21-0.36,0.1-0.82-0.26-1.03 l-2.87-1.71v-3.4C12.5,8.34,12.16,8,11.75,8S11,8.34,11,8.75z M21,9.5V4.21c0-0.45-0.54-0.67-0.85-0.35l-1.78,1.78 c-1.81-1.81-4.39-2.85-7.21-2.6c-4.19,0.38-7.64,3.75-8.1,7.94C2.46,16.4,6.69,21,12,21c4.59,0,8.38-3.44,8.93-7.88 c0.07-0.6-0.4-1.12-1-1.12c-0.5,0-0.92,0.37-0.98,0.86c-0.43,3.49-3.44,6.19-7.05,6.14c-3.71-0.05-6.84-3.18-6.9-6.9 C4.94,8.2,8.11,5,12,5c1.93,0,3.68,0.79,4.95,2.05l-2.09,2.09C14.54,9.46,14.76,10,15.21,10h5.29C20.78,10,21,9.78,21,9.5z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
 );
 
 // HypeSquad
 @include icon-normal(
   user-settings-cog-Hypesquad_Online,
-  url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg width='100%25' height='100%25' viewBox='0 0 24 24' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Crect id='Filled' x='0' y='0' width='24' height='24' style='fill:none;'/%3E%3Cg id='Filled1' serif:id='Filled'%3E%3Cg id='Context'%3E%3Cpath d='M21.874,4.903l-13.626,0l-0,-1.901c-0,-0.888 -1.086,-1.333 -1.703,-0.715l-3.728,3.752c-0.395,0.395 -0.395,1.012 0,1.407l3.728,3.752c0.641,0.642 1.703,0.197 1.703,-0.716l-0,-1.876l13.626,-0l-0,-3.703Zm-0.691,11.627l-3.728,-3.752c-0.641,-0.642 -1.703,-0.198 -1.703,0.715l0,1.901l-13.626,0l0,3.703l13.626,-0l0,1.901c0,0.888 1.086,1.333 1.703,0.715l3.728,-3.752c0.395,-0.395 0.395,-1.036 -0,-1.431Z' style='fill-rule:nonzero;'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
+  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='black' d='m 23.988076,4.0407257 -4.020135,7.7588623 c -0.05567,0.147956 0.01528,0.313482 0.160804,0.375213 h 2.532686 c 0.154403,0.01365 0.265061,0.155051 0.241208,0.308211 0.0011,0.07406 -0.03389,0.144041 -0.0938,0.187607 L 12.19568,20.335677 c -0.100799,0.05243 -0.220819,0.05243 -0.321611,0 L 1.2073048,12.684018 c -0.1055339,-0.11322 -0.1055339,-0.288786 0,-0.402014 v 0 c 0.046769,-0.04879 0.1077235,-0.08162 0.1742059,-0.0938 h 2.3718807 c 0.162819,0 0.29481,-0.131994 0.29481,-0.29481 v 0 -0.0938 L 0.02806482,4.0407257 c -0.067899,-0.1444542 -0.0085,-0.3167117 0.1340046,-0.3886131 0.059633,-0.026948 0.127973,-0.026948 0.1876063,0 L 9.8907994,9.9101245 c 0.1746236,0.09447 0.3117316,0.2457635 0.3886126,0.4288145 l 1.46065,2.9213 c 0.06036,0.132342 0.219144,0.187311 0.34841,0.120604 0.05616,-0.02522 0.103024,-0.06739 0.134006,-0.120604 l 1.407047,-2.9079 c 0.09676,-0.169537 0.22939,-0.315887 0.388613,-0.4288145 l 9.541123,-6.2714119 c 0.140608,-0.066801 0.308733,-0.0067 0.375213,0.1340045 v 0 c 0.06062,0.069924 0.0809,0.1661763 0.0536,0.2546086 z'/%3E%3C/svg%3E")
 );
 
 // Experiments
 @include icon-normal(
   user-settings-cog-Experiments,
-  url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg width='100%25' height='100%25' viewBox='0 0 24 24' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Crect id='Filled' x='0' y='0' width='24' height='24' style='fill:none;'/%3E%3Cg id='Filled1' serif:id='Filled'%3E%3Cg id='Context'%3E%3Cpath d='M21.874,4.903l-13.626,0l-0,-1.901c-0,-0.888 -1.086,-1.333 -1.703,-0.715l-3.728,3.752c-0.395,0.395 -0.395,1.012 0,1.407l3.728,3.752c0.641,0.642 1.703,0.197 1.703,-0.716l-0,-1.876l13.626,-0l-0,-3.703Zm-0.691,11.627l-3.728,-3.752c-0.641,-0.642 -1.703,-0.198 -1.703,0.715l0,1.901l-13.626,0l0,3.703l13.626,-0l0,1.901c0,0.888 1.086,1.333 1.703,0.715l3.728,-3.752c0.395,-0.395 0.395,-1.036 -0,-1.431Z' style='fill-rule:nonzero;'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
+  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' enable-background='new 0 0 24 24' height='24px' viewBox='0 0 24 24' width='24px' fill='%23000000'%3E%3Crect fill='none' height='24' width='24'/%3E%3Cpath d='M20.54,17.73L15,11V5h1c0.55,0,1-0.45,1-1s-0.45-1-1-1H8C7.45,3,7,3.45,7,4s0.45,1,1,1h1v6l-5.54,6.73 C3.14,18.12,3,18.56,3,19c0.01,1.03,0.82,2,2,2H19c1.19,0,2-0.97,2-2C21,18.56,20.86,18.12,20.54,17.73z'/%3E%3C/svg%3E")
 );
 
 // Developer Options
 @include icon-normal(
   user-settings-cog-Developer_Options,
-  url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg width='100%25' height='100%25' viewBox='0 0 24 24' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Crect id='Filled' x='0' y='0' width='24' height='24' style='fill:none;'/%3E%3Cg id='Filled1' serif:id='Filled'%3E%3Cg id='Context'%3E%3Cpath d='M21.874,4.903l-13.626,0l-0,-1.901c-0,-0.888 -1.086,-1.333 -1.703,-0.715l-3.728,3.752c-0.395,0.395 -0.395,1.012 0,1.407l3.728,3.752c0.641,0.642 1.703,0.197 1.703,-0.716l-0,-1.876l13.626,-0l-0,-3.703Zm-0.691,11.627l-3.728,-3.752c-0.641,-0.642 -1.703,-0.198 -1.703,0.715l0,1.901l-13.626,0l0,3.703l13.626,-0l0,1.901c0,0.888 1.086,1.333 1.703,0.715l3.728,-3.752c0.395,-0.395 0.395,-1.036 -0,-1.431Z' style='fill-rule:nonzero;'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
+  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 0 24 24' width='24px' fill='%23000000'%3E%3Cpath d='M0 0h24v24H0V0z' fill='none'/%3E%3Cpath d='M8.7 15.9L4.8 12l3.9-3.9c.39-.39.39-1.01 0-1.4-.39-.39-1.01-.39-1.4 0l-4.59 4.59c-.39.39-.39 1.02 0 1.41l4.59 4.6c.39.39 1.01.39 1.4 0 .39-.39.39-1.01 0-1.4zm6.6 0l3.9-3.9-3.9-3.9c-.39-.39-.39-1.01 0-1.4.39-.39 1.01-.39 1.4 0l4.59 4.59c.39.39.39 1.02 0 1.41l-4.59 4.6c-.39.39-1.01.39-1.4 0-.39-.39-.39-1.01 0-1.4z'/%3E%3C/svg%3E")
+);
+
+// Hotspot Options
+@include icon-normal(
+  user-settings-cog-Hotspot_Options,
+  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 0 24 24' width='24px' fill='%23000000'%3E%3Cpath d='M0 0h24v24H0V0z' fill='none'/%3E%3Cpath d='M3 18c0 .55.45 1 1 1h5v-2H4c-.55 0-1 .45-1 1zM3 6c0 .55.45 1 1 1h9V5H4c-.55 0-1 .45-1 1zm10 14v-1h7c.55 0 1-.45 1-1s-.45-1-1-1h-7v-1c0-.55-.45-1-1-1s-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1zM7 10v1H4c-.55 0-1 .45-1 1s.45 1 1 1h3v1c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1s-1 .45-1 1zm14 2c0-.55-.45-1-1-1h-9v2h9c.55 0 1-.45 1-1zm-5-3c.55 0 1-.45 1-1V7h3c.55 0 1-.45 1-1s-.45-1-1-1h-3V4c0-.55-.45-1-1-1s-1 .45-1 1v4c0 .55.45 1 1 1z'/%3E%3C/svg%3E")
+);
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Icons                    ║ Study Hub                                                                               ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Edit Settings
+@include icon-normal(
+  guild-entry-context-update-entry,
+  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' enable-background='new 0 0 24 24' height='24px' viewBox='0 0 24 24' width='24px' fill='%23000000'%3E%3Crect fill='none' height='24' width='24'/%3E%3Cpath d='M19.5,12c0-0.23-0.01-0.45-0.03-0.68l1.86-1.41c0.4-0.3,0.51-0.86,0.26-1.3l-1.87-3.23c-0.25-0.44-0.79-0.62-1.25-0.42 l-2.15,0.91c-0.37-0.26-0.76-0.49-1.17-0.68l-0.29-2.31C14.8,2.38,14.37,2,13.87,2h-3.73C9.63,2,9.2,2.38,9.14,2.88L8.85,5.19 c-0.41,0.19-0.8,0.42-1.17,0.68L5.53,4.96c-0.46-0.2-1-0.02-1.25,0.42L2.41,8.62c-0.25,0.44-0.14,0.99,0.26,1.3l1.86,1.41 C4.51,11.55,4.5,11.77,4.5,12s0.01,0.45,0.03,0.68l-1.86,1.41c-0.4,0.3-0.51,0.86-0.26,1.3l1.87,3.23c0.25,0.44,0.79,0.62,1.25,0.42 l2.15-0.91c0.37,0.26,0.76,0.49,1.17,0.68l0.29,2.31C9.2,21.62,9.63,22,10.13,22h3.73c0.5,0,0.93-0.38,0.99-0.88l0.29-2.31 c0.41-0.19,0.8-0.42,1.17-0.68l2.15,0.91c0.46,0.2,1,0.02,1.25-0.42l1.87-3.23c0.25-0.44,0.14-0.99-0.26-1.3l-1.86-1.41 C19.49,12.45,19.5,12.23,19.5,12z M12.04,15.5c-1.93,0-3.5-1.57-3.5-3.5s1.57-3.5,3.5-3.5s3.5,1.57,3.5,3.5S13.97,15.5,12.04,15.5z'/%3E%3C/svg%3E")
+);
+
+// Remove from Hub
+@include icon-normal(
+  guild-entry-context-remove-from-hub,
+  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 0 24 24' width='24px' fill='%23000000'%3E%3Cpath d='M0 0h24v24H0V0z' fill='none'/%3E%3Cpath d='M7 12c0 .55.45 1 1 1h8c.55 0 1-.45 1-1s-.45-1-1-1H8c-.55 0-1 .45-1 1zm5-10C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z'/%3E%3C/svg%3E")
+);
+
+// Report Server
+@include icon-normal(
+  guild-entry-context-report-server-listing,
+  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 0 24 24' width='24px' fill='%23000000'%3E%3Cpath d='M0 0h24v24H0V0z' fill='none'/%3E%3Cpath d='M14.4 6l-.24-1.2c-.09-.46-.5-.8-.98-.8H6c-.55 0-1 .45-1 1v15c0 .55.45 1 1 1s1-.45 1-1v-6h5.6l.24 1.2c.09.47.5.8.98.8H19c.55 0 1-.45 1-1V7c0-.55-.45-1-1-1h-4.6z'/%3E%3C/svg%3E")
+);
+
+// Copy ID
+@include icon-normal(
+  guild-entry-context-devmode-copy-id,
+  url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg width='100%25' height='100%25' viewBox='0 0 24 24' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Crect id='Filled' x='0' y='0' width='24' height='24' style='fill:none;'/%3E%3Cg id='Filled1' serif:id='Filled'%3E%3Cg id='Context'%3E%3Cpath id='id' d='M5.384,4.365c0.221,-0 0.4,0.179 0.4,0.4c0,2.15 0,12.32 0,14.47c0,0.221 -0.179,0.4 -0.4,0.4c-0.727,0 -2.257,0 -2.984,0c-0.221,0 -0.4,-0.179 -0.4,-0.4c-0,-2.15 -0,-12.32 -0,-14.47c0,-0.221 0.179,-0.4 0.4,-0.4c0.727,-0 2.257,-0 2.984,-0Zm8.538,-0c5.312,-0 8.078,3.076 8.078,7.613c0,4.537 -2.833,7.657 -7.989,7.657l-4.956,0c-0.221,0 -0.4,-0.179 -0.4,-0.4c-0,-2.15 -0,-12.32 -0,-14.47c-0,-0.221 0.179,-0.4 0.4,-0.4c1.229,-0 4.867,-0 4.867,-0Zm-0.111,12.327c2.7,-0 4.382,-1.417 4.382,-4.692c0,-3.209 -1.792,-4.692 -4.382,-4.692l-0.972,0c-0.221,0 -0.4,0.179 -0.4,0.4c0,1.536 0,7.048 0,8.584c0,0.221 0.179,0.4 0.4,0.4c0.405,-0 0.972,-0 0.972,-0Z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
 );

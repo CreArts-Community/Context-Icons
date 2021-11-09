@@ -67,6 +67,10 @@
 @include danger-background-normal(user-context-voice-deafen);
 @include danger-background-normal(undefined-delete);
 @include danger-background-normal(message-report);
+@include danger-background-normal(message-remove-reactions);
+@include danger-background-normal(guild-settings-role-context-delete-role);
+@include danger-background-normal(guild-entry-context-remove-from-hub);
+@include danger-background-normal(guild-entry-context-report-server-listing);
 
 // Hover
 @include danger-background-hover(message-delete);
@@ -84,6 +88,10 @@
 @include danger-background-hover(user-context-voice-deafen);
 @include danger-background-hover(undefined-delete);
 @include danger-background-hover(message-report);
+@include danger-background-hover(message-remove-reactions);
+@include danger-background-hover(guild-settings-role-context-delete-role);
+@include danger-background-hover(guild-entry-context-remove-from-hub);
+@include danger-background-hover(guild-entry-context-report-server-listing);
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Base                     ║ Danger Icon                                                                             ║
@@ -105,7 +113,10 @@
 @include danger-icon-normal(user-context-voice-deafen);
 @include danger-icon-normal(undefined-delete);
 @include danger-icon-normal(message-report);
-
+@include danger-icon-normal(message-remove-reactions);
+@include danger-icon-normal(guild-settings-role-context-delete-role);
+@include danger-icon-normal(guild-entry-context-remove-from-hub);
+@include danger-icon-normal(guild-entry-context-report-server-listing);
 
 // Hover
 @include danger-icon-hover(message-delete);
@@ -123,3 +134,7 @@
 @include danger-icon-hover(user-context-voice-deafen);
 @include danger-icon-hover(undefined-delete);
 @include danger-icon-hover(message-report);
+@include danger-icon-hover(message-remove-reactions);
+@include danger-icon-hover(guild-settings-role-context-delete-role);
+@include danger-icon-hover(guild-entry-context-remove-from-hub);
+@include danger-icon-hover(guild-entry-context-report-server-listing);

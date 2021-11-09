@@ -1,5 +1,5 @@
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Filled                   ║ Mixins                                                                                  ║
+// ║ Powercord                ║ Mixins                                                                                  ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Context Icon (Normal)
@@ -30,6 +30,20 @@
   }
 }
 
+// Context Icon (Addition)
+@mixin icon-addition($item-id, $url, $status:"") {
+  @if $status != "" {
+    .item-1tOPte[id*=#{$item-id}][aria-checked="#{$status}"]::before {
+      --icon: #{$url};
+    }
+  }
+  @else {
+    .item-1tOPte[id*=#{$item-id}]::before {
+        --icon: #{$url};
+    }
+  }
+}
+
 // Slider
 @mixin icon-slider($item-id, $url) {
   ##{$item-id} .sliderContainer-2Nrll8::before {
@@ -39,10 +53,117 @@
 }
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Filled                   ║ Spotify Modal (Powercord Plugin)                                                        ║
+// ║ Powercord                ║ Settings (Plugins)                                                                      ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
+// Open Plugins Folder
+@include icon-addition(
+  item-0-0-1,
+  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 0 24 24' width='24px' fill='%23000000'%3E%3Cpath d='M0 0h24v24H0V0z' fill='none'/%3E%3Cpath d='M10.59 4.59C10.21 4.21 9.7 4 9.17 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2h-8l-1.41-1.41z'/%3E%3C/svg%3E")
+);
 
+// Load Missing Plugins
+@include icon-addition(
+  item-0-0-2,
+  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 0 24 24' width='24px' fill='%23000000'%3E%3Cpath d='M0 0h24v24H0V0z' fill='none'/%3E%3Cpath d='M17.65 6.35c-1.63-1.63-3.94-2.57-6.48-2.31-3.67.37-6.69 3.35-7.1 7.02C3.52 15.91 7.27 20 12 20c3.19 0 5.93-1.87 7.21-4.56.32-.67-.16-1.44-.9-1.44-.37 0-.72.2-.88.53-1.13 2.43-3.84 3.97-6.8 3.31-2.22-.49-4.01-2.3-4.48-4.52C5.31 9.44 8.26 6 12 6c1.66 0 3.14.69 4.22 1.78l-1.51 1.51c-.63.63-.19 1.71.7 1.71H19c.55 0 1-.45 1-1V6.41c0-.89-1.08-1.34-1.71-.71l-.64.65z'/%3E%3C/svg%3E")
+);
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Powercord                ║ Spotify Modal (Powercord Plugin)                                                        ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Devices
+@include icon-normal(
+  powercord-spotify-menu-devices,
+  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 0 24 24' width='24px' fill='%23000000'%3E%3Cpath d='M0 0h24v24H0V0z' fill='none'/%3E%3Cpath d='M4 7c0-.55.45-1 1-1h16c.55 0 1-.45 1-1s-.45-1-1-1H4c-1.1 0-2 .9-2 2v11h-.5c-.83 0-1.5.67-1.5 1.5S.67 20 1.5 20H14v-3H4V7zm19 1h-6c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h6c.55 0 1-.45 1-1V9c0-.55-.45-1-1-1zm-1 9h-4v-7h4v7z'/%3E%3C/svg%3E")
+);
+
+// Playlists
+@include icon-normal(
+  powercord-spotify-menu-playlists,
+  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 0 24 24' width='24px' fill='%23000000'%3E%3Cpath d='M14 6H4c-.55 0-1 .45-1 1s.45 1 1 1h10c.55 0 1-.45 1-1s-.45-1-1-1zm0 4H4c-.55 0-1 .45-1 1s.45 1 1 1h10c.55 0 1-.45 1-1s-.45-1-1-1zM4 16h6c.55 0 1-.45 1-1s-.45-1-1-1H4c-.55 0-1 .45-1 1s.45 1 1 1zM19 6c-1.1 0-2 .9-2 2v6.18c-.31-.11-.65-.18-1-.18-1.84 0-3.28 1.64-2.95 3.54.21 1.21 1.2 2.2 2.41 2.41 1.9.33 3.54-1.11 3.54-2.95V8h2c.55 0 1-.45 1-1s-.45-1-1-1h-2z'/%3E%3C/svg%3E")
+);
+
+// Albums
+@include icon-normal(
+  powercord-spotify-menu-albums,
+  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 0 24 24' width='24px' fill='%23000000'%3E%3Cpath d='M20 2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-3 5h-2v5.37c0 1.27-.9 2.44-2.16 2.6-1.69.23-3.11-1.25-2.8-2.95.2-1.1 1.18-1.95 2.3-2.02.63-.04 1.2.16 1.66.51V6c0-.55.45-1 1-1h2c.55 0 1 .45 1 1s-.45 1-1 1zM3 6c-.55 0-1 .45-1 1v13c0 1.1.9 2 2 2h13c.55 0 1-.45 1-1s-.45-1-1-1H5c-.55 0-1-.45-1-1V7c0-.55-.45-1-1-1z'/%3E%3C/svg%3E")
+);
+
+// Top Songs
+@include icon-normal(
+  powercord-spotify-menu-top-songs,
+  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 0 24 24' width='24px' fill='%23000000'%3E%3Cpath d='M20 2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-3 5h-2v5.37c0 1.27-.9 2.44-2.16 2.6-1.69.23-3.11-1.25-2.8-2.95.2-1.1 1.18-1.95 2.3-2.02.63-.04 1.2.16 1.66.51V6c0-.55.45-1 1-1h2c.55 0 1 .45 1 1s-.45 1-1 1zM3 6c-.55 0-1 .45-1 1v13c0 1.1.9 2 2 2h13c.55 0 1-.45 1-1s-.45-1-1-1H5c-.55 0-1-.45-1-1V7c0-.55-.45-1-1-1z'/%3E%3C/svg%3E")
+);
+
+// Songs
+@include icon-normal(
+  powercord-spotify-menu-songs,
+  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 0 24 24' width='24px' fill='%23000000'%3E%3Cpath d='M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 14.5c-2.49 0-4.5-2.01-4.5-4.5S9.51 7.5 12 7.5s4.5 2.01 4.5 4.5-2.01 4.5-4.5 4.5zm0-5.5c-.55 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z'/%3E%3C/svg%3E")
+);
+
+// Repeat Mode
+@include icon-normal(
+  powercord-spotify-menu-repeat,
+  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 0 24 24' width='24px' fill='%23000000'%3E%3Cpath d='M7 7h10v1.79c0 .45.54.67.85.35l2.79-2.79c.2-.2.2-.51 0-.71l-2.79-2.79c-.31-.31-.85-.09-.85.36V5H6c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1V7zm10 10H7v-1.79c0-.45-.54-.67-.85-.35l-2.79 2.79c-.2.2-.2.51 0 .71l2.79 2.79c.31.31.85.09.85-.36V19h11c.55 0 1-.45 1-1v-4c0-.55-.45-1-1-1s-1 .45-1 1v3z'/%3E%3C/svg%3E")
+);
+
+
+// Shuffle (True)
+@include icon-normal(
+  powercord-spotify-menu-shuffle,
+  url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg width='100%25' height='100%25' viewBox='0 0 24 24' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Crect id='Filled' x='0' y='0' width='24' height='24' style='fill:none;'/%3E%3Cg id='Filled1' serif:id='Filled'%3E%3Cg id='Context'%3E%3Cpath id='circle_checked' d='M12,2c-5.52,0 -10,4.48 -10,10c0,5.52 4.48,10 10,10c5.52,0 10,-4.48 10,-10c0,-5.52 -4.48,-10 -10,-10Zm-2.71,14.29l-3.59,-3.59c-0.39,-0.39 -0.39,-1.02 0,-1.41c0.39,-0.39 1.02,-0.39 1.41,0l2.89,2.88l6.88,-6.88c0.39,-0.39 1.02,-0.39 1.41,0c0.39,0.39 0.39,1.02 0,1.41l-7.59,7.59c-0.38,0.39 -1.02,0.39 -1.41,0Z' style='fill-rule:nonzero;'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"),
+  true
+);
+
+// Shuffle (False)
+@include icon-normal(
+  powercord-spotify-menu-shuffle,
+  url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg width='100%25' height='100%25' viewBox='0 0 24 24' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Crect id='Filled' x='0' y='0' width='24' height='24' style='fill:none;'/%3E%3Cg id='Filled1' serif:id='Filled'%3E%3Cg id='Context'%3E%3Cpath id='radio_button_unchecked' d='M12,2c-5.52,0 -10,4.48 -10,10c0,5.52 4.48,10 10,10c5.52,0 10,-4.48 10,-10c0,-5.52 -4.48,-10 -10,-10Zm0,18c-4.42,0 -8,-3.58 -8,-8c0,-4.42 3.58,-8 8,-8c4.42,0 8,3.58 8,8c0,4.42 -3.58,8 -8,8Z' style='fill-rule:nonzero;'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"),
+  false
+);
+
+// Save to Liked Songs
+@include icon-normal(
+  powercord-spotify-menu-save-liked,
+  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 0 24 24' width='24px' fill='%23000000'%3E%3Cpath d='M0 0h24v24H0V0z' fill='none'/%3E%3Cpath d='M13.35 20.13c-.76.69-1.93.69-2.69-.01l-.11-.1C5.3 15.27 1.87 12.16 2 8.28c.06-1.7.93-3.33 2.34-4.29 2.64-1.8 5.9-.96 7.66 1.1 1.76-2.06 5.02-2.91 7.66-1.1 1.41.96 2.28 2.59 2.34 4.29.14 3.88-3.3 6.99-8.55 11.76l-.1.09z'/%3E%3C/svg%3E")
+);
+
+// Save to Playlist
+@include icon-normal(
+  powercord-spotify-menu-save-playlist,
+  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 0 24 24' width='24px' fill='%23000000'%3E%3Cpath d='M13 10H3c-.55 0-1 .45-1 1s.45 1 1 1h10c.55 0 1-.45 1-1s-.45-1-1-1zm0-4H3c-.55 0-1 .45-1 1s.45 1 1 1h10c.55 0 1-.45 1-1s-.45-1-1-1zm5 8v-3c0-.55-.45-1-1-1s-1 .45-1 1v3h-3c-.55 0-1 .45-1 1s.45 1 1 1h3v3c0 .55.45 1 1 1s1-.45 1-1v-3h3c.55 0 1-.45 1-1s-.45-1-1-1h-3zM3 16h6c.55 0 1-.45 1-1s-.45-1-1-1H3c-.55 0-1 .45-1 1s.45 1 1 1z'/%3E%3C/svg%3E")
+);
+
+// Open in Spotify
+@include icon-normal(
+  powercord-spotify-menu-open-spotify,
+  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:serif='http://www.serif.com/' width='100%25' height='100%25' viewBox='0 0 24 24' version='1.1' xml:space='preserve' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Crect id='Filled' x='0' y='0' width='24' height='24' style='fill:none;'/%3E%3Cg id='Filled1' serif:id='Filled'%3E%3Cg transform='matrix(0.119412,0,0,0.119415,1.96979,1.96692)'%3E%3Cpath d='M83.996,0.277C37.747,0.277 0.253,37.77 0.253,84.019C0.253,130.27 37.747,167.76 83.996,167.76C130.25,167.76 167.74,130.27 167.74,84.019C167.74,37.773 130.25,0.281 83.995,0.281L83.996,0.277ZM122.4,121.057C120.9,123.517 117.68,124.297 115.22,122.787C95.558,110.777 70.806,108.057 41.656,114.717C38.847,115.357 36.047,113.597 35.407,110.787C34.764,107.977 36.517,105.177 39.333,104.537C71.233,97.249 98.596,100.387 120.67,113.877C123.13,115.387 123.91,118.597 122.4,121.057ZM132.65,98.255C130.76,101.327 126.74,102.297 123.67,100.407C101.16,86.571 66.847,82.564 40.222,90.646C36.769,91.689 33.122,89.743 32.074,86.296C31.034,82.843 32.981,79.203 36.428,78.153C66.841,68.925 104.65,73.395 130.5,89.28C133.57,91.17 134.54,95.19 132.65,98.256L132.65,98.255ZM133.53,74.511C106.54,58.48 62.01,57.006 36.241,64.827C32.103,66.082 27.727,63.746 26.473,59.608C25.219,55.468 27.553,51.095 31.694,49.837C61.275,40.857 110.45,42.592 141.524,61.039C145.254,63.248 146.474,68.055 144.264,71.772C142.064,75.494 137.244,76.721 133.534,74.511L133.53,74.511Z' style='fill-rule:nonzero;'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
+);
+
+// Send Album URL to Channel
+@include icon-normal(
+  powercord-spotify-menu-send-album,
+  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 0 24 24' width='24px' fill='%23000000'%3E%3Cpath d='M0 0h24v24H0V0z' fill='none'/%3E%3Cpath d='M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92s2.92-1.31 2.92-2.92-1.31-2.92-2.92-2.92z'/%3E%3C/svg%3E")
+);
+
+// Send Song URL to Channel
+@include icon-normal(
+  powercord-spotify-menu-send-song,
+  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 0 24 24' width='24px' fill='%23000000'%3E%3Cpath d='M0 0h24v24H0V0z' fill='none'/%3E%3Cpath d='M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92s2.92-1.31 2.92-2.92-1.31-2.92-2.92-2.92z'/%3E%3C/svg%3E")
+);
+
+// Copy Album URL
+@include icon-normal(
+  powercord-spotify-menu-copy-album,
+  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 0 24 24' width='24px' fill='%23000000'%3E%3Cpath d='M0 0h24v24H0V0z' fill='none'/%3E%3Cpath d='M17 7h-4v2h4c1.65 0 3 1.35 3 3s-1.35 3-3 3h-4v2h4c2.76 0 5-2.24 5-5s-2.24-5-5-5zm-6 8H7c-1.65 0-3-1.35-3-3s1.35-3 3-3h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-2zm-3-4h8v2H8z'/%3E%3C/svg%3E")
+);
+
+// Copy Song URL
+@include icon-normal(
+  powercord-spotify-menu-copy-song,
+  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 0 24 24' width='24px' fill='%23000000'%3E%3Cpath d='M0 0h24v24H0V0z' fill='none'/%3E%3Cpath d='M17 7h-4v2h4c1.65 0 3 1.35 3 3s-1.35 3-3 3h-4v2h4c2.76 0 5-2.24 5-5s-2.24-5-5-5zm-6 8H7c-1.65 0-3-1.35-3-3s1.35-3 3-3h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-2zm-3-4h8v2H8z'/%3E%3C/svg%3E")
+);
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Filled                   ║ Server Profile (Powercord Plugin)                                                       ║
@@ -60,7 +181,7 @@
 );
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Filled                   ║ Rich Quote (Powercord Plugin)                                                           ║
+// ║ Powercord                ║ Rich Quote (Powercord Plugin)                                                           ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 @include icon-normal(
@@ -69,7 +190,7 @@
 );
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Filled                   ║ Reverse Image Search (Powercord Plugin)                                                 ║
+// ║ Powercord                ║ Reverse Image Search (Powercord Plugin)                                                 ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // User (Powercord Plugin)
@@ -97,7 +218,7 @@
 );
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Filled                   ║ View Raw (Powercord Plugin)                                                             ║
+// ║ Powercord                ║ View Raw (Powercord Plugin)                                                             ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // View Raw
@@ -113,7 +234,7 @@
 );
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Filled                   ║ Holy Notes (Powercord Plugin)                                                           ║
+// ║ Powercord                ║ Holy Notes (Powercord Plugin)                                                           ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Note Message (Powercord Plugin)
@@ -153,7 +274,7 @@
 );
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Filled                   ║ Report Messages (Powercord Plugin)                                                      ║
+// ║ Powercord                ║ Report Messages (Powercord Plugin)                                                      ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Image (Powercord Plugin)
@@ -163,7 +284,7 @@
 );
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Filled                   ║ Message Translate (Powercord Plugin)                                                    ║
+// ║ Powercord                ║ Message Translate (Powercord Plugin)                                                    ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Translate Message (Powercord Plugin)
@@ -173,7 +294,7 @@
 );
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Filled                   ║ User Notifis (Powercord Plugin)                                                         ║
+// ║ Powercord                ║ User Notifis (Powercord Plugin)                                                         ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Message Notifs (Powercord Plugin)
@@ -183,7 +304,7 @@
 );
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Filled                   ║ Add Pronouns (Powercord Plugin)                                                         ║
+// ║ Powercord                ║ Add Pronouns (Powercord Plugin)                                                         ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Add Pronouns (Powercord Plugin)
@@ -193,7 +314,7 @@
 );
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Filled                   ║ Custom Mute (Powercord Plugin)                                                          ║
+// ║ Powercord                ║ Custom Mute (Powercord Plugin)                                                          ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Apply
@@ -217,7 +338,7 @@
 );
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Filled                   ║ Github in Discord (Powercord Plugin)                                                    ║
+// ║ Powercord                ║ Github in Discord (Powercord Plugin)                                                    ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Open Repository (Powercord Plugin)
@@ -227,7 +348,7 @@
 );
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Filled                   ║ Theme Downloader (Powercord Plugin)                                                     ║
+// ║ Powercord                ║ Theme Downloader (Powercord Plugin)                                                     ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Theme Downloader (Powercord Plugin) 
@@ -237,7 +358,7 @@
 );
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Filled                   ║ Plugin Downloader (Powercord Plugin)                                                    ║
+// ║ Powercord                ║ Plugin Downloader (Powercord Plugin)                                                    ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Plugin Downloader (Powercord Plugin)
@@ -247,7 +368,7 @@
 );
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Filled                   ║ Insert Timestamp (Powercord Plugin)                                                     ║
+// ║ Powercord                ║ Insert Timestamp (Powercord Plugin)                                                     ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Insert Timestamp (Powercord Plugin)
@@ -257,7 +378,7 @@
 );
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Filled                   ║ Better Friends (Powercord Plugin)                                                       ║
+// ║ Powercord                ║ Better Friends (Powercord Plugin)                                                       ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Add as Favorite (Powercord Plugin)
@@ -273,7 +394,7 @@
 );
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Filled                   ║ Cutecord (Powercord Plugin)                                                             ║
+// ║ Powercord                ║ Cutecord (Powercord Plugin)                                                             ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Cute (Powercord Plugin)
@@ -296,4 +417,20 @@
 @include icon-normal(
   guild-context-cutecord-add-meanie-guild,
   url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg width='100%25' height='100%25' viewBox='0 0 24 24' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Crect id='Filled' x='0' y='0' width='24' height='24' style='fill:none;'/%3E%3Cg id='Filled1' serif:id='Filled'%3E%3Cg id='Context'%3E%3Cpath d='M14.524,3.669c0.045,-0.108 0.135,-0.191 0.246,-0.227c1.555,-0.485 3.328,-0.343 4.886,0.725c1.41,0.96 2.28,2.59 2.34,4.29c0.14,3.88 -3.3,6.99 -8.55,11.76l-0.1,0.09c-0.76,0.69 -1.93,0.69 -2.69,-0.01l-0.11,-0.1c-5.25,-4.75 -8.68,-7.86 -8.55,-11.74c0.06,-1.7 0.93,-3.33 2.34,-4.29c2.517,-1.716 5.598,-1.032 7.405,0.821c0.105,0.11 0.137,0.27 0.084,0.413c-0.329,0.892 -1.513,4.08 -1.513,4.08c-0.227,0.614 0.203,1.289 0.861,1.339l1.665,0.127l-1.163,6.189c-0.053,0.297 0.369,0.42 0.481,0.137l2.276,-5.914c0.238,-0.624 -0.192,-1.308 -0.86,-1.359l-1.655,-0.126c0,-0 2.185,-5.201 2.607,-6.205Z' style='fill-rule:nonzero;'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
+);
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Powercord                ║ Better Settings                                                                         ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Open
+@include icon-addition(
+  better-settings-open,
+  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 0 24 24' width='24px' fill='%23000000'%3E%3Cpath d='M0 0h24v24H0V0z' fill='none'/%3E%3Cpath d='M18 19H6c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h5c.55 0 1-.45 1-1s-.45-1-1-1H5c-1.11 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-6c0-.55-.45-1-1-1s-1 .45-1 1v5c0 .55-.45 1-1 1zM14 4c0 .55.45 1 1 1h2.59l-9.13 9.13c-.39.39-.39 1.02 0 1.41.39.39 1.02.39 1.41 0L19 6.41V9c0 .55.45 1 1 1s1-.45 1-1V3h-6c-.55 0-1 .45-1 1z'/%3E%3C/svg%3E")
+);
+
+// Customize
+@include icon-addition(
+  better-settings-customize,
+  url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg width='100%25' height='100%25' viewBox='0 0 24 24' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Crect id='Filled' x='0' y='0' width='24' height='24' style='fill:none;'/%3E%3Cg id='Filled1' serif:id='Filled'%3E%3Cg id='Context'%3E%3Cpath d='M19.292,9.831l0.649,-0.647c1.412,-1.412 1.412,-3.711 -0,-5.125c-1.413,-1.412 -3.713,-1.412 -5.125,0l-0.647,0.648l5.123,5.124Zm-6.397,-3.853l-7.713,7.715l5.125,5.123l7.712,-7.715l-5.124,-5.123Zm-8.779,14.996l4.641,-1.16l-4.573,-4.573l-1.16,4.642c-0.077,0.306 0.013,0.631 0.236,0.854c0.224,0.223 0.549,0.312 0.856,0.237Z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
 );

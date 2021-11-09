@@ -46,9 +46,8 @@
 // Collapse Category
 @include deactivated-normal(channel-context-collapse-category);
 
-// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Deactivated              ║ Server                                                                                  ║
-// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+// Spotify Shuffel (Powercord)
+@include deactivated-normal(powercord-spotify-menu-shuffle);
 
 // Server Profile
 @include deactivated-normal(guild-header-popout-guild-profile);
@@ -71,6 +70,12 @@
 // Create Category
 @include deactivated-normal(guild-header-popout-create-category);
 
+// Create Event
+@include deactivated-normal(guild-header-popout-create-event);
+
+// Mark as Read
+@include deactivated-normal(guild-header-popout-mark-guild-read);
+
 // Notification Settings
 @include deactivated-normal(guild-header-popout-notifications);
 
@@ -86,16 +91,8 @@
 // Leave Server
 @include deactivated-normal(guild-header-popout-leave);
 
-// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Deactivated              ║ Server                                                                                  ║
-// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
-
 // Hide Muted Channles
 @include deactivated-normal(guild-context-hide-muted-channels);
-
-// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Deactivated              ║ User Settings                                                                           ║
-// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Deafen
 @include deactivated-normal(user-context-deafen);
@@ -106,10 +103,6 @@
 // Server Deafen
 @include deactivated-normal(user-context-voice-deafen);
 
-// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Deactivated              ║ Message (Actions)                                                                       ║
-// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
-
 // Edit Message
 @include deactivated-normal(message-actions-edit);
 
@@ -118,6 +111,9 @@
 
 // Reply
 @include deactivated-normal(message-actions-reply);
+
+// View Thread
+@include deactivated-normal(message-actions-goto-thread);
 
 // Create Thread
 @include deactivated-normal(message-actions-thread);
@@ -137,16 +133,8 @@
 // Copy ID
 @include deactivated-normal(message-actions-copy-id);
 
-// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Deactivated              ║ Spotify Activity                                                                        ║
-// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
-
 // Spotify
 @include deactivated-extra(spotify-toggle);
-
-// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Deactivated              ║ Mention                                                                                 ║
-// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Include @everyone mentions
 @include deactivated-normal(mentions-filter-Everyone);
@@ -154,16 +142,8 @@
 // Include @role mentions
 @include deactivated-normal(mentions-filter-Roles);
 
-// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Filled                   ║ Video Device                                                                            ║
-// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
-
 // Video Device
 @include deactivated-extra(video-device-context-video-device);
-
-// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Filled                   ║ RTC Channel                                                                             ║
-// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Include @role mentions
 @include deactivated-normal(rtc-channel-VOICE_ACTIVITY);
@@ -174,19 +154,11 @@
 // Include @role mentions
 @include deactivated-normal(rtc-channel-show-voice-states);
 
-// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Filled                   ║ Channel                                                                                 ║
-// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
-
 // Set as default duration
 @include deactivated-normal(channel-context-dmdc-default);
 
 // Hide Names
 @include deactivated-normal(channel-context-hide-voice-names);
-
-// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Filled                   ║ Input / Output Device                                                                   ║
-// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Audio Device
 @include deactivated-extra(audio-device-context-input);
@@ -202,3 +174,18 @@
 
 // Push to Talk
 @include deactivated-normal(audio-device-context-voice-settings);
+
+// Search
+@include deactivated-normal(thread-context-search);
+
+// Pins
+@include deactivated-normal(thread-context-pins);
+
+// View Server As Role
+@include deactivated-normal(guild-settings-role-context-view-as-role);
+
+// Delete
+@include deactivated-normal(guild-settings-role-context-delete-role);
+
+// Report Server
+@include deactivated-normal(guild-entry-context-report-server-listing);
