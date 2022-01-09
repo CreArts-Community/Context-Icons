@@ -5,12 +5,12 @@
 // Context Icon (Normal)
 @mixin icon-normal($item-id, $url, $status:"") {
   @if $status != "" {
-    .item-1tOPte##{$item-id}[aria-checked="#{$status}"]::before {
+    .item-1OdjEX##{$item-id}[aria-checked="#{$status}"]::before {
       --icon: #{$url};
     }
   }
   @else {
-    .item-1tOPte##{$item-id}::before {
+    .item-1OdjEX##{$item-id}::before {
       --icon: #{$url};
     }
   }
@@ -19,12 +19,12 @@
 // Context Icon (Extra)
 @mixin icon-extra($item-id, $url, $status:"") {
   @if $status != "" {
-    .item-1tOPte[id^=#{$item-id}][aria-checked="#{$status}"]::before {
+    .item-1OdjEX[id^=#{$item-id}][aria-checked="#{$status}"]::before {
       --icon: #{$url};
     }
   }
   @else {
-    .item-1tOPte[id^=#{$item-id}]::before {
+    .item-1OdjEX[id^=#{$item-id}]::before {
         --icon: #{$url};
     }
   }
@@ -33,12 +33,12 @@
 // Context Icon (Addition)
 @mixin icon-addition($item-id, $url, $status:"") {
   @if $status != "" {
-    .item-1tOPte[id*=#{$item-id}][aria-checked="#{$status}"]::before {
+    .item-1OdjEX[id*=#{$item-id}][aria-checked="#{$status}"]::before {
       --icon: #{$url};
     }
   }
   @else {
-    .item-1tOPte[id*=#{$item-id}]::before {
+    .item-1OdjEX[id*=#{$item-id}]::before {
         --icon: #{$url};
     }
   }
@@ -46,7 +46,7 @@
 
 // Slider
 @mixin icon-slider($item-id, $url) {
-  ##{$item-id} .sliderContainer-2Nrll8::before {
+  ##{$item-id} .sliderContainer-2nidiS::before {
     --icon: #{$url};
     width: 20px;
   }

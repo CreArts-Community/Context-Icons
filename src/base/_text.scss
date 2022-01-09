@@ -4,14 +4,14 @@
 
 // Text (Normal)
 @mixin text-normal($item-id) {
-  .item-1tOPte##{$item-id}.colorDefault-2K3EoJ .label-22pbtT {
+  .item-1OdjEX##{$item-id}.colorDefault-CDqZdO .label-2gNW3x {
     color: var(--context-text-normal);
   }
 }
 
 // Text (Hover)
 @mixin text-hover($item-id) {
-  .item-1tOPte##{$item-id}.colorDefault-2K3EoJ.focused-3afm-j .label-22pbtT {
+  .item-1OdjEX##{$item-id}.colorDefault-CDqZdO.focused-3qFvc8 .label-2gNW3x {
     color: var(--context-text-hover);
   }
 }

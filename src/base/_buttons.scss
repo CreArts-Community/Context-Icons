@@ -4,7 +4,7 @@
 
 // Danger Background (Normal)
 @mixin danger-background-normal($item-id) {
-  .item-1tOPte##{$item-id}.colorDefault-2K3EoJ {
+  .item-1OdjEX##{$item-id}.colorDefault-CDqZdO {
     background: var(--danger-background-normal);
     border-radius: var(--danger-background-radius);
     color: var(--danger-text-normal);
@@ -13,7 +13,7 @@
 
 // Danger Background (Hover)
 @mixin danger-background-hover($item-id) {
-  .item-1tOPte##{$item-id}.colorDefault-2K3EoJ.focused-3afm-j {
+  .item-1OdjEX##{$item-id}.colorDefault-CDqZdO.focused-3qFvc8 {
     background: var(--danger-background-hover);
     border-radius: var(--danger-background-radius);
     color: var(--danger-text-focused);
@@ -22,14 +22,14 @@
 
 // Danger Icon (Normal)
 @mixin danger-icon-normal($item-id) {
-  .item-1tOPte##{$item-id}.colorDefault-2K3EoJ::before {
+  .item-1OdjEX##{$item-id}.colorDefault-CDqZdO::before {
     background: var(--danger-icon-normal);
   }
 }
 
 // Danger Icon (Hover)
 @mixin danger-icon-hover($item-id) {
-  .item-1tOPte##{$item-id}.colorDefault-2K3EoJ.focused-3afm-j::before {
+  .item-1OdjEX##{$item-id}.colorDefault-CDqZdO.focused-3qFvc8::before {
     background: var(--danger-icon-focused);
   }
 }
@@ -38,12 +38,12 @@
 // ║ Base                     ║ Button                                                                                  ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
-.colorDefault-2K3EoJ.focused-3afm-j {
+.colorDefault-CDqZdO.focused-3qFvc8 {
   border-radius: var(--context-button-radius);
   color: var(--context-icon-focused);
 }
 
-.colorDefault-2K3EoJ.focused-3afm-j.item-1tOPte::before {
+.colorDefault-CDqZdO.focused-3qFvc8.item-1OdjEX::before {
   background: var(--context-icon-focused);
 }
 

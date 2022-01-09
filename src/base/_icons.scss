@@ -5,12 +5,12 @@
 // Context Icon (Normal)
 @mixin icon-normal($item-id, $url, $status:"") {
   @if $status != "" {
-    .item-1tOPte##{$item-id}[aria-checked="#{$status}"]::before {
+    .item-1OdjEX##{$item-id}[aria-checked="#{$status}"]::before {
       --icon: #{$url};
     }
   }
   @else {
-    .item-1tOPte##{$item-id}::before {
+    .item-1OdjEX##{$item-id}::before {
       --icon: #{$url};
     }
   }
@@ -19,12 +19,12 @@
 // Context Icon (Extra)
 @mixin icon-extra($item-id, $url, $status:"") {
   @if $status != "" {
-    .item-1tOPte[id^=#{$item-id}][aria-checked="#{$status}"]::before {
+    .item-1OdjEX[id^=#{$item-id}][aria-checked="#{$status}"]::before {
       --icon: #{$url};
     }
   }
   @else {
-    .item-1tOPte[id^=#{$item-id}]::before {
+    .item-1OdjEX[id^=#{$item-id}]::before {
        --icon: #{$url};
     }
   }
@@ -32,7 +32,7 @@
 
 // Slider
 @mixin icon-slider($item-id, $url) {
-  ##{$item-id} .sliderContainer-2Nrll8::before {
+  ##{$item-id} .sliderContainer-2nidiS::before {
     --icon: #{$url};
     width: 20px;
   }
@@ -43,7 +43,7 @@
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Quickstar (Powercord Plugin)
-.wrapper-2aW0bm .button-1ZiXG9 .emoji[src="/assets/e4d52f4d69d7bba67e5fd70ffe26b70d.svg"] {
+.wrapper-2vIMkT .button-3bklZh .emoji[src="/assets/e4d52f4d69d7bba67e5fd70ffe26b70d.svg"] {
   --icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' enable-background='new 0 0 24 24' height='24px' viewBox='0 0 24 24' width='24px' fill='%23000000'%3E%3Cg%3E%3Crect fill='none' height='24' width='24'/%3E%3Cpath d='M14.43,10l-1.47-4.84c-0.29-0.95-1.63-0.95-1.91,0L9.57,10H5.12c-0.97,0-1.37,1.25-0.58,1.81l3.64,2.6l-1.43,4.61 c-0.29,0.93,0.79,1.68,1.56,1.09L12,17.31l3.69,2.81c0.77,0.59,1.85-0.16,1.56-1.09l-1.43-4.61l3.64-2.6 c0.79-0.57,0.39-1.81-0.58-1.81H14.43z'/%3E%3C/g%3E%3C/svg%3E");
 }
 
@@ -63,17 +63,17 @@
 }
 
 // Text React (Powercord Plugin)
-.wrapper-2aW0bm .button-1ZiXG9 .emoji[src="/assets/bbe8ae762f831966587a35010ed46f67.svg"] {
+.wrapper-2vIMkT .button-3bklZh .emoji[src="/assets/bbe8ae762f831966587a35010ed46f67.svg"] {
   --icon: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg width='100%25' height='100%25' viewBox='0 0 24 24' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Crect id='Filled' x='0' y='0' width='24' height='24' style='fill:none;'/%3E%3Cg id='Filled1' serif:id='Filled'%3E%3Cg id='Context'%3E%3Cpath id='text_react' d='M9.411,5.046c0.419,-1.134 1.381,-2.046 2.638,-2.046c1.307,0 2.221,0.863 2.639,2.046l4.833,13.415c0.148,0.394 0.197,0.74 0.197,0.912c0,0.961 -0.789,1.627 -1.701,1.627c-1.036,-0 -1.554,-0.542 -1.8,-1.281l-0.741,-2.319l-6.855,0l-0.74,2.294c-0.246,0.764 -0.764,1.306 -1.775,1.306c-0.986,-0 -1.824,-0.74 -1.824,-1.726c-0,-0.394 0.123,-0.69 0.172,-0.813l4.957,-13.415Zm0.271,8.952l4.685,0l-2.293,-7.151l-0.049,-0l-2.343,7.151Z' style='fill-rule:nonzero;'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
 
 // Translate Message
-.wrapper-2aW0bm .icon-3Gkjwa path[d="M 19.794, 3.299 H 9.765 L 8.797, 0 h -6.598 C 0.99, 0, 0, 0.99, 0, 2.199 V 16.495 c 0, 1.21, 0.99, 2.199, 2.199, 2.199 H 9.897 l 1.1, 3.299 H 19.794 c 1.21, 0, 2.199 -0.99, 2.199 -2.199 V 5.498 C 21.993, 4.289, 21.003, 3.299, 19.794, 3.299 z M 5.68, 13.839 c -2.48, 0 -4.492 -2.018 -4.492 -4.492 s 2.018 -4.492, 4.492 -4.492 c 1.144, 0, 2.183, 0.407, 3.008, 1.171 l 0.071, 0.071 l -1.342, 1.298 l -0.066 -0.06 c -0.313 -0.297 -0.858 -0.643 -1.671 -0.643 c -1.441, 0 -2.612, 1.193 -2.612, 2.661 c 0, 1.468, 1.171, 2.661, 2.612, 2.661 c 1.507, 0, 2.161 -0.962, 2.337 -1.606 h -2.43 v -1.704 h 4.344 l 0.016, 0.077 c 0.044, 0.231, 0.06, 0.434, 0.06, 0.665 C 10.001, 12.036, 8.225, 13.839, 5.68, 13.839 z M 11.739, 9.979 h 4.393 c 0, 0 -0.374, 1.446 -1.715, 3.008 c -0.588 -0.676 -0.995 -1.336 -1.254 -1.864 h -1.089 L 11.739, 9.979 z M 13.625, 13.839 l -0.588, 0.583 l -0.72 -2.452 C 12.685, 12.63, 13.13, 13.262, 13.625, 13.839 z M 20.893, 19.794 c 0, 0.605 -0.495, 1.1 -1.1, 1.1 H 12.096 l 2.199 -2.199 l -0.896 -3.041 l 1.012 -1.012 l 2.953, 2.953 l 0.803 -0.803 l -2.975 -2.953 c 0.99 -1.138, 1.759 -2.474, 2.106 -3.854 h 1.397 V 8.841 H 14.697 v -1.144 h -1.144 v 1.144 H 11.398 l -1.309 -4.443 H 19.794 c 0.605, 0, 1.1, 0.495, 1.1, 1.1 V 19.794 z"] {
+.wrapper-2vIMkT .icon-1zidb7 path[d="M 19.794, 3.299 H 9.765 L 8.797, 0 h -6.598 C 0.99, 0, 0, 0.99, 0, 2.199 V 16.495 c 0, 1.21, 0.99, 2.199, 2.199, 2.199 H 9.897 l 1.1, 3.299 H 19.794 c 1.21, 0, 2.199 -0.99, 2.199 -2.199 V 5.498 C 21.993, 4.289, 21.003, 3.299, 19.794, 3.299 z M 5.68, 13.839 c -2.48, 0 -4.492 -2.018 -4.492 -4.492 s 2.018 -4.492, 4.492 -4.492 c 1.144, 0, 2.183, 0.407, 3.008, 1.171 l 0.071, 0.071 l -1.342, 1.298 l -0.066 -0.06 c -0.313 -0.297 -0.858 -0.643 -1.671 -0.643 c -1.441, 0 -2.612, 1.193 -2.612, 2.661 c 0, 1.468, 1.171, 2.661, 2.612, 2.661 c 1.507, 0, 2.161 -0.962, 2.337 -1.606 h -2.43 v -1.704 h 4.344 l 0.016, 0.077 c 0.044, 0.231, 0.06, 0.434, 0.06, 0.665 C 10.001, 12.036, 8.225, 13.839, 5.68, 13.839 z M 11.739, 9.979 h 4.393 c 0, 0 -0.374, 1.446 -1.715, 3.008 c -0.588 -0.676 -0.995 -1.336 -1.254 -1.864 h -1.089 L 11.739, 9.979 z M 13.625, 13.839 l -0.588, 0.583 l -0.72 -2.452 C 12.685, 12.63, 13.13, 13.262, 13.625, 13.839 z M 20.893, 19.794 c 0, 0.605 -0.495, 1.1 -1.1, 1.1 H 12.096 l 2.199 -2.199 l -0.896 -3.041 l 1.012 -1.012 l 2.953, 2.953 l 0.803 -0.803 l -2.975 -2.953 c 0.99 -1.138, 1.759 -2.474, 2.106 -3.854 h 1.397 V 8.841 H 14.697 v -1.144 h -1.144 v 1.144 H 11.398 l -1.309 -4.443 H 19.794 c 0.605, 0, 1.1, 0.495, 1.1, 1.1 V 19.794 z"] {
   d: path("M12.65 15.67c.14-.36.05-.77-.23-1.05l-2.09-2.06.03-.03c1.74-1.94 2.98-4.17 3.71-6.53h1.94c.54 0 .99-.45.99-.99v-.02c0-.54-.45-.99-.99-.99H10V3c0-.55-.45-1-1-1s-1 .45-1 1v1H1.99c-.54 0-.99.45-.99.99 0 .55.45.99.99.99h10.18C11.5 7.92 10.44 9.75 9 11.35c-.81-.89-1.49-1.86-2.06-2.88-.16-.29-.45-.47-.78-.47-.69 0-1.13.75-.79 1.35.63 1.13 1.4 2.21 2.3 3.21L3.3 16.87c-.4.39-.4 1.03 0 1.42.39.39 1.02.39 1.42 0L9 14l2.02 2.02c.51.51 1.38.32 1.63-.35zM17.5 10c-.6 0-1.14.37-1.35.94l-3.67 9.8c-.24.61.22 1.26.87 1.26.39 0 .74-.24.88-.61l.89-2.39h4.75l.9 2.39c.14.36.49.61.88.61.65 0 1.11-.65.88-1.26l-3.67-9.8c-.22-.57-.76-.94-1.36-.94zm-1.62 7l1.62-4.33L19.12 17h-3.24z");
 }
 
 // Copy ID
-.wrapper-2aW0bm .icon-3Gkjwa path[d="M5 2C3.34315 2 2 3.34315 2 5V19C2 20.6569 3.34315 22 5 22H19C20.6569 22 22 20.6569 22 19V5C22 3.34315 20.6569 2 19 2H5ZM8.79741 7.72V16H6.74541V7.72H8.79741ZM13.2097 7.72C16.0897 7.72 17.5897 9.388 17.5897 11.848C17.5897 14.308 16.0537 16 13.2577 16H10.3537V7.72H13.2097ZM13.1497 14.404C14.6137 14.404 15.5257 13.636 15.5257 11.86C15.5257 10.12 14.5537 9.316 13.1497 9.316H12.4057V14.404H13.1497Z"] {
+.wrapper-2vIMkT .icon-1zidb7 path[d="M5 2C3.34315 2 2 3.34315 2 5V19C2 20.6569 3.34315 22 5 22H19C20.6569 22 22 20.6569 22 19V5C22 3.34315 20.6569 2 19 2H5ZM8.79741 7.72V16H6.74541V7.72H8.79741ZM13.2097 7.72C16.0897 7.72 17.5897 9.388 17.5897 11.848C17.5897 14.308 16.0537 16 13.2577 16H10.3537V7.72H13.2097ZM13.1497 14.404C14.6137 14.404 15.5257 13.636 15.5257 11.86C15.5257 10.12 14.5537 9.316 13.1497 9.316H12.4057V14.404H13.1497Z"] {
   d: path("M5.384,4.365c0.221,-0 0.4,0.179 0.4,0.4c0,2.15 0,12.32 0,14.47c0,0.221 -0.179,0.4 -0.4,0.4c-0.727,0 -2.257,0 -2.984,0c-0.221,0 -0.4,-0.179 -0.4,-0.4c-0,-2.15 -0,-12.32 -0,-14.47c0,-0.221 0.179,-0.4 0.4,-0.4c0.727,-0 2.257,-0 2.984,-0Zm8.538,-0c5.312,-0 8.078,3.076 8.078,7.613c0,4.537 -2.833,7.657 -7.989,7.657l-4.956,0c-0.221,0 -0.4,-0.179 -0.4,-0.4c-0,-2.15 -0,-12.32 -0,-14.47c-0,-0.221 0.179,-0.4 0.4,-0.4c1.229,-0 4.867,-0 4.867,-0Zm-0.111,12.327c2.7,-0 4.382,-1.417 4.382,-4.692c0,-3.209 -1.792,-4.692 -4.382,-4.692l-0.972,0c-0.221,0 -0.4,0.179 -0.4,0.4c0,1.536 0,7.048 0,8.584c0,0.221 0.179,0.4 0.4,0.4c0.405,-0 0.972,-0 0.972,-0Z");
 }
 
@@ -865,6 +865,12 @@
   url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg width='100%25' height='100%25' viewBox='0 0 24 24' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Crect id='Filled' x='0' y='0' width='24' height='24' style='fill:none;'/%3E%3Cg id='Filled1' serif:id='Filled'%3E%3Cg id='Context'%3E%3Cpath d='M19.714,13.286l-6.428,-0l-0,6.428c-0,0.707 -0.579,1.286 -1.286,1.286c-0.707,-0 -1.286,-0.579 -1.286,-1.286l0,-6.428l-6.428,-0c-0.707,-0 -1.286,-0.579 -1.286,-1.286c0,-0.707 0.579,-1.286 1.286,-1.286l6.428,0l0,-6.428c0,-0.707 0.579,-1.286 1.286,-1.286c0.707,0 1.286,0.579 1.286,1.286l-0,6.428l6.428,0c0.707,0 1.286,0.579 1.286,1.286c-0,0.707 -0.579,1.286 -1.286,1.286Z' style='fill-rule:nonzero;'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
 );
 
+// Copy Link
+@include icon-normal(
+  channel-context-channel-copy-link,
+  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' enable-background='new 0 0 24 24' height='24px' viewBox='0 0 24 24' width='24px' fill='%23000000'%3E%3Cg%3E%3Crect fill='none' height='24' width='24'/%3E%3C/g%3E%3Cg%3E%3Cpath d='M15,20H5V7c0-0.55-0.45-1-1-1h0C3.45,6,3,6.45,3,7v13c0,1.1,0.9,2,2,2h10c0.55,0,1-0.45,1-1v0C16,20.45,15.55,20,15,20z M20,16V4c0-1.1-0.9-2-2-2H9C7.9,2,7,2.9,7,4v12c0,1.1,0.9,2,2,2h9C19.1,18,20,17.1,20,16z M18,16H9V4h9V16z'/%3E%3C/g%3E%3C/svg%3E")
+);
+
 // Delete Channel / Category
 @include icon-normal(
   channel-context-delete-channel,
@@ -878,7 +884,7 @@
 );
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Icons                    ║ Server                                                                                  ║
+// ║ Icons                    ║ Guild                                                                                   ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Server Boost
@@ -1012,6 +1018,12 @@
 @include icon-normal(
   guild-context-unmute-guild,
   url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg width='100%25' height='100%25' viewBox='0 0 24 24' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Crect id='Filled' x='0' y='0' width='24' height='24' style='fill:none;'/%3E%3Cg id='Filled1' serif:id='Filled'%3E%3Cg id='Context'%3E%3Cpath id='circle_checked' d='M12,2c-5.52,0 -10,4.48 -10,10c0,5.52 4.48,10 10,10c5.52,0 10,-4.48 10,-10c0,-5.52 -4.48,-10 -10,-10Zm-2.71,14.29l-3.59,-3.59c-0.39,-0.39 -0.39,-1.02 0,-1.41c0.39,-0.39 1.02,-0.39 1.41,0l2.89,2.88l6.88,-6.88c0.39,-0.39 1.02,-0.39 1.41,0c0.39,0.39 0.39,1.02 0,1.41l-7.59,7.59c-0.38,0.39 -1.02,0.39 -1.41,0Z' style='fill-rule:nonzero;'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
+);
+
+// Notification Settings
+@include icon-normal(
+  guild-context-guild-notifications,
+  url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg width='100%25' height='100%25' viewBox='0 0 24 24' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Crect id='Filled' x='0' y='0' width='24' height='24' style='fill:none;'/%3E%3Cg id='Filled1' serif:id='Filled'%3E%3Cg id='Context'%3E%3Cpath id='notification_settings' d='M18.085,15.8l-0,-5.067c-0,-3.111 -1.662,-5.716 -4.561,-6.405l0,-0.689c0,-0.841 -0.689,-1.52 -1.53,-1.52c-0.841,-0 -1.51,0.679 -1.51,1.52l-0,0.689c-2.909,0.689 -4.561,3.284 -4.561,6.405l0,5.067l-1.317,1.308c-0.639,0.638 -0.193,1.733 0.709,1.733l13.347,-0c0.902,-0 1.358,-1.095 0.72,-1.733l-1.297,-1.308Zm-6.091,6.081c1.115,0 2.027,-0.912 2.027,-2.027l-4.054,0c-0,1.115 0.902,2.027 2.027,2.027Zm-5.29,-17.502c0.425,-0.385 0.435,-1.044 0.03,-1.449c-0.385,-0.386 -1.014,-0.396 -1.409,-0.021c-1.733,1.581 -2.929,3.73 -3.314,6.142c-0.091,0.618 0.385,1.175 1.014,1.175c0.486,0 0.912,-0.354 0.993,-0.841c0.304,-1.966 1.277,-3.719 2.686,-5.006Zm11.989,-1.47c-0.406,-0.375 -1.034,-0.365 -1.419,0.021c-0.405,0.405 -0.385,1.054 0.03,1.439c1.399,1.287 2.382,3.04 2.686,5.006c0.071,0.487 0.497,0.841 0.993,0.841c0.618,0 1.105,-0.557 1.004,-1.175c-0.386,-2.402 -1.571,-4.541 -3.294,-6.132Z' style='fill-rule:nonzero;'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
 );
 
 // Hide Muted Channels (True)
@@ -1645,5 +1657,15 @@
 // Copy ID
 @include icon-normal(
   guild-entry-context-devmode-copy-id,
+  url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg width='100%25' height='100%25' viewBox='0 0 24 24' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Crect id='Filled' x='0' y='0' width='24' height='24' style='fill:none;'/%3E%3Cg id='Filled1' serif:id='Filled'%3E%3Cg id='Context'%3E%3Cpath id='id' d='M5.384,4.365c0.221,-0 0.4,0.179 0.4,0.4c0,2.15 0,12.32 0,14.47c0,0.221 -0.179,0.4 -0.4,0.4c-0.727,0 -2.257,0 -2.984,0c-0.221,0 -0.4,-0.179 -0.4,-0.4c-0,-2.15 -0,-12.32 -0,-14.47c0,-0.221 0.179,-0.4 0.4,-0.4c0.727,-0 2.257,-0 2.984,-0Zm8.538,-0c5.312,-0 8.078,3.076 8.078,7.613c0,4.537 -2.833,7.657 -7.989,7.657l-4.956,0c-0.221,0 -0.4,-0.179 -0.4,-0.4c-0,-2.15 -0,-12.32 -0,-14.47c-0,-0.221 0.179,-0.4 0.4,-0.4c1.229,-0 4.867,-0 4.867,-0Zm-0.111,12.327c2.7,-0 4.382,-1.417 4.382,-4.692c0,-3.209 -1.792,-4.692 -4.382,-4.692l-0.972,0c-0.221,0 -0.4,0.179 -0.4,0.4c0,1.536 0,7.048 0,8.584c0,0.221 0.179,0.4 0.4,0.4c0.405,-0 0.972,-0 0.972,-0Z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
+);
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Icons                    ║ Explore                                                                                 ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Copy ID
+@include icon-normal(
+  dev-context-devmode-copy-id,
   url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg width='100%25' height='100%25' viewBox='0 0 24 24' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Crect id='Filled' x='0' y='0' width='24' height='24' style='fill:none;'/%3E%3Cg id='Filled1' serif:id='Filled'%3E%3Cg id='Context'%3E%3Cpath id='id' d='M5.384,4.365c0.221,-0 0.4,0.179 0.4,0.4c0,2.15 0,12.32 0,14.47c0,0.221 -0.179,0.4 -0.4,0.4c-0.727,0 -2.257,0 -2.984,0c-0.221,0 -0.4,-0.179 -0.4,-0.4c-0,-2.15 -0,-12.32 -0,-14.47c0,-0.221 0.179,-0.4 0.4,-0.4c0.727,-0 2.257,-0 2.984,-0Zm8.538,-0c5.312,-0 8.078,3.076 8.078,7.613c0,4.537 -2.833,7.657 -7.989,7.657l-4.956,0c-0.221,0 -0.4,-0.179 -0.4,-0.4c-0,-2.15 -0,-12.32 -0,-14.47c-0,-0.221 0.179,-0.4 0.4,-0.4c1.229,-0 4.867,-0 4.867,-0Zm-0.111,12.327c2.7,-0 4.382,-1.417 4.382,-4.692c0,-3.209 -1.792,-4.692 -4.382,-4.692l-0.972,0c-0.221,0 -0.4,0.179 -0.4,0.4c0,1.536 0,7.048 0,8.584c0,0.221 0.179,0.4 0.4,0.4c0.405,-0 0.972,-0 0.972,-0Z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
 );

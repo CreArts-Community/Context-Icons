@@ -4,14 +4,14 @@
 
 // Deactivated (Normal)
 @mixin deactivated-normal($item-id) {
-  .item-1tOPte##{$item-id} .iconContainer-2-XQPY {
+  .item-1OdjEX##{$item-id} .iconContainer-1-SsTR {
     display: none;
   }
 }
 
 // Deactivated (Extra)
 @mixin deactivated-extra($item-id) {
-  .item-1tOPte[id^=#{$item-id}] .iconContainer-2-XQPY {
+  .item-1OdjEX[id^=#{$item-id}] .iconContainer-1-SsTR {
     display: none;
   }
 }
@@ -21,7 +21,7 @@
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // No Submenu                            
-.submenuPaddingContainer-fiOCHc .item-1tOPte .label-22pbtT::before {
+.submenuPaddingContainer-_k62dJ .item-1OdjEX .label-2gNW3x::before {
   display: none !important;
 }
 

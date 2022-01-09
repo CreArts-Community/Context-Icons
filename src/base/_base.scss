@@ -3,33 +3,33 @@
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Menu Border Radius
-.menu-3sdvDG{
+.menu-1QACrS{
   border-radius: var(--context-menu-radius);
 }
 
 // Menu Spacing
-.item-1tOPte {
+.item-1OdjEX {
   margin-bottom: var(--context-menu-spacing);
   margin-top: var(--context-menu-spacing);
 }
 
 // Menu Witdh
-.layer-v9HyYc > .styleFlexible-wGDiIL {
+.layer-2aCOJ3 > .styleFlexible-x0_sIC {
 	width: var(--context-menu-width);
 }
 
 // Sub Menu Witdh
-.layer-v9HyYc > .submenuPaddingContainer-fiOCHc {
+.layer-2aCOJ3 > .submenuPaddingContainer-_k62dJ {
 	min-width: var(--context-menu-width);
 }
 
 // Settings Menu Height
-.scroller-3BxosC {
+.scroller-1bVxF5 {
   max-height: var(--context-settings-height);
 }
 
 // Icon
-.item-1tOPte::before {
+.item-1OdjEX::before {
   content: "";
   background: var(--context-icon-normal);
   margin-right: var(--context-icon-spacing);
@@ -41,23 +41,23 @@
 }
 
 // Disabled
-.disabled-1WRMNA {
+.disabled-oOAXat {
   opacity: var(--context-disabled-opacity);
 }
 
 // Seperator
-.separator-2I32lJ {
+.separator-1So4YB {
   border-color: var(--context-separator);
   margin: var(--separator-spacing-height) var(--separator-spacing-width) var(--separator-spacing-height) var(--separator-spacing-width);
 }
 
 // Menu Fix
-.item-1tOPte[id^=now-playing-menu-]:not(#now-playing-menu-message, #now-playing-menu-play-undefined,
+.item-1OdjEX[id^=now-playing-menu-]:not(#now-playing-menu-message, #now-playing-menu-play-undefined,
 [id^=now-playing-menu-spotify-play], [id^=now-playing-menu-spotify-sync])::before,
-#status-picker .item-1tOPte::before,
-#channel-attach .item-1tOPte::before,
-.submenuPaddingContainer-fiOCHc .item-1tOPte::before,
-.item-1tOPte.hideInteraction-1iHO1O::before,
+#status-picker .item-1OdjEX::before,
+#channel-attach .item-1OdjEX::before,
+.submenuPaddingContainer-_k62dJ .item-1OdjEX::before,
+.item-1OdjEX.hideInteraction-1iHO1O::before,
 #channel-context-900::before,
 #channel-context-3600::before,
 #channel-context-28800::before,
@@ -72,13 +72,13 @@
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Reverse (Add Reaction)
-.submenu-2-ysNh .item-1tOPte{
+.submenu-1apzyU .item-1OdjEX{
   flex-direction: row-reverse;
 }
 
 // Spacing (Add Reaction)
-.submenu-2-ysNh .item-1tOPte .imageContainer-2fGqYU,
-.submenu-2-ysNh .item-1tOPte .iconContainer-2-XQPY {
+.submenu-1apzyU .item-1OdjEX .imageContainer-1wSPgI,
+.submenu-1apzyU .item-1OdjEX .iconContainer-1-SsTR {
   margin-left: 0px;
   margin-right: 8px;
 }
@@ -87,12 +87,12 @@
 // ║ Base                     ║ Change icon (Group)                                                                     ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
-.item-1tOPte#gdm-context-change-icon .labelContainer-1BLJti {
+.item-1OdjEX#gdm-context-change-icon .labelContainer-2vJzYL {
   padding: 0;
   min-height: 0;
 }
 
-.item-1tOPte#gdm-context-change-icon {
+.item-1OdjEX#gdm-context-change-icon {
   display: flex;
   padding: 6px 8px;
   min-height: 32px;
