@@ -348,6 +348,12 @@
   url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg width='100%25' height='100%25' viewBox='0 0 24 24' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Crect id='Filled' x='0' y='0' width='24' height='24' style='fill:none;'/%3E%3Cg id='Filled1' serif:id='Filled'%3E%3Cg id='Context'%3E%3Cpath id='circle_checked' d='M12,2c-5.52,0 -10,4.48 -10,10c0,5.52 4.48,10 10,10c5.52,0 10,-4.48 10,-10c0,-5.52 -4.48,-10 -10,-10Zm-2.71,14.29l-3.59,-3.59c-0.39,-0.39 -0.39,-1.02 0,-1.41c0.39,-0.39 1.02,-0.39 1.41,0l2.89,2.88l6.88,-6.88c0.39,-0.39 1.02,-0.39 1.41,0c0.39,0.39 0.39,1.02 0,1.41l-7.59,7.59c-0.38,0.39 -1.02,0.39 -1.41,0Z' style='fill-rule:nonzero;'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
 );
 
+// Timeout
+@include icon-normal(
+  user-context-timeout,
+  url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg width='100%25' height='100%25' viewBox='0 0 24 24' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Crect id='Filled' x='0' y='0' width='24' height='24' style='fill:none;'/%3E%3Cg id='Filled1' serif:id='Filled'%3E%3Cg id='Context'%3E%3Cpath id='timer' d='m12.83 14.24-3.54-3.53A1.001 1.001 0 0 1 9 10V4h2v5.59l3.24 3.24-1.41 1.41Z' fill='currentColor'/%3E%3Cpath d='M13.31 2 18 6.69v6.62L13.31 18H6.69L2 13.31V6.69L6.69 2h6.62Zm.42-2H6.27a1.05 1.05 0 0 0-.71.29L.29 5.56a1.05 1.05 0 0 0-.29.71v7.46c.004.265.107.518.29.71l5.27 5.27c.192.183.445.286.71.29h7.46a1.05 1.05 0 0 0 .71-.29l5.27-5.27a1.05 1.05 0 0 0 .29-.71V6.27a1.05 1.05 0 0 0-.29-.71L14.44.29a1.05 1.05 0 0 0-.71-.29Z' style='fill-rule:nonzero;'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
+);
+
 // Kick
 @include icon-normal(
   user-context-kick,

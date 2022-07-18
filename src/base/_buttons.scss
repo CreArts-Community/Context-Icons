@@ -55,6 +55,7 @@
 @include danger-background-normal(message-delete);
 @include danger-background-normal(message-actions-delete);
 @include danger-background-normal(channel-context-delete-channel);
+@include danger-background-normal(user-context-timeout);
 @include danger-background-normal(user-context-kick);
 @include danger-background-normal(user-context-ban);
 @include danger-background-normal(guild-context-leave-guild);
@@ -76,6 +77,7 @@
 @include danger-background-hover(message-delete);
 @include danger-background-hover(message-actions-delete);
 @include danger-background-hover(channel-context-delete-channel);
+@include danger-background-hover(user-context-timeout);
 @include danger-background-hover(user-context-kick);
 @include danger-background-hover(user-context-ban);
 @include danger-background-hover(guild-context-leave-guild);
@@ -101,6 +103,7 @@
 @include danger-icon-normal(message-delete);
 @include danger-icon-normal(message-actions-delete);
 @include danger-icon-normal(channel-context-delete-channel);
+@include danger-icon-normal(user-context-timeout);
 @include danger-icon-normal(user-context-kick);
 @include danger-icon-normal(user-context-ban);
 @include danger-icon-normal(guild-context-leave-guild);
@@ -122,6 +125,7 @@
 @include danger-icon-hover(message-delete);
 @include danger-icon-hover(message-actions-delete);
 @include danger-icon-hover(channel-context-delete-channel);
+@include danger-icon-hover(user-context-timeout);
 @include danger-icon-hover(user-context-kick);
 @include danger-icon-hover(user-context-ban);
 @include danger-icon-hover(guild-context-leave-guild);
