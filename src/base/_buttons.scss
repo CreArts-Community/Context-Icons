@@ -107,6 +107,7 @@
 @include danger-icon-normal(user-context-kick);
 @include danger-icon-normal(user-context-ban);
 @include danger-icon-normal(guild-context-leave-guild);
+@include danger-icon-normal(guild-header-popout-report-raid);
 @include danger-icon-normal(guild-header-popout-leave);
 @include danger-icon-normal(thread-context-delete-channel);
 @include danger-icon-normal(user-profile-actions-user-remove);
@@ -129,6 +130,7 @@
 @include danger-icon-hover(user-context-kick);
 @include danger-icon-hover(user-context-ban);
 @include danger-icon-hover(guild-context-leave-guild);
+@include danger-icon-hover(guild-header-popout-report-raid);
 @include danger-icon-hover(guild-header-popout-leave);
 @include danger-icon-hover(thread-context-delete-channel);
 @include danger-icon-hover(user-profile-actions-user-remove);

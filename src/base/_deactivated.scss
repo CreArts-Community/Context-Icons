@@ -91,6 +91,9 @@
 // Hide Muted Channels
 @include deactivated-normal(guild-header-popout-hide-muted-channels);
 
+// Report Raid
+@include deactivated-normal(guild-header-popout-report-raid);
+
 // Leave Server
 @include deactivated-normal(guild-header-popout-leave);
 

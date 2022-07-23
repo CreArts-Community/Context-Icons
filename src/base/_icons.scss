@@ -986,6 +986,12 @@
   url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg width='100%25' height='100%25' viewBox='0 0 24 24' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Crect id='Filled' x='0' y='0' width='24' height='24' style='fill:none;'/%3E%3Cg id='Filled1' serif:id='Filled'%3E%3Cg id='Context'%3E%3Cpath d='M19.292,9.831l0.649,-0.647c1.412,-1.412 1.412,-3.711 -0,-5.125c-1.413,-1.412 -3.713,-1.412 -5.125,0l-0.647,0.648l5.123,5.124Zm-6.397,-3.853l-7.713,7.715l5.125,5.123l7.712,-7.715l-5.124,-5.123Zm-8.779,14.996l4.641,-1.16l-4.573,-4.573l-1.16,4.642c-0.077,0.306 0.013,0.631 0.236,0.854c0.224,0.223 0.549,0.312 0.856,0.237Z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
 );
 
+// Report Raid
+@include icon-normal(
+  guild-header-popout-report-raid,
+  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='58' height='60' viewBox='0 0 58 60' fill='none'%3E%3Cpath d='M45.8564 15.2294C37.6075 15.2294 31.0515 6.53435 30.9868 6.44411C30.0803 5.2246 28.0613 5.2246 27.1548 6.44411C27.0901 6.53435 20.5341 15.2294 12.2851 15.2294C10.9591 15.2294 9.88719 16.3221 9.88719 17.6684V34.7415C9.88719 44.0268 26.1069 52.9804 27.9533 53.9706C28.3034 54.1584 28.6871 54.2487 29.0708 54.2487C29.4545 54.2487 29.8381 54.156 30.1882 53.9706C32.0347 52.9804 48.2544 44.0268 48.2544 34.7415V17.6684C48.2544 16.3221 47.1825 15.2294 45.8564 15.2294ZM36.2646 39.6195L29.0708 34.7415L21.8769 39.6195L24.2749 32.3025L19.479 27.4244H26.6728L29.0708 20.1074L31.4687 27.4244H38.6626L33.8667 32.3025L36.2646 39.6195Z' fill='%2399AAB5'/%3E%3C/svg%3E")
+);
+
 // Leave Server
 @include icon-normal(
   guild-header-popout-leave,
