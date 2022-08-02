@@ -13,6 +13,11 @@
   margin-top: var(--context-menu-spacing);
 }
 
+// Hide Discord Default Icons
+.item-1OdjEX:not(#message-add-reaction):not(#message-apps) > .iconContainer-1-SsTR {
+  display: none;
+}
+
 // Menu Witdh
 .layer-2aCOJ3 > .styleFlexible-x0_sIC {
 	width: var(--context-menu-width);
