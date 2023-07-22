@@ -1,3 +1,5 @@
+> **Archived for an indefinite period of time.**
+
 [![Community](https://raw.githubusercontent.com/CorellanStoma/CorellanStoma/master/shields/community.png)](https://discord.gg/8W8E39Z)
 [![License](https://raw.githubusercontent.com/CorellanStoma/CorellanStoma/master/shields/license.png)](https://github.com/CorellanStoma/Context-Icons/blob/main/license)
 
