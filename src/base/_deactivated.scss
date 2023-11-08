@@ -34,6 +34,9 @@
 // Sticker Suggestions
 @include deactivated-normal(textarea-context-sticker-suggestions);
 
+// Send message button
+@include deactivated-normal(textarea-context-submit-button);
+
 // Spellcheck
 @include deactivated-normal(textarea-context-spellcheck);
 
@@ -87,6 +90,9 @@
 
 // Hide Muted Channels
 @include deactivated-normal(guild-header-popout-hide-muted-channels);
+
+// Report Raid
+@include deactivated-normal(guild-header-popout-report-raid);
 
 // Leave Server
 @include deactivated-normal(guild-header-popout-leave);
